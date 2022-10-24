@@ -169,7 +169,7 @@ label.lw-validation-error {
     overflow: scroll; }
 
 .lw-sidebar-ads-container {
-  padding-left: 0px;
+  padding-left: 12px;
   padding-bottom: 12px;
   padding-top: 12px;
   margin-bottom: 12px; }
