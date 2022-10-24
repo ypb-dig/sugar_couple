@@ -1,0 +1,39 @@
+.btn-sugar, .sw-btn-group .btn {
+    color: #fff;
+    background-color: #9e140e;
+    border-color: #9e140e;
+}
+
+.btn-sugar, .sw-btn-group .btn  {
+    padding: 10px;
+    padding: 6px !important;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #DDD;
+    color: #FFF !important;
+}
+
+.btn-golden-border {
+    border-radius: 40px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #9b761d, #fffbc3, #e1ba53, #ffe9ab);
+    background-clip: content-box, border-box;
+    background-origin: border-box;
+    padding: 3px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn-golden-border span {
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    vertical-align: sub;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-right {
+    text-align: right
+}

@@ -1,0 +1,102 @@
+#mainNav {
+	font-size: 14px;
+    min-height: 100px;
+    padding: 0px 20px;
+    background-color: #000;
+    .lw-logo-img {
+	    height: 100px;
+	}
+	.nav-link {
+	    color: rgb(255, 255, 255);
+        padding: 30px 10px;
+	}
+	.nav-link.btn-sugar {
+		margin-left: 10px;
+	}
+	.navbar-brand {
+    	padding: 0;
+    }
+    .navbar-toggler {
+	    font-size: 20px;
+	    padding: .75rem;
+        color: #ffffff;
+    	border: 1px solid #ffffff;
+	}
+}
+
+.text-gray-200 {
+	color: #000 !important;
+}
+
+.lw-page-content {
+    margin-top: 20px;
+}
+
+.public-topbar .logo {
+    width: 20%;
+    display: inline-block;
+    min-height: 80px;
+}
+.public-topbar .logo .sidebar-brand{
+	min-height: 79px;
+}
+
+.public-topbar .topbar {
+    height: 4.375rem;
+    width: 80%;
+    float: right;
+}
+
+.public-topbar .navbar {
+    min-height: 79px;
+    width: 100%;
+}
+.public-topbar .lw-logo-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar .sidebar-brand {
+    display: none !important;
+}
+
+.lw-admin-section {
+	.sidebar .sidebar-brand {
+		display: block !important;
+	}
+	.sidebar-brand-icon {
+	    display: block;
+	    max-width: 90px;
+	    margin-top: -10px;
+	}
+}
+
+.sw-btn-group {
+    margin: auto !important;
+    margin-top: 30px !important;
+}
+
+@media screen and  (max-width: 768px){
+	#mainNav .nav-link {
+	    color: white;
+	    padding: 7px 10px;
+	    border-bottom: 1px solid #FFF;
+	}
+	#mainNav .nav-link.btn-sugar {
+	    margin-left: 10px;
+	    margin-bottom: 18px;
+	}
+	.lw-ad-block-h90 {
+		display: none;
+	}
+	.public-topbar .logo {
+		display: none;
+	}
+	.public-topbar .topbar {
+		width: 100%;
+	}
+	.sidebar .sidebar-brand {
+        display: block !important;
+    	height: 107px;
+	}
+}

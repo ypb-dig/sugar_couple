@@ -1,0 +1,203 @@
+.premium-plans .plan {
+	margin-top: 10px;
+	color: #000;
+}
+	.premium-plans .plan .title{
+	background: #a71814;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    padding: 15px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Myriad Apple Bold", sans-serif;
+	}
+
+.premium-plans .plan.plan-gold .title{
+  background: #876b2c;
+}
+
+.premium-plans .plan.plan-plantium .title{
+  background: #4f4e50;
+}
+
+	.premium-plans .plan .content{
+		border-top: 2px solid #a71814;
+		background: #f1f2f4;
+		width: 100%;
+		min-height: 400px;
+    margin-bottom: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+	}
+.premium-plans .plan.plan-gold .content, .premium-plans .plan.plan-plantium .content{
+  border-top: 2px solid #b2b0b0;
+}
+
+.premium-plans .gray-container {
+  background: #f1f2f4;
+  margin-bottom: 70px;
+  padding-bottom: 5px !important;
+}
+.premium-plans .gray-container .content {
+  background: #FFF;
+}
+	.premium-plans .plan li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+	.premium-plans .plan ul {
+	    margin-top: 20px;
+	}
+
+	.premium-plans .plan .fa-check-circle {
+	    color: #98bf11;
+	}
+	.premium-plans .plan .fa-times-circle {
+	    color: #91130e;
+	}
+	.premium-plans .plan p {
+	    padding: 10px 40px;
+	    margin-top: 20px;
+	}
+.premium-plans .container > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #7a7878;
+}
+
+.premium-plans .container > p {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.premium-plans .highlight .white-line {
+  border-top: 1px solid #FFF;
+}
+.premium-plans .highlight .price {
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Myriad Apple Bold";
+}
+
+.premium-plans .highlight .price .value {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.premium-plans .highlight .price .value > span {
+  font-size: 20px;
+  vertical-align: text-top;
+  font-weight: bold;
+  font-family: inherit;
+}
+.premium-plans .row {
+  background: #d2d2d2;
+  color: #67666b;
+}
+
+.premium-plans .row ._col {
+  border-right: 2px solid #FFF;
+}
+
+@media screen and (max-width: 768px){
+  .premium-plans .row ._col {
+    border-right: unset;
+    border-bottom: 2px solid #FFF;
+  }
+}
+.premium-plans .row ._col:last-child {
+  border-right: unset;
+}
+.premium-plans .row .price {
+  color: #67666b;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Myriad Apple Bold";
+  min-height: 99px;
+  padding-top: 20px;
+}
+
+.premium-plans .row .price .value {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.premium-plans .row .price .value > span {
+  font-size: 20px;
+  vertical-align: text-top;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.premium-plans .row .price:hover {
+    color: #4b4b4b !important;
+    cursor: pointer;
+}
+
+.premium-plans .highlight .price:hover {
+    color: #DDD !important;
+    cursor: pointer;
+}
+
+.premium-plans .highlight p {
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 17px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+
+.premium-plans .plan .highlight p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.premium-plans .plan-gold .highlight {
+  width: 100%;
+  min-height: 170px;
+  margin-left: 0px;
+}
+.premium-plans .plan-gold .highlight {
+  background-image: -moz-linear-gradient( 77deg, rgb(135,107,44) 0%, rgb(219,191,90) 100%);
+  background-image: -webkit-linear-gradient( 77deg, rgb(135,107,44) 0%, rgb(219,191,90) 100%);
+  background-image: -ms-linear-gradient( 77deg, rgb(135,107,44) 0%, rgb(219,191,90) 100%);
+  border-top: 3px solid #876b2c;
+}
+
+.premium-plans .plan-plantium .highlight {
+  background-image: -moz-linear-gradient( 135deg, rgb(123,122,126) 0%, rgb(52,50,51) 36%, rgb(123,123,127) 60%, rgb(79,79,81) 95%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(123,122,126) 0%, rgb(52,50,51) 36%, rgb(123,123,127) 60%, rgb(79,79,81) 95%);
+  background-image: -ms-linear-gradient( 135deg, rgb(123,122,126) 0%, rgb(52,50,51) 36%, rgb(123,123,127) 60%, rgb(79,79,81) 95%);
+   border-top: 3px solid #4f4e4f;
+}
+
+
+.profile-image-badge-gold{
+  border: 10px solid #a8b3126e !important;
+}
+
+.profile-image-badge-plantium{
+  border: 10px solid #9792926e !important;
+}
+
+
+@media(max-width: 425px){
+  .lw-page-content {padding-left: 0px !important;padding-right: 0px !important;}
+
+  .lw-page-content .card-body {
+      padding: 0px;
+  }
+  .lw-page-content .container {
+      padding: 0px;
+  }
+}
+        

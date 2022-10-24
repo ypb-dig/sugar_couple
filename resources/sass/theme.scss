@@ -1,0 +1,192 @@
+@font-face {
+	font-family: 'Wallington Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Wallington Regular'), url('/fonts/Wallington-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Myriad Apple Text';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Apple Text'), url('/fonts/MYRIADAT.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Myriad Apple Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Apple Bold'), url('/fonts/Myriad-Apple-Bold.ttf.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Caviar Dreams Regular';
+    src: url('/fonts/CaviarDreams-webfont.woff') format('woff');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'Myriad Apple Text', sans-serif;
+}
+
+
+/* Footer */
+
+.website-footer {
+	.logo-row {
+		text-align: right;
+	}
+	footer {
+		text-align: center;
+		background-color: #9e140e;
+		color: #FFF;
+		padding: 10px 0px;
+	    font-size: 12px;
+	    a, a:hover {
+		    color: #FFF;
+		}
+	}
+
+	.sitemap {
+		background-color: #000;
+		padding: 30px 0px;
+	}
+
+	.sitemap .row {
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+
+	.sitemap {
+		ul {
+		    margin-top: 50px;
+		}
+		li {
+		    display: inherit;
+		    line-height: 24px;
+		    color: #FFF;
+		}
+		a { 
+			color: #FFF;
+		}
+		.social, .pagamentos {
+			padding-top:10px;
+		}
+	}
+
+	.footer-logo {
+	    max-width: 300px;
+	    display: inline-block;
+	    background-image: url('/imgs/logotipo-bg.png');
+	    background-size: cover;
+		img {
+		    width: 70%;
+		    margin: 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px){
+	.website-footer {
+		.logo-row {
+			text-align: center;
+		}
+	}
+}
+
+/* Newsleter */
+.newsleter {
+    background-color: #9e140e;
+    padding: 60px 20px;
+    color: #FFF;
+    .btn {
+    	background-color: #1b1b1b;
+	    color: #FFF;
+	    padding: 0px 20px !important;
+	    font-family: 'Myriad Apple Text';
+    }
+    
+    .title {
+	    font-size: 30px;
+    	margin-bottom: 20px;
+	    text-transform: uppercase;
+	    font-weight: 100;
+	    font-family: "Caviar Dreams Regular", sans-serif;
+	}
+	
+	p {
+		font-size: 20px;
+	}
+}
+
+/* Goldenbar */
+.golden-bar {
+    position: relative;
+    height: 8px;
+    line-height: 0px;
+    z-index: -1;
+}
+
+
+/* Arrow */
+.arrow-up {
+	position: relative;
+	left: calc(50% - 10px);
+	top:-10px;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	border-bottom: 10px solid #f6f6f6;
+}
+
+/* Login popup */
+div#popover-login-content {
+	display: none;
+    width: 260px;
+    position: relative;
+    background: #f6f6f6;
+    border: 1px solid #000;
+    border-radius: 8px;
+    top: -20px;
+    left: -100px;
+    margin-bottom: -210px;
+    margin-right: -204px;
+}
+
+.navbar-nav.sidebar .nav-item {
+    background: #ececec;
+    margin-bottom: 2px;
+}
+
+.navbar-nav.sidebar {
+    background: #f8f8f8;
+}
+
+/*
+.public-topbar{
+    padding: 0px 50px;
+    background: #000;
+    padding: 10px 50px;
+    background: #000;
+    margin-bottom: 20px;
+    .topbar {
+	    width: 90%;
+	    float: right;
+	}
+	.logo {
+	    display: inline-block;
+	}
+}
+*/
+.nav-link {
+	cursor: pointer;
+}
+
+.hide {
+	display:none;
+	visibility: hidden;
+}
+

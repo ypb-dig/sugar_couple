@@ -1,0 +1,1 @@
+Para ajudar a personalizar o conteúdo, adaptar e medir anúncios e proporcionar uma experiência mais segura, usamos cookies. Ao clicar ou navegar no site, você concorda em permitir que coletemos informações através de cookies.

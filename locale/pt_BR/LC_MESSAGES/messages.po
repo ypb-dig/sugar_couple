@@ -1,0 +1,4517 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Last-Translator: loveria Admin\n"
+"PO-Revision-Date: 2020-04-29 16:26:08\n"
+"Project-Id-Version: Sugar Couple\n"
+"X-Domain: messages\n"
+
+#: ../app/Http/Middleware/AdminAuthenticate.php:38
+#: ../app/Http/Middleware/Authenticate.php:64
+msgid "Saving functionality is disabled in this demo."
+msgstr "funcionalidade saving está desativado nesta demonstração."
+
+#: ../app/Http/Middleware/ApiAuthenticateMiddleware.php:45
+msgid "Your Account seems to Inactive or Deleted or Not Activated, Please contact Administrator."
+msgstr "Sua conta parece estar inativa ou apagada, ou não ativada, por favor, contate o administrador."
+
+#: ../app/Http/Middleware/ApiAuthenticateMiddleware.php:63
+msgid "Please login to complete request."
+msgstr "Por favor, realize login para concluir o pedido."
+
+#: ../app/Http/Middleware/Authenticate.php:32
+#: ../app/Http/Middleware/Authenticate.php:47
+msgid "Your account does not seems to be active, please contact administrator."
+msgstr "Sua conta não parece estar ativa, por favor, contate o administrador."
+
+#: ../app/Http/Middleware/Authenticate.php:95
+msgid "Please fill your profile information."
+msgstr "Preencha as informações do perfil."
+
+#: ../app/Yantrana/Components/Home/Controllers/HomeController.php:90
+msgid "Invalid Request"
+msgstr "Requisição inválida"
+
+#: ../app/Yantrana/Components/Configuration/ConfigurationEngine.php:62
+#: ../app/Yantrana/Components/Configuration/ConfigurationEngine.php:147
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:75
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:120
+msgid "Invalid page type."
+msgstr "Tipo de página inválida."
+
+#: ../app/Yantrana/Components/Configuration/ConfigurationEngine.php:217
+msgid "Configuration updated successfully."
+msgstr "Configuração atualizada com sucesso."
+
+#: ../app/Yantrana/Components/Configuration/ConfigurationEngine.php:220
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:315
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:200
+msgid "Nothing updated."
+msgstr "Nenhuma atualização."
+
+#: ../app/Yantrana/Components/Configuration/ConfigurationEngine.php:223
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:93
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:140
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:181
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:244
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:343
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:370
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:398
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:426
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:454
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:729
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:855
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:118
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:202
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:266
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:317
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:407
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:564
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:435
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:500
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:556
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:125
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:130
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:134
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:186
+msgid "Something went wrong on server."
+msgstr "Algo deu errado no servidor."
+
+#: ../app/Yantrana/Components/Translation/Requests/LanguageAddRequest.php:73
+#: ../app/Yantrana/Components/Translation/Requests/LanguageAddRequest.php:74
+#: ../app/Yantrana/Components/Translation/Requests/LanguageUpdateRequest.php:70
+msgid "The :attribute has already been taken"
+msgstr "O :attribute já esta sendo utilizado"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:106
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:152
+msgid "Translation language stored successfully."
+msgstr "Idioma de tradução armazenado com sucesso."
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:109
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:155
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:200
+msgid "Translation language not stored."
+msgstr "Linguagem tradução não armazenada."
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:126
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:172
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:278
+msgid "Translation language does not exists."
+msgstr "Tradução de idiomas não existe."
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:197
+msgid "Translation language deleted successfully."
+msgstr "Idioma de tradução excluído com sucesso."
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:269
+msgid "Translation languages does not exists."
+msgstr "Línguas tradução não existe."
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:340
+msgid "Source files scanned & PO/MO files updated successfully"
+msgstr "Arquivos de origem digitalizada & PO / MO arquivos atualizados com sucesso"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:343
+msgid "Source files scanned & PO/MO files generated successfully"
+msgstr "Arquivos de origem digitalizada & PO / MO arquivos gerados com sucesso"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:347
+msgid "PO/MO files updated successfully"
+msgstr "Arquivos PO / MO atualizado com sucesso"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:350
+msgid "PO/MO files generated successfully"
+msgstr "Arquivos PO / MO gerado com sucesso"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:401
+msgid "Translation has been cleared"
+msgstr "A tradução foi apagada"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:404
+msgid "Translation updated successfully"
+msgstr "Tradução atualizada com sucesso"
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:585
+msgid "Messages translated successfully."
+msgstr "Mensagens traduzidas com sucesso."
+
+#: ../app/Yantrana/Components/Translation/TranslationEngine.php:587
+msgid "Something went wrong while processing your request"
+msgstr "Algo deu errado ao processar seu pedido"
+
+#: ../app/Yantrana/Components/Notification/NotificationEngine.php:101
+msgid "Notification does not exists."
+msgstr "Notificação não existe."
+
+#: ../app/Yantrana/Components/Notification/NotificationEngine.php:118
+msgid "Notification read successfully."
+msgstr "Notificação visualizada com sucesso."
+
+#: ../app/Yantrana/Components/Notification/NotificationEngine.php:121
+msgid "Notification not read."
+msgstr "Notificação não visualizada."
+
+#: ../app/Yantrana/Components/User/PaypalEngine.php:68
+#: ../app/Yantrana/Components/User/RazorpayEngine.php:51
+msgid "Complete"
+msgstr "Completo"
+
+#: ../app/Yantrana/Components/User/PaypalEngine.php:74
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:399
+#: ../app/Yantrana/Components/User/StripeEngine.php:70
+msgid "Failed"
+msgstr "Erro"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:132
+msgid "You are not a member of the system, Please go and register first , then you can proceed for login."
+msgstr "Você não é um membro do sistema, por favor registre-se, então você pode ir para o login."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:143
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:149
+msgid "Your account currently __status__, Please contact to administrator."
+msgstr "Sua conta esta atualmente __status__, entre em contato com administrador."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:167
+msgid "User Logged In successfully"
+msgstr "Usuário logado com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:168
+msgid " is Logged In. "
+msgstr "Esta logado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:169
+#: ../app/Yantrana/Components/User/UserEngine.php:758
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:810
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:903
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:942
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:973
+msgid "success"
+msgstr "sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:195
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:160
+msgid "Welcome, you are logged in successfully."
+msgstr "Bem-vindo, você está logado com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:201
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:164
+msgid "Authentication failed, please check your credentials & try again."
+msgstr "Autenticação falhou, verifique suas credenciais e tente novamente."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:232
+msgid "User logout failed."
+msgstr "Falha ao tentar deslogar."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:272
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:233
+msgid "User not added."
+msgstr "Usuário não adicionado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:291
+msgid "User credits not stored."
+msgstr "Créditos de usuário não armazenado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:320
+#: ../app/Yantrana/Components/User/UserEngine.php:332
+msgid "Your account created successfully, to activate your account please check your email."
+msgstr "A sua conta foi criada com sucesso, para ativar sua conta por favor, verifique o seu e-mail."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:336
+msgid "Your account created successfully."
+msgstr "A sua conta foi criada com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:341
+msgid "Something went wrong on server, please contact to administrator."
+msgstr "Algo deu errado no servidor, entre em contato com administrador."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:359
+#: ../app/Yantrana/Components/User/UserEngine.php:1714
+msgid "Current password is incorrect."
+msgstr "A senha atual está incorreta."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:364
+msgid "Password updated successfully"
+msgstr "Senha atualizada com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:367
+#: ../app/Yantrana/Components/User/UserEngine.php:533
+#: ../app/Yantrana/Components/User/UserEngine.php:1919
+msgid "Password not updated."
+msgstr "A senha não atualizada."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:382
+msgid "Please check your password."
+msgstr "Por favor, verifique sua senha."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:398
+msgid "New email activation link has been sent to your new email address, please check your email."
+msgstr "Novo link de ativação de e-mail foi enviado para o seu novo endereço de e-mail, por favor, verifique o seu e-mail."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:410
+#: ../app/Yantrana/Components/User/UserEngine.php:437
+msgid "Update email successfully."
+msgstr "Atualizar e-mail com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:414
+#: ../app/Yantrana/Components/User/UserEngine.php:440
+#: ../app/Yantrana/Components/User/UserEngine.php:2148
+#: ../app/Yantrana/Components/User/Controllers/UserController.php:281
+msgid "Email not updated."
+msgstr "E-mail não atualizado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:429
+msgid "User data not exists."
+msgstr "Dados do usuário não existem."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:457
+#: ../app/Yantrana/Components/User/UserEngine.php:474
+#: ../app/Yantrana/Components/User/UserEngine.php:516
+#: ../app/Yantrana/Components/User/UserEngine.php:524
+#: ../app/Yantrana/Components/User/UserEngine.php:1907
+#: ../app/Yantrana/Components/User/UserEngine.php:2132
+msgid "Invalid Request."
+msgstr "Pedido inválido."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:490
+msgid "We have e-mailed your password reset link."
+msgstr "Nós enviamos um email com o link de redefinição de senha."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:493
+msgid "Something went wrong on server"
+msgstr "Algo deu errado no servidor"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:529
+#: ../app/Yantrana/Components/User/UserEngine.php:1915
+msgid "Password reset successfully."
+msgstr "Redefinição de senha com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:548
+#: ../app/Yantrana/Components/User/UserEngine.php:559
+#: ../app/Yantrana/Components/User/Controllers/UserController.php:255
+msgid "Account Activation link invalid."
+msgstr "Link de ativação de conta inválido."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:556
+#: ../app/Yantrana/Components/User/Controllers/UserController.php:247
+msgid "Your account has been activated successfully. Login with your email ID and password."
+msgstr "Sua conta foi ativada com sucesso. Entre com o seu e-mail e senha."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:575
+#: ../app/Yantrana/Components/User/UserEngine.php:898
+#: ../app/Yantrana/Components/User/UserEngine.php:1208
+#: ../app/Yantrana/Components/User/UserEngine.php:1301
+#: ../app/Yantrana/Components/User/UserEngine.php:1339
+#: ../app/Yantrana/Components/User/UserEngine.php:1437
+#: ../app/Yantrana/Components/User/UserEngine.php:1710
+#: ../app/Yantrana/Components/User/UserEngine.php:1932
+#: ../app/Yantrana/Components/User/UserEngine.php:2161
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:261
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:294
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:329
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:357
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:384
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:412
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:440
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:468
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:704
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:802
+#: ../app/Yantrana/Components/User/UserEncounterEngine.php:160
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:227
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:288
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:374
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:160
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:293
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:690
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:780
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:838
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:930
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:961
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:990
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1019
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1048
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1077
+msgid "User does not exists."
+msgstr "O usuário não existe."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:756
+msgid "Profile visited successfully"
+msgstr "Perfil visitado com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:757
+msgid "Profile visited by"
+msgstr "Perfil visitado por"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:764
+msgid "Profile visitors not created."
+msgstr "Perfil de visitantes não foi criado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:784
+#: ../app/Yantrana/Components/User/UserEngine.php:787
+#: ../app/Yantrana/Components/User/UserEngine.php:788
+msgid "credits"
+msgstr "créditos"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:924
+msgid "User Liked Removed Successfully"
+msgstr "Curtiu do usuário removido com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:933
+msgid "User Disliked Removed Successfully"
+msgstr "Não custida do usuário removido com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:953
+#: ../app/Yantrana/Components/User/UserEngine.php:1001
+msgid "User liked successfully"
+msgstr "Usuário curtiu com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:954
+#: ../app/Yantrana/Components/User/UserEngine.php:1002
+msgid "Profile liked by"
+msgstr "Perfil desejado por"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:965
+#: ../app/Yantrana/Components/User/UserEngine.php:1014
+msgid "User liked successfully."
+msgstr "Usuário curtiu com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:975
+#: ../app/Yantrana/Components/User/UserEngine.php:1024
+msgid "User Disliked successfully."
+msgstr "Usuário não curtiu com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1028
+#: ../app/Yantrana/Components/User/UserEncounterEngine.php:175
+msgid "Something went wrong."
+msgstr "Algo deu errado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1216
+msgid "Gift data does not exists."
+msgstr "Dados do presente não existe."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1227
+msgid "Your credit balance is too low, please purchase credits."
+msgstr "Seu saldo de crédito é muito baixo, por favor compre mais creditos."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1269
+msgid "Gift send successfully"
+msgstr "Presente enviado com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1270
+msgid "Gift send by"
+msgstr "Presente enviado por"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1279
+msgid "Gift send successfully."
+msgstr "Presente enviado com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1283
+msgid "Gift not send."
+msgstr "Presente não enviado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1309
+msgid "User already abuse reported."
+msgstr "Abuso de usuário já reportado"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1321
+msgid "User abuse reported successfully."
+msgstr "Abuso de usuário reportado com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1325
+msgid "User failed to abuse report."
+msgstr "Usuário não conseguiu denúnciar abuso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1348
+msgid "You are already block this user."
+msgstr "Você já bloqueou este usuário"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1368
+msgid "Blocked user successfully."
+msgstr "Usuáriobloqueado com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1371
+msgid "User not block."
+msgstr "Usuário não bloqueado."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1445
+msgid "Block user does not exists."
+msgstr "Não existem usuários bloqueados."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1460
+msgid "User has been unblock successfully."
+msgstr "Usuário desbloqueado com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1464
+msgid "Failed to unblock user."
+msgstr "Falha ao desbloquear usuário."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1499
+msgid "Enough credits are not available. Please buy some credits"
+msgstr "Créditos insuficientes. Por favor compre alguns créditos"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1535
+msgid "Booster activated successfully"
+msgstr "Impulsionador ativada com sucesso"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1540
+msgid "Failed to boost profile."
+msgstr "Falha ao impulsionar perfil."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1631
+msgid "Wizard completed successfully"
+msgstr "Assistente concluído com êxito"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1634
+msgid "Failed to complete profile"
+msgstr "Falha ao completar perfil"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1676
+msgid "Mail has been sent successfully, we contact soon."
+msgstr "Email enviado com sucesso, entramos em contato em breve."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1679
+msgid "Failed to send mail."
+msgstr "Falha ao enviar e-mails."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1724
+msgid "Your account has been deleted successfully."
+msgstr "Sua conta foi excluída com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1727
+msgid "Account not deleted."
+msgstr "Conta não excluída."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1743
+#: ../app/Yantrana/Components/User/UserEngine.php:1794
+#: ../app/Yantrana/Components/User/UserEngine.php:1851
+msgid "You are not a member of this system."
+msgstr "Você não é um membro deste sistema."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1748
+msgid "Account already activated."
+msgstr "Conta já activada."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1770
+msgid "Activation mail sent successfully, to activate your account please check your email."
+msgstr "E-mail de ativação enviado com sucesso, para ativar sua conta por favor, verifique o seu e-mail."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1773
+msgid "Failed to send activation mail"
+msgstr "Falha ao enviar e-mail de ativação"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1805
+#: ../app/Yantrana/Components/User/UserEngine.php:1832
+msgid "Invalid OTP"
+msgstr "inválida OTP"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1815
+#: ../app/Yantrana/Components/User/UserEngine.php:1827
+msgid "Otp verified successfully."
+msgstr "Otp verificada com êxito."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1858
+msgid "Your account might be Inactive, Blocked or Not Activated."
+msgstr "Sua conta pode estar inativa, bloqueada ou não ativada."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1880
+msgid "OTP sent successfully, to reset password use OTP sent to your email."
+msgstr "OTP enviada com sucesso,  para redefinição de senha use o OTP enviado para o seu e-mail."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:1883
+msgid "Failed to send OTP"
+msgstr "Falha ao enviar OTP"
+
+#: ../app/Yantrana/Components/User/UserEngine.php:2137
+msgid "Authentication Failed. Please Check Your Password."
+msgstr "A autenticação falhou. Por favor, verifique sua senha."
+
+#: ../app/Yantrana/Components/User/UserEngine.php:2144
+msgid "Email updated successfully."
+msgstr "E-mail atualizado com sucesso."
+
+#: ../app/Yantrana/Components/User/PremiumPlanEngine.php:114
+msgid "Your are already buy premium plan."
+msgstr "Você já possui um plano contratado."
+
+#: ../app/Yantrana/Components/User/PremiumPlanEngine.php:129
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:639
+msgid "Your credit ballance is too low, please purchase credits."
+msgstr "Seu balanço de crédito é insuficiente, por favor, compre mais creditos."
+
+#: ../app/Yantrana/Components/User/PremiumPlanEngine.php:225
+msgid "Buy Premium Plan successfully."
+msgstr "Plano contratado com sucesso."
+
+#: ../app/Yantrana/Components/User/PremiumPlanEngine.php:229
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:112
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:723
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:860
+msgid "Something went wrong, please contact to administrator."
+msgstr "Algo deu errado, por favor entre em contato com o administrador."
+
+#: ../app/Yantrana/Components/User/PremiumPlanEngine.php:232
+msgid "Selected plan not exists."
+msgstr "O plano selecionado não existe."
+
+#: ../app/Yantrana/Components/User/PremiumPlanEngine.php:236
+msgid "Please select plan first."
+msgstr "Por favor, selecione primeiro um plano."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:241
+msgid "User added successfully."
+msgstr "Usuário adicionado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:312
+msgid "User updated successfully."
+msgstr "Usuário atualizado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:340
+msgid "User soft deleted successfully."
+msgstr "Usuário excluído logicamente com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:361
+msgid "To delete user permanently you have to soft delete first."
+msgstr "Para usuário excluir permanentemente você tem que apagar suave em primeiro lugar."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:367
+msgid "User permanent deleted successfully."
+msgstr "Usuário excluído permanente com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:395
+msgid "User restore successfully."
+msgstr "Usuário restaurado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:423
+msgid "User blocked successfully."
+msgstr "Usuário bloqueado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:451
+msgid "User unblocked successfully."
+msgstr "Usuário desbloqueado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:681
+msgid "Fake users added successfully."
+msgstr "Usuários falsos adicionado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:685
+msgid "Fake users not added."
+msgstr "Usuários falsos não adicionado."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:726
+msgid "User verified successfully."
+msgstr "Usuário verificado com sucesso."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:743
+msgid "User does not exist."
+msgstr "Usuário não existe."
+
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:814
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:832
+#: ../app/Yantrana/Components/User/ManageUserEngine.php:851
+msgid "Photo removed successfully."
+msgstr "Foto removida com sucesso."
+
+#: ../app/Yantrana/Components/User/UserEncounterEngine.php:172
+msgid "Skip user successfully."
+msgstr "usuário ignorado com sucesso."
+
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:51
+msgid "Something is wrong form social account, Please contact with administrator."
+msgstr "Algo está errado com redes sociais, entre em contato com o administrador."
+
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:56
+#: ../app/Yantrana/Components/User/Controllers/SocialAccessController.php:116
+msgid "Authentication failed. Please check your  email/password & try again."
+msgstr "A autenticação falhou. Por favor, verifique seu e-mail/senha e tente novamente."
+
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:71
+msgid "The email is required for user login."
+msgstr "O e-mail é necessário para o login do usuário."
+
+#: ../app/Yantrana/Components/User/SocialAccessEngine.php:144
+msgid "User not exists."
+msgstr "O usuário não existe."
+
+#: ../app/Yantrana/Components/User/Controllers/UserController.php:275
+msgid "Your new email activated successfully."
+msgstr "Seu novo e-mail ativado com sucesso."
+
+#: ../app/Yantrana/Components/User/Controllers/CreditWalletController.php:104
+msgid "Payment successfully."
+msgstr "Pagamento com sucesso."
+
+#: ../app/Yantrana/Components/User/Controllers/CreditWalletController.php:109
+#: ../app/Yantrana/Components/User/Controllers/CreditWalletController.php:123
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:429
+msgid "Payment failed."
+msgstr "Pagamento falhou."
+
+#: ../app/Yantrana/Components/User/Controllers/SocialAccessController.php:57
+msgid "Something went wrong, Please contact with administrator."
+msgstr "Algo deu errado, por favor, entre em contato com o administrador."
+
+#: ../app/Yantrana/Components/User/Controllers/SocialAccessController.php:85
+msgid "App not found please contact administrator"
+msgstr "App não encontrado administrador de contato,"
+
+#: ../app/Yantrana/Components/User/Controllers/SocialAccessController.php:94
+msgid "You have denied access to from __provider__"
+msgstr "Você negou o acesso a partir de __provider__"
+
+#: ../app/Yantrana/Components/User/Controllers/SocialAccessController.php:107
+msgid "Welcome, you are logged in successfully"
+msgstr "Bem-vindo, você está logado com sucesso"
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:307
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:341
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:422
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:495
+msgid "Payment Complete"
+msgstr "Pagamento Completo"
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:311
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:317
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:345
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:351
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:425
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:499
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:505
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:321
+#: ../config/__tech.php:102
+msgid "Payment Failed"
+msgstr "Pagamento falhou"
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:371
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:445
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:522
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:594
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:621
+msgid "Package does not exist."
+msgstr "Pacote não existe."
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:394
+#: ../app/Yantrana/Components/User/StripeEngine.php:98
+msgid "Success"
+msgstr "Sucesso"
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:404
+msgid "Something went wrong, please contact to system administrator"
+msgstr "Algo deu errado, por favor , entre em contato com administrador do sistema"
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:470
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:574
+msgid "Transaction store successfully."
+msgstr "Transação armazenada com sucesso."
+
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:474
+#: ../app/Yantrana/Components/User/CreditWalletEngine.php:577
+msgid "Transaction not stored."
+msgstr "Transação não armazenado."
+
+#: ../app/Yantrana/Components/User/StripeEngine.php:89
+msgid "Session data does not exist."
+msgstr "Os dados da sessão não existe."
+
+#: ../app/Yantrana/Components/User/StripeEngine.php:107
+#: ../app/Yantrana/Components/User/StripeEngine.php:116
+msgid "Failed Payment"
+msgstr "Pagamento falhou"
+
+#: ../app/Yantrana/Components/User/StripeEngine.php:203
+msgid "Your card was denied, please provide a new payment method"
+msgstr "Seu cartão foi negado, por favor fornecer um novo método de pagamento"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:5
+msgid "Looks"
+msgstr "Aparência"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:9
+msgid "Ethnicity"
+msgstr "Etnia"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:12
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:128
+msgid "White"
+msgstr "Branco"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:13
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:127
+msgid "Black"
+msgstr "Negro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:14
+msgid "Middle Eastern"
+msgstr "Oriente médio"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:15
+msgid "North African"
+msgstr "Norte Africano"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:16
+msgid "Latin American"
+msgstr "Latino Americano"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:17
+msgid "Mixed"
+msgstr "Misturado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:18
+msgid "Asian"
+msgstr "Asiático"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:19
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:32
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:139
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:236
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:248
+#: ../config/__tech.php:270
+#: ../config/__tech.php:278
+msgid "Other"
+msgstr "Outro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:23
+msgid "Body Type"
+msgstr "Tipo de corpo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:26
+msgid "Slim"
+msgstr "Magro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:27
+msgid "Sporty"
+msgstr "Esportista"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:28
+msgid "Curvy"
+msgstr "Curvo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:29
+msgid "Round"
+msgstr "Cheio"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:30
+msgid "Supermodel"
+msgstr "Super Modelo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:31
+msgid "Average"
+msgstr "Mediano"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:36
+msgid "Height"
+msgstr "Altura"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:123
+msgid "Hair Color"
+msgstr "Cor de cabelo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:126
+msgid "Brown"
+msgstr "Castanho"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:129
+msgid "Sandy"
+msgstr "Arenoso"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:130
+msgid "Gray or Partially Gray"
+msgstr "Cinza ou parcialmente cinza"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:131
+msgid "Red/Auburn"
+msgstr "Red / Auburn"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:132
+msgid "Blond/Strawberry"
+msgstr "Louro / Morango"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:133
+msgid "Blue"
+msgstr "Azul"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:134
+msgid "Green"
+msgstr "Verde"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:135
+msgid "Orange"
+msgstr "laranja"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:136
+msgid "Pink"
+msgstr "Rosa"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:137
+msgid "Purple"
+msgstr "Roxa"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:138
+msgid "Partly or Completely Bald"
+msgstr "Parcial ou Careca"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:145
+msgid "Personality"
+msgstr "Personalidade"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:149
+msgid "Nature"
+msgstr "Natureza"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:152
+msgid "Accommodating"
+msgstr "Acomodador"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:153
+msgid "Adventurous"
+msgstr "Aventureiro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:154
+msgid "Calm"
+msgstr "Calmo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:155
+msgid "Careless"
+msgstr "Descuidado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:156
+msgid "Cheerful"
+msgstr "Alegre"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:157
+msgid "Demanding"
+msgstr "Exigente"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:158
+msgid "Extroverted"
+msgstr "Extrovertido"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:159
+msgid "Honest"
+msgstr "Honesto"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:160
+msgid "Generous"
+msgstr "Generoso"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:161
+msgid "Humorous"
+msgstr "Engraçado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:162
+msgid "Introverted"
+msgstr "Introvertido"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:163
+msgid "Liberal"
+msgstr "Liberal"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:164
+msgid "Lively"
+msgstr "Animado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:165
+msgid "Loner"
+msgstr "Solitário"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:166
+msgid "Nervous"
+msgstr "Nervoso"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:167
+msgid "Possessive"
+msgstr "Possessivo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:168
+msgid "Quiet"
+msgstr "Quieto"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:169
+msgid "Reserved"
+msgstr "Reservado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:170
+msgid "Sensitive"
+msgstr "Sensível"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:171
+msgid "Shy"
+msgstr "Tímido"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:172
+msgid "Social"
+msgstr "Social"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:173
+msgid "Spontaneous"
+msgstr "Espontâneo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:174
+msgid "Stubborn"
+msgstr "Teimoso"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:175
+msgid "Suspicious"
+msgstr "Suspeito"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:176
+msgid "Thoughtful"
+msgstr "Pensativo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:177
+msgid "Proud"
+msgstr "Orgulhoso"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:178
+msgid "Considerate"
+msgstr "Atencioso"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:179
+msgid "Friendly"
+msgstr "Amigáveis"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:180
+msgid "Polite"
+msgstr "educado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:181
+msgid "Reliable"
+msgstr "Confiável"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:182
+msgid "Careful"
+msgstr "Cuidado"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:183
+msgid "Helpful"
+msgstr "Útil"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:184
+msgid "Patient"
+msgstr "Paciente"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:185
+msgid "Optimistic"
+msgstr "Otimista"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:189
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:245
+msgid "Friends"
+msgstr "Amigos"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:192
+msgid "No friends"
+msgstr "Nenhum amigo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:193
+msgid "Some friends"
+msgstr "Alguns amigos"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:194
+msgid "Many friends"
+msgstr "Muitos amigos"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:195
+msgid "Only good friends"
+msgstr "Apenas bons amigos"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:199
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:247
+msgid "Children"
+msgstr "Crianças"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:202
+msgid "No, never"
+msgstr "Não nunca"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:203
+msgid "Someday, maybe"
+msgstr "Algum dia talvez"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:204
+msgid "Expecting"
+msgstr "Esperando"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:205
+msgid "already have kids"
+msgstr "Tenho filhos"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:206
+msgid "have kids and don't want more"
+msgstr "Tenho filhos e não quero outros"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:210
+msgid "Pets"
+msgstr "Animais de estimação"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:213
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:255
+msgid "None"
+msgstr "Nenhum"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:214
+msgid "Have pets"
+msgstr "Tenha animais de estimação"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:220
+msgid "Lifestyle"
+msgstr "Estilo de vida"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:224
+msgid "Religion"
+msgstr "Religião"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:227
+msgid "Muslim"
+msgstr "Muçulmano"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:228
+msgid "Atheist"
+msgstr "Ateu"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:229
+msgid "Buddhist"
+msgstr "Budista"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:230
+msgid "Catholic"
+msgstr "Católico"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:231
+msgid "Christian"
+msgstr "Cristão"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:232
+msgid "Hindu"
+msgstr "Hindu"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:233
+msgid "Jewish"
+msgstr "Judaico"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:234
+msgid "Agnostic"
+msgstr "Agnóstico"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:235
+msgid "Sikh"
+msgstr "Sikh"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:240
+msgid "I live with"
+msgstr "Eu moro com"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:243
+msgid "Alone"
+msgstr "Sozinho"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:244
+msgid "Parents"
+msgstr "Pais"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:246
+msgid "Partner"
+msgstr "Parceiro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:252
+msgid "Car"
+msgstr "Carro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:256
+msgid "My Own Car"
+msgstr "Meu próprio carro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:260
+msgid "Travel"
+msgstr "Viagem"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:263
+msgid "Yes, all the time"
+msgstr "Sim o tempo todo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:264
+msgid "Yes, sometimes"
+msgstr "Sim as vezes"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:265
+msgid "Not very much"
+msgstr "Não muito"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:266
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:79
+#: ../resources/views/configuration/user.blade.php:21
+#: ../resources/views/configuration/user.blade.php:41
+msgid "No"
+msgstr "Não"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:270
+msgid "Smoke"
+msgstr "Fumante"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:273
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:282
+msgid "Never"
+msgstr "Nunca"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:274
+msgid "I Smoke Sometimes"
+msgstr "Eu fumo Às vezes"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:275
+msgid "Chain Smoker"
+msgstr "chain Smoker"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:279
+msgid "Drink"
+msgstr "Bebida"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:283
+msgid "I Drink Sometimes"
+msgstr "Eu bebo Às vezes"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:289
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:293
+msgid "Music Genre"
+msgstr "Gênero musical"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:297
+msgid "Singer"
+msgstr "Cantor"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:301
+msgid "Song"
+msgstr "Música"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:305
+msgid "Hobby"
+msgstr "Passatempo"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:309
+msgid "Sport"
+msgstr "Esporte"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:313
+msgid "Book"
+msgstr "Livro"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:317
+msgid "Dish"
+msgstr "Prato"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:321
+msgid "Color"
+msgstr "Cor"
+
+#: ../app/Yantrana/Components/UserSetting/Config/specification.php:325
+msgid "Movie"
+msgstr "Filme"
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:198
+msgid "User setting updated successfully."
+msgstr "Configuração de usuário atualizada com sucesso."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:263
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:314
+msgid "Your basic information updated successfully."
+msgstr "Suas informações básicas atualizadas com sucesso."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:336
+msgid "Invalid data proceed."
+msgstr "Dados inválidos prosseguir."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:365
+msgid "Something went wrong on server while processing."
+msgstr "Algo deu errado no servidor durante o processamento."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:404
+msgid "Location stored successfully."
+msgstr "Localização armazenada com sucesso."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:460
+msgid "Profile picture updated successfully."
+msgstr "Perfil quadro atualizado com sucesso."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:515
+msgid "Profile cover picture updated successfully."
+msgstr "Perfil foto da capa atualizada com sucesso."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:561
+msgid "Profile updated successfully."
+msgstr "Perfil atualizado com sucesso."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:605
+msgid "You cannot upload more than 10 photos."
+msgstr "Você não pode carregar mais de 10 fotos."
+
+#: ../app/Yantrana/Components/UserSetting/UserSettingEngine.php:626
+msgid "Photos uploaded successfully."
+msgstr "Fotos enviadas com sucesso."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:343
+msgid "Message request decline."
+msgstr "Pedido de mensagem recusado."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:425
+msgid "New message received from __fullName__."
+msgstr "Nova mensagem recebida de __fullName__."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:432
+msgid "Message sent."
+msgstr "Mensagem enviada."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:465
+msgid "Message request accepted, now you can chat with each other."
+msgstr "Pedido de mensagem aceito, agora você pode conversar uns com os outros."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:469
+msgid "Message request rejected. "
+msgstr "Pedido de mensagem rejeitado."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:489
+msgid "Message request accepted by __fullName__."
+msgstr "Pedido de mensagem aceito pela __fullName__."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:492
+msgid "Message request declined by __fullName__."
+msgstr "Pedido de mensagem recusado por __fullName__."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:515
+msgid "Message does not exists."
+msgstr "Mensagem não existe."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:526
+msgid "Message deleted successfully."
+msgstr "Mensagem apagada com sucesso."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:529
+msgid "Message not deleted."
+msgstr "A mensagem não apagada."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:553
+msgid "All messages deleted successfully."
+msgstr "Todas as mensagens excluídas com sucesso."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:620
+msgid "Sticker does not exists."
+msgstr "Etiqueta não existe."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:626
+msgid "You are already purchase this sticker."
+msgstr "Você já compro esta etiqueta."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:668
+msgid "Sticker purchased successfully."
+msgstr "Etiqueta comprada com sucesso."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:671
+msgid "Sticker not purchased."
+msgstr "Etiqueta não comprada."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:697
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:845
+msgid "User seems to be offline."
+msgstr "Usuário parece estar offline."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:804
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:897
+msgid "User Call"
+msgstr "Chamada de usuário"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:809
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:902
+msgid " is Calling You. "
+msgstr " está chamando você."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:939
+msgid "Caller Reject Call"
+msgstr "Chamador rejeitou a chamada"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:941
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:972
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1001
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1030
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1059
+msgid "Disconnect Call."
+msgstr "Desconectar da chamada."
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:970
+msgid "Receiver Reject Call"
+msgstr "Receptor rejeitou a chamada"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:999
+msgid "Caller Errors"
+msgstr "Erros de chamadas"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1002
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1031
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1060
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1089
+msgid "errors"
+msgstr "erros"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1028
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1057
+msgid "Receiver Errors"
+msgstr "Erros do receptor"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1086
+msgid "Receiver Accept Call"
+msgstr "Receptor Aceitou a Chamada"
+
+#: ../app/Yantrana/Components/Messenger/MessengerEngine.php:1088
+msgid "Call Already Connected."
+msgstr "Chamada já conectada."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:103
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:103
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:103
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:152
+msgid "User not exist."
+msgstr "Usuário não existe."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:123
+msgid "Package added successfully."
+msgstr "Pacote adicionado com sucesso."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:128
+msgid "Package not added."
+msgstr "Pacote não adicionado."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:143
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:180
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:230
+msgid "Package does not exist"
+msgstr "Pacote não existe"
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:211
+msgid "Package updated successfully."
+msgstr "Pacote atualizado com sucesso."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:214
+msgid "Package not updated."
+msgstr "Pacote não atualizado."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:237
+msgid "Package deleted successfully."
+msgstr "Pacote excluído com sucesso."
+
+#: ../app/Yantrana/Components/CreditPackage/CreditPackageEngine.php:241
+msgid "Package not deleted."
+msgstr "Pacote não excluído."
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:127
+msgid "Gift added successfully."
+msgstr "Presente adicionado com sucesso."
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:133
+msgid "Gift not added."
+msgstr "Presente não adicionado."
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:148
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:185
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:236
+msgid "Gift does not exist"
+msgstr "O presente não existe"
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:217
+msgid "Gift updated successfully."
+msgstr "Presente atualizado com sucesso."
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:220
+msgid "Gift not updated."
+msgstr "Presente não atualizado."
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:243
+msgid "Gift deleted successfully."
+msgstr "Presente excluído com sucesso."
+
+#: ../app/Yantrana/Components/Item/ManageGiftEngine.php:246
+msgid "Gift not deleted."
+msgstr "Presente não excluído."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:79
+#: ../resources/views/configuration/user.blade.php:15
+#: ../resources/views/configuration/user.blade.php:35
+msgid "Yes"
+msgstr "Sim"
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:128
+msgid "Sticker uploaded successfully"
+msgstr "Etiqueta carregado com sucesso"
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:158
+msgid "Normal price may not be greater than premium price."
+msgstr "Preço normal não pode ser maior do que o preço premium."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:183
+msgid "Sticker added successfully."
+msgstr "Etiqueta adicionada com sucesso."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:189
+msgid "Sticker not added."
+msgstr "Etiqueta não adicionada."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:204
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:242
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:295
+msgid "Sticker does not exist"
+msgstr "A etiqueta não existe"
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:276
+msgid "Sticker updated successfully."
+msgstr "Etiqueta atualizado com sucesso."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:279
+msgid "Sticker not updated."
+msgstr "Etiqueta não atualizado."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:302
+msgid "Sticker deleted successfully."
+msgstr "Etiqueta excluído com sucesso."
+
+#: ../app/Yantrana/Components/Item/ManageStickerEngine.php:305
+msgid "Sticker not deleted."
+msgstr "Etiqueta não excluído."
+
+#: ../app/Yantrana/Components/AbuseReport/ManageAbuseReportEngine.php:99
+msgid "Report does not exist"
+msgstr "O relatório não existe"
+
+#: ../app/Yantrana/Components/AbuseReport/ManageAbuseReportEngine.php:131
+#: ../app/Yantrana/Components/AbuseReport/ManageAbuseReportEngine.php:134
+msgid "Report moderated successfully"
+msgstr "Relatório moderado com sucesso"
+
+#: ../app/Yantrana/Components/AbuseReport/ManageAbuseReportEngine.php:138
+msgid "Report not moderated."
+msgstr "Relatório não moderado."
+
+#: ../app/Yantrana/Components/Filter/FilterEngine.php:71
+#: ../app/Yantrana/Components/Filter/FilterEngine.php:211
+msgid "Something went wrong on server, please try again later."
+msgstr "Algo deu errado no servidor, tente novamente mais tarde."
+
+#: ../app/Yantrana/Components/FinancialTransaction/FinancialTransactionEngine.php:92
+msgid "Transaction does not exist"
+msgstr "Transação não existe"
+
+#: ../app/Yantrana/Components/FinancialTransaction/FinancialTransactionEngine.php:100
+msgid "Delete all test transactions successfully."
+msgstr "Excluir todas as transações de teste com sucesso."
+
+#: ../app/Yantrana/Components/FinancialTransaction/FinancialTransactionEngine.php:103
+msgid "Transactions not deleted."
+msgstr "Transações não excluidas."
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:81
+msgid "Page added successfully"
+msgstr "Página adicionada com sucesso"
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:84
+msgid "Page not added."
+msgstr "Não tem nenhuma página."
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:99
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:135
+msgid "Page does not exist"
+msgstr "A página não existe"
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:147
+msgid "Page updated successfully"
+msgstr "Página atualizada com sucesso"
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:150
+msgid "Page not updated."
+msgstr "Página não atualizado."
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:166
+msgid "Page does not exist."
+msgstr "A página não existe."
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:173
+msgid "Page deleted successfully."
+msgstr "Página excluído com sucesso."
+
+#: ../app/Yantrana/Components/Pages/ManagePagesEngine.php:176
+msgid "Page not deleted."
+msgstr "A página não excluída."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:62
+#: ../app/Yantrana/Components/Media/MediaEngine.php:270
+msgid "Only __ex__ images accepted."
+msgstr "aceita apenas imagens __ex__."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:93
+msgid "File uploaded successfully."
+msgstr "Arquivo carregado com sucesso."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:96
+msgid "Something went wrong, Please try again."
+msgstr "Alguma coisa deu errado. Por favor tente outra vez."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:122
+msgid "File does not exists."
+msgstr "Arquivo não existe."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:153
+msgid "Something went wrong while move file."
+msgstr "Algo deu errado arquivo movimento enquanto."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:249
+msgid "Uploaded file does not exists"
+msgstr "O arquivo enviado não existe"
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:256
+msgid "invalid uploaded file."
+msgstr "Arquivo invalido."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:284
+msgid "File Uploaded Successfully."
+msgstr "Arquivo carregado com sucesso."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:287
+msgid "Something went wrong while file uploading."
+msgstr "Algo deu errado ao tentar eviar o arquivo."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:308
+#: ../app/Yantrana/Components/Media/MediaEngine.php:364
+#: ../app/Yantrana/Components/Media/MediaEngine.php:385
+#: ../app/Yantrana/Components/Media/MediaEngine.php:409
+msgid "Something went wrong while file moving."
+msgstr "Algo deu errado ao tentar mover arquivo."
+
+#: ../app/Yantrana/Components/Media/MediaEngine.php:360
+msgid "File Uploaded successfully."
+msgstr "Arquivo carregado com sucesso."
+
+#: ../app/Yantrana/Support/Utils.php:79
+msgid "Keys not found"
+msgstr "Chaves não encontrado"
+
+#: ../app/Yantrana/__Laraware/Core/CoreRequest.php:137
+msgid "Invalid Request Inputs ... !!"
+msgstr "Dados de requisição inválida ... !!"
+
+#: ../resources/views/configuration/currency.blade.php:2
+#: ../resources/views/configuration/settings.blade.php:30
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:212
+msgid "Currency"
+msgstr "Moeda"
+
+#: ../resources/views/configuration/currency.blade.php:13
+msgid "Select Currency"
+msgstr "Escolha a moeda"
+
+#: ../resources/views/configuration/currency.blade.php:25
+msgid "Currency Code"
+msgstr "Código da moeda"
+
+#: ../resources/views/configuration/currency.blade.php:32
+msgid "Currency Symbol"
+msgstr "Símbolo de moeda"
+
+#: ../resources/views/configuration/currency.blade.php:51
+msgid "Round Zero Decimal Currency"
+msgstr "Moeda arredondada, sem decimais"
+
+#: ../resources/views/configuration/currency.blade.php:57
+msgid "All the price and amount will be rounded. e.g : 10.25 It will become 10 , 10.57 It will become 11."
+msgstr "Todo o preço e quantidade será arredondado. por exemplo: 10.25 vai tornar-se 10, 10,57 vai tornar-se 11."
+
+#: ../resources/views/configuration/currency.blade.php:63
+msgid "This currency doesn't support Decimal values it may create error at payment."
+msgstr "Esta moeda não suporta valores decimais pode ocorrer erro no pagamento."
+
+#: ../resources/views/configuration/currency.blade.php:71
+#: ../resources/views/translation/languages_list.blade.php:44
+#: ../resources/views/translation/list.blade.php:120
+#: ../resources/views/translation/list.blade.php:140
+msgid "Save"
+msgstr "Salvar"
+
+#: ../resources/views/configuration/integration.blade.php:2
+msgid "Integration Settings"
+msgstr "Configurações de integração"
+
+#: ../resources/views/configuration/integration.blade.php:19
+msgid "Allow Pusher"
+msgstr "permitir Pusher"
+
+#: ../resources/views/configuration/integration.blade.php:30
+msgid "Pusher keys are installed."
+msgstr "chaves Pusher estão instalados."
+
+#: ../resources/views/configuration/integration.blade.php:31
+#: ../resources/views/configuration/integration.blade.php:91
+#: ../resources/views/configuration/integration.blade.php:142
+#: ../resources/views/configuration/integration.blade.php:182
+#: ../resources/views/configuration/integration.blade.php:205
+#: ../resources/views/configuration/social-login.blade.php:26
+#: ../resources/views/configuration/social-login.blade.php:77
+#: ../resources/views/configuration/social-login.blade.php:112
+#: ../resources/views/configuration/premium-feature.blade.php:51
+#: ../resources/views/configuration/email.blade.php:151
+#: ../resources/views/configuration/premium-plans.blade.php:32
+#: ../resources/views/configuration/general.blade.php:66
+#: ../resources/views/configuration/user.blade.php:77
+#: ../resources/views/configuration/advertisement.blade.php:135
+#: ../resources/views/configuration/payment.blade.php:36
+#: ../resources/views/configuration/payment.blade.php:76
+#: ../resources/views/configuration/payment.blade.php:132
+#: ../resources/views/configuration/payment.blade.php:172
+#: ../resources/views/configuration/payment.blade.php:228
+#: ../resources/views/configuration/payment.blade.php:268
+#: ../resources/views/configuration/payment.blade.php:301
+#: ../resources/views/configuration/booster.blade.php:31
+#: ../resources/views/credit-package/manage/edit.blade.php:58
+#: ../resources/views/translation/languages_list.blade.php:100
+#: ../resources/views/user/settings/notification.blade.php:73
+#: ../resources/views/user/manage/edit.blade.php:68
+#: ../resources/views/items/sticker/manage/edit.blade.php:77
+#: ../resources/views/items/gift/manage/edit.blade.php:68
+#: ../resources/views/pages/manage/edit.blade.php:59
+msgid "Update"
+msgstr "Atualizar"
+
+#: ../resources/views/configuration/integration.blade.php:42
+msgid "Pusher App ID"
+msgstr "Pusher App ID"
+
+#: ../resources/views/configuration/integration.blade.php:43
+msgid "Add Your Pusher App ID"
+msgstr "Adicione seu ID Pusher App"
+
+#: ../resources/views/configuration/integration.blade.php:49
+msgid "Pusher App Key"
+msgstr "Pusher App Key"
+
+#: ../resources/views/configuration/integration.blade.php:50
+msgid "Add Your Pusher App Key"
+msgstr "Adicione seu Pusher App Key"
+
+#: ../resources/views/configuration/integration.blade.php:56
+msgid "Pusher App Secret"
+msgstr "Pusher App Segredo"
+
+#: ../resources/views/configuration/integration.blade.php:57
+msgid "Add Your Pusher App Secret"
+msgstr "Adicione seu Pusher App Segredo"
+
+#: ../resources/views/configuration/integration.blade.php:63
+msgid "Pusher App Cluster Key"
+msgstr "Pusher App Key Cluster"
+
+#: ../resources/views/configuration/integration.blade.php:64
+msgid "Add Your Pusher App Cluster Key"
+msgstr "Adicione seu Pusher App Cluster Key"
+
+#: ../resources/views/configuration/integration.blade.php:79
+msgid "Allow Agora ( Audio / Video Call )"
+msgstr "Permitir Agora (Áudio / Vídeo Chamada)"
+
+#: ../resources/views/configuration/integration.blade.php:90
+msgid "Agora keys are installed."
+msgstr "Ágora chaves estão instalados."
+
+#: ../resources/views/configuration/integration.blade.php:103
+msgid "Agora App ID"
+msgstr "Agora App ID"
+
+#: ../resources/views/configuration/integration.blade.php:104
+msgid "Add Your Agora App ID"
+msgstr "Adicione seu ID Agora App"
+
+#: ../resources/views/configuration/integration.blade.php:110
+msgid "Agora App Certificate Key"
+msgstr "Agora App Key Certificate"
+
+#: ../resources/views/configuration/integration.blade.php:111
+msgid "Add Your Agora App Certificate Key"
+msgstr "Adicione o Seu Agora App Key Certificate"
+
+#: ../resources/views/configuration/integration.blade.php:134
+msgid "Allow Google Map"
+msgstr "Permitir que o Google Map"
+
+#: ../resources/views/configuration/integration.blade.php:141
+msgid "Google Map keys are installed."
+msgstr "chaves do Google Map estão instalados."
+
+#: ../resources/views/configuration/integration.blade.php:153
+msgid "Google Map Key"
+msgstr "Google Map Key"
+
+#: ../resources/views/configuration/integration.blade.php:154
+msgid "Add Your Google Map Key"
+msgstr "Adicione o seu Google Map Key"
+
+#: ../resources/views/configuration/integration.blade.php:174
+msgid "Allow Giphy"
+msgstr "permitir Giphy"
+
+#: ../resources/views/configuration/integration.blade.php:181
+msgid "Giphy keys are installed."
+msgstr "chaves Giphy estão instalados."
+
+#: ../resources/views/configuration/integration.blade.php:193
+msgid "Giphy Key"
+msgstr "Giphy Key"
+
+#: ../resources/views/configuration/integration.blade.php:194
+msgid "Add Your Giphy Key"
+msgstr "Adicione o Seu Giphy Key"
+
+#: ../resources/views/configuration/social-login.blade.php:2
+msgid "Social Login Settings"
+msgstr "Configurações de login sociais"
+
+#: ../resources/views/configuration/social-login.blade.php:18
+msgid "Allow Facebook Login"
+msgstr "Permitir Facebook Login"
+
+#: ../resources/views/configuration/social-login.blade.php:25
+msgid "Facebook keys are installed."
+msgstr "chaves do Facebook estão instalados."
+
+#: ../resources/views/configuration/social-login.blade.php:37
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: ../resources/views/configuration/social-login.blade.php:38
+msgid "Add Your Facebook App ID"
+msgstr "Adicione seu ID Facebook App"
+
+#: ../resources/views/configuration/social-login.blade.php:44
+msgid "Facebook App Secret"
+msgstr "Facebook App Segredo"
+
+#: ../resources/views/configuration/social-login.blade.php:45
+msgid "Add Your Facebook App Secret"
+msgstr "Adicione o seu Facebook App Segredo"
+
+#: ../resources/views/configuration/social-login.blade.php:51
+#: ../resources/views/configuration/social-login.blade.php:102
+msgid "Callback URL"
+msgstr "callback URL"
+
+#: ../resources/views/configuration/social-login.blade.php:69
+msgid "Allow Google Login"
+msgstr "Permitir que o Google Acesso"
+
+#: ../resources/views/configuration/social-login.blade.php:76
+msgid "Google keys are installed."
+msgstr "chaves do Google estão instalados."
+
+#: ../resources/views/configuration/social-login.blade.php:88
+msgid "Google Client ID"
+msgstr "Google Cliente ID"
+
+#: ../resources/views/configuration/social-login.blade.php:89
+msgid "Add Your Google Client ID"
+msgstr "Adicione seu ID Google Cliente"
+
+#: ../resources/views/configuration/social-login.blade.php:95
+msgid "Google Client Secret"
+msgstr "Google Segredo Cliente"
+
+#: ../resources/views/configuration/social-login.blade.php:96
+msgid "Add Your Google Client Secret"
+msgstr "Adicione o seu Google Segredo Cliente"
+
+#: ../resources/views/configuration/premium-feature.blade.php:2
+msgid "Feature Settings"
+msgstr "Definições de funções"
+
+#: ../resources/views/configuration/premium-feature.blade.php:36
+msgid "Daily Encounter limit for Normal Users"
+msgstr "limite de encontro diário para usuários normais"
+
+#: ../resources/views/configuration/premium-feature.blade.php:37
+msgid "Daily Encounter User"
+msgstr "Diário usuário Encounter"
+
+#: ../resources/views/configuration/settings.blade.php:13
+#: ../resources/views/includes/public-top-bar.blade.php:190
+#: ../resources/views/includes/sidebar.blade.php:66
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../resources/views/configuration/settings.blade.php:22
+msgid "General"
+msgstr "Geral"
+
+#: ../resources/views/configuration/settings.blade.php:26
+#: ../resources/views/includes/sidebar.blade.php:54
+msgid "Users"
+msgstr "Usuários"
+
+#: ../resources/views/configuration/settings.blade.php:34
+msgid "Payment Gateways"
+msgstr "Gateways de pagamento"
+
+#: ../resources/views/configuration/settings.blade.php:38
+msgid "Social Logins"
+msgstr "Logins social"
+
+#: ../resources/views/configuration/settings.blade.php:42
+msgid "Integrations"
+msgstr "Integrações"
+
+#: ../resources/views/configuration/settings.blade.php:46
+msgid "Premium Plans"
+msgstr "Planos Premium"
+
+#: ../resources/views/configuration/settings.blade.php:50
+msgid "Features"
+msgstr "Rescursos"
+
+#: ../resources/views/configuration/settings.blade.php:54
+#: ../resources/views/user/manage/edit.blade.php:38
+#: ../resources/views/user/manage/add.blade.php:39
+#: ../resources/views/user/manage/details.blade.php:17
+#: ../resources/views/user/manage/list.blade.php:68
+#: ../resources/views/user/contact.blade.php:37
+msgid "Email"
+msgstr "Email"
+
+#: ../resources/views/configuration/settings.blade.php:58
+msgid "Booster"
+msgstr "Intensificador"
+
+#: ../resources/views/configuration/settings.blade.php:62
+msgid "Advertisement"
+msgstr "Propaganda"
+
+#: ../resources/views/configuration/email.blade.php:2
+msgid "Email Settings"
+msgstr "Configurações de e-mail"
+
+#: ../resources/views/configuration/email.blade.php:13
+msgid "Use .env Default Settings"
+msgstr "Use .env configurações padrão de"
+
+#: ../resources/views/configuration/email.blade.php:23
+msgid "Mail From Address"
+msgstr "Mail From Address"
+
+#: ../resources/views/configuration/email.blade.php:29
+msgid "Mail From Name"
+msgstr "Mail From Name"
+
+#: ../resources/views/configuration/email.blade.php:37
+#: ../resources/views/configuration/email.blade.php:38
+msgid "Mail Driver"
+msgstr "Mail Driver"
+
+#: ../resources/views/configuration/email.blade.php:56
+msgid "Mail Host"
+msgstr "Mail Host"
+
+#: ../resources/views/configuration/email.blade.php:63
+msgid "Mail Port"
+msgstr "Mail Port"
+
+#: ../resources/views/configuration/email.blade.php:70
+#: ../resources/views/configuration/email.blade.php:71
+msgid "Mail Encryption"
+msgstr "Mail Encryption"
+
+#: ../resources/views/configuration/email.blade.php:84
+msgid "Mail Username"
+msgstr "Mail Username"
+
+#: ../resources/views/configuration/email.blade.php:90
+msgid "Mail Password/Api Key"
+msgstr "Mail Password/Api Key"
+
+#: ../resources/views/configuration/email.blade.php:106
+msgid "Sparkpost Key"
+msgstr "Sparkpost Key"
+
+#: ../resources/views/configuration/email.blade.php:125
+msgid "Mailgun Domain"
+msgstr "Mailgun Domínio"
+
+#: ../resources/views/configuration/email.blade.php:132
+msgid "Mailgun Endpoint"
+msgstr "Mailgun Endpoint"
+
+#: ../resources/views/configuration/email.blade.php:140
+msgid "Mailgun Secret"
+msgstr "Mailgun Segredo"
+
+#: ../resources/views/configuration/premium-plans.blade.php:2
+msgid "Premium Plan Settings"
+msgstr "Configurações Plano Premium"
+
+#: ../resources/views/configuration/premium-plans.blade.php:21
+#: ../resources/views/configuration/premium-plans.blade.php:22
+#: ../resources/views/credit-package/manage/edit.blade.php:37
+#: ../resources/views/credit-package/manage/add.blade.php:36
+#: ../resources/views/credit-package/manage/list.blade.php:27
+#: ../resources/views/user/premium-plan/premium.blade.php:29
+msgid "Price"
+msgstr "Preço"
+
+#: ../resources/views/configuration/general.blade.php:2
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: ../resources/views/configuration/general.blade.php:9
+msgid "Upload Logo"
+msgstr "Carregar Logo"
+
+#: ../resources/views/configuration/general.blade.php:15
+msgid "Upload Small Logo"
+msgstr "Carregar logo pequeno"
+
+#: ../resources/views/configuration/general.blade.php:19
+msgid "Upload Favicon"
+msgstr "Carregar Favicon"
+
+#: ../resources/views/configuration/general.blade.php:26
+#: ../config/__settings.php:588
+#: ../config/__settings.php:600
+#: ../config/__settings.php:612
+msgid "Your Website Name"
+msgstr "Nome do seu site"
+
+#: ../resources/views/configuration/general.blade.php:32
+msgid "Business Email"
+msgstr "Email corporativo"
+
+#: ../resources/views/configuration/general.blade.php:38
+msgid "Contact Email"
+msgstr "Email de contato"
+
+#: ../resources/views/configuration/general.blade.php:45
+msgid "Select Timezone"
+msgstr "Escolha um fuso horário"
+
+#: ../resources/views/configuration/general.blade.php:56
+msgid "Distance Measurement"
+msgstr "Medição de Distância"
+
+#: ../resources/views/configuration/general.blade.php:58
+msgid "KM"
+msgstr "KM"
+
+#: ../resources/views/configuration/general.blade.php:59
+msgid "Miles"
+msgstr "Miles"
+
+#: ../resources/views/configuration/user.blade.php:2
+msgid "User Settings"
+msgstr "Configurações do Usuário"
+
+#: ../resources/views/configuration/user.blade.php:10
+msgid "Activation required for new user"
+msgstr "Activação necessária para novo usuário"
+
+#: ../resources/views/configuration/user.blade.php:30
+msgid "Activation required for change email"
+msgstr "Activação necessária para a mudança de e-mail"
+
+#: ../resources/views/configuration/user.blade.php:53
+msgid "Allocate Bonus Credits"
+msgstr "Alocar Créditos Bonus"
+
+#: ../resources/views/configuration/user.blade.php:59
+msgid "No. of Credits"
+msgstr "Nº de Créditos"
+
+#: ../resources/views/configuration/user.blade.php:69
+msgid "URL for Terms And Conditions"
+msgstr "URL para termos e condições"
+
+#: ../resources/views/configuration/advertisement.blade.php:2
+msgid "Manage Advertisement"
+msgstr "Gerenciar Anúncio"
+
+#: ../resources/views/configuration/advertisement.blade.php:34
+#: ../resources/views/configuration/advertisement.blade.php:76
+#: ../resources/views/configuration/advertisement.blade.php:118
+msgid "Enable"
+msgstr "Habilitar"
+
+#: ../resources/views/configuration/advertisement.blade.php:40
+#: ../resources/views/configuration/advertisement.blade.php:82
+#: ../resources/views/configuration/advertisement.blade.php:124
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ../resources/views/configuration/payment.blade.php:2
+msgid "Payment Settings"
+msgstr "Configurações de pagamento"
+
+#: ../resources/views/configuration/payment.blade.php:11
+msgid "Paypal"
+msgstr "Paypal"
+
+#: ../resources/views/configuration/payment.blade.php:17
+msgid "Enable Paypal Checkout"
+msgstr "Ativar Paypal Caixa"
+
+#: ../resources/views/configuration/payment.blade.php:28
+#: ../resources/views/configuration/payment.blade.php:124
+#: ../resources/views/configuration/payment.blade.php:220
+msgid "Use Testing"
+msgstr "Use Testing"
+
+#: ../resources/views/configuration/payment.blade.php:35
+msgid "Testing Paypal Checkout keys are installed."
+msgstr "teclas de testes Paypal Saída estão instalados."
+
+#: ../resources/views/configuration/payment.blade.php:47
+#: ../resources/views/configuration/payment.blade.php:48
+#: ../resources/views/configuration/payment.blade.php:87
+#: ../resources/views/configuration/payment.blade.php:88
+msgid "Client Id"
+msgstr "ID do Cliente"
+
+#: ../resources/views/configuration/payment.blade.php:54
+#: ../resources/views/configuration/payment.blade.php:55
+#: ../resources/views/configuration/payment.blade.php:94
+#: ../resources/views/configuration/payment.blade.php:95
+#: ../resources/views/configuration/payment.blade.php:143
+#: ../resources/views/configuration/payment.blade.php:144
+#: ../resources/views/configuration/payment.blade.php:183
+#: ../resources/views/configuration/payment.blade.php:184
+msgid "Secret Key"
+msgstr "Chave secreta"
+
+#: ../resources/views/configuration/payment.blade.php:68
+#: ../resources/views/configuration/payment.blade.php:164
+#: ../resources/views/configuration/payment.blade.php:260
+msgid "Use Live"
+msgstr "Use Vivo"
+
+#: ../resources/views/configuration/payment.blade.php:75
+msgid "Live Paypal Checkout keys are installed."
+msgstr "Vivo chaves Paypal Saída estão instalados."
+
+#: ../resources/views/configuration/payment.blade.php:107
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:124
+msgid "Stripe"
+msgstr "Listra"
+
+#: ../resources/views/configuration/payment.blade.php:113
+msgid "Enable Stripe Checkout"
+msgstr "Ativar listra Caixa"
+
+#: ../resources/views/configuration/payment.blade.php:131
+msgid "Testing Stripe Checkout keys are installed."
+msgstr "teclas de testes Stripe Saída estão instalados."
+
+#: ../resources/views/configuration/payment.blade.php:150
+#: ../resources/views/configuration/payment.blade.php:151
+#: ../resources/views/configuration/payment.blade.php:190
+#: ../resources/views/configuration/payment.blade.php:191
+msgid "Publish Key"
+msgstr "publicar Key"
+
+#: ../resources/views/configuration/payment.blade.php:171
+msgid "Live Stripe Checkout keys are installed."
+msgstr "Vivo chaves Stripe Saída estão instalados."
+
+#: ../resources/views/configuration/payment.blade.php:203
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:128
+msgid "Razorpay"
+msgstr "Razorpay"
+
+#: ../resources/views/configuration/payment.blade.php:209
+msgid "Enable Razorpay Checkout"
+msgstr "Ativar Razorpay Caixa"
+
+#: ../resources/views/configuration/payment.blade.php:227
+msgid "Testing Razorpay Checkout keys are installed."
+msgstr "teclas de testes Razorpay Saída estão instalados."
+
+#: ../resources/views/configuration/payment.blade.php:239
+#: ../resources/views/configuration/payment.blade.php:240
+#: ../resources/views/configuration/payment.blade.php:279
+#: ../resources/views/configuration/payment.blade.php:280
+msgid "Razorpay Key"
+msgstr "Razorpay Key"
+
+#: ../resources/views/configuration/payment.blade.php:246
+#: ../resources/views/configuration/payment.blade.php:247
+#: ../resources/views/configuration/payment.blade.php:286
+#: ../resources/views/configuration/payment.blade.php:287
+msgid "Razorpay Secret Key"
+msgstr "Razorpay chave secreta"
+
+#: ../resources/views/configuration/payment.blade.php:267
+msgid "Live Razorpay Checkout keys are installed."
+msgstr "Vivo chaves Razorpay Saída estão instalados."
+
+#: ../resources/views/configuration/booster.blade.php:2
+msgid "Booster Settings"
+msgstr "Configurações de reforço"
+
+#: ../resources/views/configuration/booster.blade.php:10
+msgid "Booster Period (in Minutes)"
+msgstr "Período de reforço (em minutos)"
+
+#: ../resources/views/configuration/booster.blade.php:18
+msgid "Booster Price For Standard Users (in Credits)"
+msgstr "Impulsionador preço para usuários padrão (de créditos)"
+
+#: ../resources/views/configuration/booster.blade.php:24
+msgid "Booster Price For Premium Users (in Credits)"
+msgstr "Impulsionador Preço Para usuários Premium (de créditos)"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:13
+#: ../resources/views/fake-data-generator/fake-users.blade.php:104
+#: ../resources/views/includes/sidebar.blade.php:84
+msgid "Generate Fake Users"
+msgstr "Gerar usuários falsos"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:29
+msgid "Number of users"
+msgstr "Número de usuários"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:36
+msgid "Select a Country"
+msgstr "Selecione um pais"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:52
+msgid "Select a Gender"
+msgstr "Selecione um gênero"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:65
+msgid "Select a Language"
+msgstr "Selecione um idioma"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:81
+msgid "Default Password"
+msgstr "Senha padrão"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:88
+msgid "Age from"
+msgstr "Idade de"
+
+#: ../resources/views/fake-data-generator/fake-users.blade.php:95
+msgid "Age to"
+msgstr "Idade até"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:13
+#: ../resources/views/includes/sidebar.blade.php:72
+msgid "Financial Transactions"
+msgstr "Operações financeiras"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:25
+msgid "Live Transaction"
+msgstr "Transação vivo"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:33
+msgid "Test Transaction"
+msgstr "teste de Transação"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:40
+msgid "Delete All"
+msgstr "Apagar tudo"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:49
+msgid "User"
+msgstr "Usuário"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:50
+#: ../resources/views/credit-package/manage/list.blade.php:26
+#: ../resources/views/translation/languages_list.blade.php:63
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:204
+#: ../resources/views/user/manage/list.blade.php:69
+#: ../resources/views/user/premium-plan/premium.blade.php:21
+#: ../resources/views/user/photos/list.blade.php:31
+#: ../resources/views/abuse-report/manage/list.blade.php:52
+#: ../resources/views/abuse-report/manage/list.blade.php:125
+#: ../resources/views/items/sticker/manage/list.blade.php:26
+#: ../resources/views/items/gift/manage/list.blade.php:26
+msgid "Created On"
+msgstr "Criado em"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:51
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:208
+msgid "Amount"
+msgstr "Montante"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:52
+msgid "Payment Method"
+msgstr "Forma de pagamento"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:53
+msgid "Package"
+msgstr "Pacote"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:67
+#: ../resources/views/translation/languages_list.blade.php:146
+#: ../resources/views/user/manage/list.blade.php:86
+#: ../resources/views/user/manage/list.blade.php:93
+#: ../resources/views/user/profile.blade.php:731
+#: ../resources/views/user/premium-plan/premium.blade.php:134
+#: ../resources/views/user/photos/list.blade.php:47
+#: ../resources/views/pages/manage/list.blade.php:41
+msgid "Are You Sure!"
+msgstr "Você tem certeza!"
+
+#: ../resources/views/financial-transaction/manage/list.blade.php:68
+msgid "You want to delete all test transactions."
+msgstr "Você quer apagar todas as operações de teste."
+
+#: ../resources/views/credit-package/manage/edit.blade.php:3
+msgid "Edit Credit Package"
+msgstr "Editar pacote de crédito"
+
+#: ../resources/views/credit-package/manage/edit.blade.php:6
+#: ../resources/views/credit-package/manage/add.blade.php:6
+msgid "Back to Credit Packages"
+msgstr "Voltar para pacotes de crédito"
+
+#: ../resources/views/credit-package/manage/edit.blade.php:30
+#: ../resources/views/credit-package/manage/edit.blade.php:31
+#: ../resources/views/credit-package/manage/add.blade.php:29
+#: ../resources/views/credit-package/manage/list.blade.php:25
+#: ../resources/views/items/sticker/manage/edit.blade.php:31
+#: ../resources/views/items/sticker/manage/add.blade.php:31
+#: ../resources/views/items/sticker/manage/list.blade.php:25
+#: ../resources/views/items/gift/manage/edit.blade.php:30
+#: ../resources/views/items/gift/manage/edit.blade.php:31
+#: ../resources/views/items/gift/manage/add.blade.php:28
+#: ../resources/views/items/gift/manage/list.blade.php:25
+#: ../resources/views/pages/manage/edit.blade.php:38
+#: ../resources/views/pages/manage/add.blade.php:29
+#: ../resources/views/pages/manage/list.blade.php:24
+msgid "Title"
+msgstr "Título"
+
+#: ../resources/views/credit-package/manage/edit.blade.php:44
+#: ../resources/views/credit-package/manage/add.blade.php:43
+#: ../resources/views/credit-package/manage/list.blade.php:28
+#: ../resources/views/user/premium-plan/premium.blade.php:30
+#: ../resources/views/user/premium-plan/premium.blade.php:34
+#: ../resources/views/items/sticker/manage/edit.blade.php:43
+#: ../resources/views/items/sticker/manage/edit.blade.php:55
+#: ../resources/views/items/sticker/manage/add.blade.php:43
+#: ../resources/views/items/sticker/manage/add.blade.php:55
+#: ../resources/views/items/gift/manage/edit.blade.php:41
+#: ../resources/views/items/gift/manage/edit.blade.php:53
+#: ../resources/views/items/gift/manage/add.blade.php:40
+#: ../resources/views/items/gift/manage/add.blade.php:51
+msgid "Credits"
+msgstr "Créditos"
+
+#: ../resources/views/credit-package/manage/edit.blade.php:53
+#: ../resources/views/credit-package/manage/add.blade.php:51
+#: ../resources/views/user/manage/edit.blade.php:62
+#: ../resources/views/user/manage/add.blade.php:87
+#: ../resources/views/user/manage/list.blade.php:22
+#: ../resources/views/items/sticker/manage/edit.blade.php:72
+#: ../resources/views/items/sticker/manage/add.blade.php:72
+#: ../resources/views/items/gift/manage/edit.blade.php:63
+#: ../resources/views/items/gift/manage/add.blade.php:61
+#: ../resources/views/pages/manage/edit.blade.php:53
+#: ../resources/views/pages/manage/add.blade.php:44
+#: ../config/__tech.php:46
+msgid "Active"
+msgstr "Ativo"
+
+#: ../resources/views/credit-package/manage/add.blade.php:3
+msgid "Add Credit Package"
+msgstr "Adicionar pacote de crédito"
+
+#: ../resources/views/credit-package/manage/add.blade.php:57
+#: ../resources/views/items/sticker/manage/add.blade.php:78
+#: ../resources/views/items/gift/manage/add.blade.php:66
+#: ../resources/views/pages/manage/add.blade.php:49
+msgid "Add"
+msgstr "Adicionar"
+
+#: ../resources/views/credit-package/manage/list.blade.php:13
+msgid "Manage Credit Packages"
+msgstr "Gerenciar pacotes de crédito"
+
+#: ../resources/views/credit-package/manage/list.blade.php:14
+msgid "Add New Package"
+msgstr "Adicionar Novo Pacote"
+
+#: ../resources/views/credit-package/manage/list.blade.php:24
+#: ../resources/views/user/photos/list.blade.php:28
+#: ../resources/views/items/sticker/manage/list.blade.php:24
+#: ../resources/views/items/gift/manage/list.blade.php:24
+msgid "Image"
+msgstr "Imagem"
+
+#: ../resources/views/credit-package/manage/list.blade.php:29
+#: ../resources/views/translation/languages_list.blade.php:94
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:216
+#: ../resources/views/abuse-report/manage/list.blade.php:54
+#: ../resources/views/items/sticker/manage/list.blade.php:29
+#: ../resources/views/items/gift/manage/list.blade.php:29
+#: ../resources/views/pages/manage/list.blade.php:27
+msgid "Status"
+msgstr "Status"
+
+#: ../resources/views/credit-package/manage/list.blade.php:30
+#: ../resources/views/translation/languages_list.blade.php:64
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:153
+#: ../resources/views/user/manage/list.blade.php:70
+#: ../resources/views/user/photos/list.blade.php:32
+#: ../resources/views/abuse-report/manage/list.blade.php:55
+#: ../resources/views/items/sticker/manage/list.blade.php:31
+#: ../resources/views/items/gift/manage/list.blade.php:30
+#: ../resources/views/pages/manage/list.blade.php:28
+msgid "Action"
+msgstr "Açao"
+
+#: ../resources/views/credit-package/manage/list.blade.php:51
+#: ../resources/views/translation/languages_list.blade.php:127
+#: ../resources/views/user/manage/list.blade.php:121
+#: ../resources/views/items/sticker/manage/list.blade.php:53
+#: ../resources/views/items/gift/manage/list.blade.php:51
+#: ../resources/views/pages/manage/list.blade.php:54
+msgid "Edit"
+msgstr "Editar"
+
+#: ../resources/views/credit-package/manage/list.blade.php:52
+#: ../resources/views/translation/languages_list.blade.php:130
+#: ../resources/views/user/manage/list.blade.php:136
+#: ../resources/views/user/photos/list.blade.php:75
+#: ../resources/views/items/sticker/manage/list.blade.php:54
+#: ../resources/views/items/gift/manage/list.blade.php:52
+#: ../resources/views/pages/manage/list.blade.php:62
+msgid "Delete"
+msgstr "Excluir"
+
+#: ../resources/views/credit-package/manage/list.blade.php:62
+#: ../resources/views/abuse-report/manage/list.blade.php:86
+#: ../resources/views/items/sticker/manage/list.blade.php:64
+#: ../resources/views/items/gift/manage/list.blade.php:62
+msgid "There are no records."
+msgstr "Não há registros."
+
+#: ../resources/views/translation/languages_list.blade.php:13
+msgid "Translation Languages"
+msgstr "Línguas de tradução"
+
+#: ../resources/views/translation/languages_list.blade.php:21
+msgid "Add New Translation Language"
+msgstr "Adicionar Nova Tradução Linguística"
+
+#: ../resources/views/translation/languages_list.blade.php:25
+msgid "Language Name"
+msgstr "Nome do idioma"
+
+#: ../resources/views/translation/languages_list.blade.php:29
+msgid "Language Code"
+msgstr "Código idioma"
+
+#: ../resources/views/translation/languages_list.blade.php:38
+#: ../resources/views/translation/languages_list.blade.php:85
+msgid "Is RTL"
+msgstr "Is RTL"
+
+#: ../resources/views/translation/languages_list.blade.php:48
+msgid "Please Note: Valid language code is required for Auto Translation"
+msgstr "Please Note: Valid language code is required for Auto Translation"
+
+#: ../resources/views/translation/languages_list.blade.php:62
+msgid "Name"
+msgstr "Nome"
+
+#: ../resources/views/translation/languages_list.blade.php:101
+#: ../resources/views/translation/list.blade.php:86
+#: ../resources/views/includes/public-top-bar.blade.php:260
+#: ../resources/views/user/profile/update-wizard.blade.php:170
+#: ../resources/views/user/profile.blade.php:657
+#: ../resources/views/user/profile.blade.php:712
+#: ../resources/views/manage-master.blade.php:62
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../resources/views/translation/languages_list.blade.php:123
+msgid "Recollect all the translatable strings from the source & make it ready for translations"
+msgstr "Lembrar todas as strings traduzíveis a partir da fonte e torná-lo pronto para traduções"
+
+#: ../resources/views/translation/languages_list.blade.php:124
+#: ../resources/views/translation/list.blade.php:12
+msgid "Re-Scan"
+msgstr "Re-Scan"
+
+#: ../resources/views/translation/languages_list.blade.php:147
+msgid "you want to delete this translation language?"
+msgstr "que deseja excluir este idioma de tradução?"
+
+#: ../resources/views/translation/list.blade.php:3
+msgid "__languageName__ Language Translations (__translationsCount__)"
+msgstr "__languageName__ Idioma Translations (__translationsCount__)"
+
+#: ../resources/views/translation/list.blade.php:9
+msgid "Back to languages"
+msgstr "Voltar para línguas"
+
+#: ../resources/views/translation/list.blade.php:14
+msgid "Auto translations (Google Spreadsheet)"
+msgstr "Traduções Automaticas (Google Spreadsheet)"
+
+#: ../resources/views/translation/list.blade.php:24
+msgid "Auto translations using Google Spreadsheet"
+msgstr "Traduções Automaticas que utilizam o Google Spreadsheet"
+
+#: ../resources/views/translation/list.blade.php:32
+msgid "Step 1"
+msgstr "Passo 1"
+
+#: ../resources/views/translation/list.blade.php:34
+msgid "Export"
+msgstr "Exportação"
+
+#: ../resources/views/translation/list.blade.php:34
+msgid "Export Translation Strings to XLSX file"
+msgstr "Exportação Tradução Texto de arquivo XLSX"
+
+#: ../resources/views/translation/list.blade.php:41
+msgid "Step 2"
+msgstr "Passo 2"
+
+#: ../resources/views/translation/list.blade.php:43
+msgid "Once downloaded file, Go to __googleSpreadSheetAnchorTag__ and Open the exported spreadsheet using upload."
+msgstr "Uma vez que o arquivo baixado, vá para __googleSpreadSheetAnchorTag__ e abra a planilha exportada usando upload."
+
+#: ../resources/views/translation/list.blade.php:45
+msgid "Google Spreadsheets"
+msgstr "Google Spreadsheets"
+
+#: ../resources/views/translation/list.blade.php:54
+msgid "Step 3"
+msgstr "etapa 3"
+
+#: ../resources/views/translation/list.blade.php:55
+msgid "Then go to Edit Menu and Select Find and Replace option, now find __doubleQuotes__ and replace with __singleQuote__, Also check the option called \"Also check within formulas\" and click on Replace All button"
+msgstr "Então vá ao menu Editar e selecione Localizar e substituir opção, agora encontrar __doubleQuotes__ e substituir com __singleQuote__, verifique também a opção chamada \"Verifique também dentro de fórmulas\" e clique no botão Substituir tudo"
+
+#: ../resources/views/translation/list.blade.php:64
+msgid "Step 4"
+msgstr "Passo 4"
+
+#: ../resources/views/translation/list.blade.php:65
+msgid "Now it translate all your string automatically, Now just export using __downloadFunctionPath__ and Drag & Drop or Browse your excel file to process the translations below."
+msgstr "Agora é traduzir toda a cadeia automaticamente, Agora é só exportar usando __downloadFunctionPath__ e Drag & Drop ou Procure seu arquivo excel para processar as traduções abaixo."
+
+#: ../resources/views/translation/list.blade.php:80
+msgid "Import & Process"
+msgstr "Import & Process"
+
+#: ../resources/views/translation/list.blade.php:96
+msgid "Please note"
+msgstr "Observe"
+
+#: ../resources/views/translation/list.blade.php:96
+msgid "Google Auto Translate given here is API key less method your IP may get BLOCKED for particular time, if too much requests are done."
+msgstr "Google Auto Traduzir dado aqui é a chave API menos método seu IP pode ficar bloqueado por determinado tempo, se demasiado pedidos são feitos."
+
+#: ../resources/views/translation/list.blade.php:109
+msgid "Singular"
+msgstr "Singular"
+
+#: ../resources/views/translation/list.blade.php:119
+#: ../resources/views/translation/list.blade.php:139
+msgid "Google Auto Translate"
+msgstr "Google Translate Auto"
+
+#: ../resources/views/translation/list.blade.php:119
+#: ../resources/views/translation/list.blade.php:139
+msgid "Auto Translate"
+msgstr "Auto Traduzir"
+
+#: ../resources/views/translation/list.blade.php:129
+msgid "Plural"
+msgstr "Plural"
+
+#: ../resources/views/translation/list.blade.php:180
+msgid "Auto Translation fetched Successfully"
+msgstr "Auto Tradução obtido com sucesso"
+
+#: ../resources/views/translation/list.blade.php:186
+msgid "Google Auto Translate given here is API key less method your IP may get BLOCKED for particular time, if too much requests are done. Check again after few hours or change your internet connection to change IP address"
+msgstr "Google Auto Traduzir dado aqui é a chave API menos método seu IP pode ficar bloqueado por determinado tempo, se demasiado pedidos são feitos. Verifique novamente depois de algumas horas ou alterar sua conexão com a internet para mudança de endereço IP"
+
+#: ../resources/views/translation/list.blade.php:188
+msgid "Failed to get auto translation"
+msgstr "Falha ao obter tradução automática"
+
+#: ../resources/views/notification/notification-list.blade.php:14
+#: ../resources/views/includes/public-sidebar.blade.php:154
+msgid "Notifications"
+msgstr "Notificações"
+
+#: ../resources/views/notification/notification-list.blade.php:23
+msgid "Notification For"
+msgstr "Notificação Para"
+
+#: ../resources/views/notification/notification-list.blade.php:24
+msgid "Time"
+msgstr "Tempo"
+
+#: ../resources/views/notification/notification-list.blade.php:96
+#: ../resources/views/includes/public-top-bar.blade.php:113
+#: ../resources/views/includes/public-sidebar.blade.php:52
+msgid "There are no notification."
+msgstr "Há nenhuma notificação."
+
+#: ../resources/views/includes/public-top-bar.blade.php:11
+#: ../resources/views/includes/public-sidebar.blade.php:95
+#: ../resources/views/filter/filter.blade.php:15
+msgid "Find Matches"
+msgstr "Encontrar Pessoas"
+
+#: ../resources/views/includes/public-top-bar.blade.php:32
+#: ../resources/views/filter/filter.blade.php:37
+msgid "Looking For"
+msgstr "Procurando por"
+
+#: ../resources/views/includes/public-top-bar.blade.php:34
+#: ../resources/views/filter/filter.blade.php:39
+msgid "All"
+msgstr "Tudo"
+
+#: ../resources/views/includes/public-top-bar.blade.php:43
+#: ../resources/views/filter/filter.blade.php:48
+msgid "Age Between"
+msgstr "Idade Entre"
+
+#: ../resources/views/includes/public-top-bar.blade.php:58
+msgid "Distance From My Location (__distanceUnit__)"
+msgstr "Distância da minha localização (__distanceUnit__)"
+
+#: ../resources/views/includes/public-top-bar.blade.php:60
+#: ../resources/views/filter/filter.blade.php:69
+msgid "Anywhere"
+msgstr "Qualquer lugar"
+
+#: ../resources/views/includes/public-top-bar.blade.php:64
+#: ../resources/views/filter/filter.blade.php:73
+msgid "Search"
+msgstr "Procurar"
+
+#: ../resources/views/includes/public-top-bar.blade.php:72
+msgid "Be Premium User"
+msgstr "Seja um Usuário Premium"
+
+#: ../resources/views/includes/public-top-bar.blade.php:72
+msgid "Be Premium"
+msgstr "Seja premium"
+
+#: ../resources/views/includes/public-top-bar.blade.php:92
+#: ../resources/views/includes/public-sidebar.blade.php:24
+#: ../resources/views/includes/public-sidebar.blade.php:30
+msgid "Notification"
+msgstr "Notificação"
+
+#: ../resources/views/includes/public-top-bar.blade.php:109
+#: ../resources/views/includes/public-sidebar.blade.php:48
+msgid "Show All Notifications."
+msgstr "Mostrar todas as notificações."
+
+#: ../resources/views/includes/public-top-bar.blade.php:158
+msgid "Choose your language"
+msgstr "Escolha o seu idioma"
+
+#: ../resources/views/includes/public-top-bar.blade.php:186
+#: ../resources/views/includes/top-bar.blade.php:77
+msgid "Profile"
+msgstr "Perfil"
+
+#: ../resources/views/includes/public-top-bar.blade.php:194
+#: ../resources/views/includes/top-bar.blade.php:81
+#: ../resources/views/user/change-password.blade.php:13
+msgid "Change Password"
+msgstr "Mudar senha"
+
+#: ../resources/views/includes/public-top-bar.blade.php:198
+#: ../resources/views/includes/top-bar.blade.php:85
+#: ../resources/views/user/change-email.blade.php:13
+msgid "Change Email"
+msgstr "Mude o e-mail"
+
+#: ../resources/views/includes/public-top-bar.blade.php:203
+#: ../resources/views/includes/public-top-bar.blade.php:288
+msgid "Delete Account"
+msgstr "Deletar conta"
+
+#: ../resources/views/includes/public-top-bar.blade.php:210
+msgid "Admin Panel"
+msgstr "Painel de administração"
+
+#: ../resources/views/includes/public-top-bar.blade.php:216
+#: ../resources/views/includes/top-bar.blade.php:90
+#: ../resources/views/user/profile/update-wizard.blade.php:26
+#: ../resources/views/user/profile/update-wizard.blade.php:171
+#: ../resources/views/manage-master.blade.php:63
+#: ../resources/views/public-master.blade.php:100
+msgid "Logout"
+msgstr "Sair"
+
+#: ../resources/views/includes/public-top-bar.blade.php:228
+msgid "Boost Profile"
+msgstr "Perfil impulso"
+
+#: ../resources/views/includes/public-top-bar.blade.php:237
+#: ../resources/views/user/profile.blade.php:684
+msgid "Your credit balance is too low, please"
+msgstr "Seu saldo de crédito é muito baixo, por favor"
+
+#: ../resources/views/includes/public-top-bar.blade.php:238
+#: ../resources/views/user/profile.blade.php:685
+msgid "purchase credits"
+msgstr "Compre créditos"
+
+#: ../resources/views/includes/public-top-bar.blade.php:244
+msgid "This will costs you"
+msgstr "Isto ira custar"
+
+#: ../resources/views/includes/public-top-bar.blade.php:252
+msgid "credits for immediate"
+msgstr "créditos para imediato"
+
+#: ../resources/views/includes/public-top-bar.blade.php:256
+msgid "minutes"
+msgstr "minutos"
+
+#: ../resources/views/includes/public-top-bar.blade.php:261
+msgid "Boost"
+msgstr "Impulso"
+
+#: ../resources/views/includes/public-top-bar.blade.php:271
+msgid "Delete account?"
+msgstr "Deletar conta?"
+
+#: ../resources/views/includes/public-top-bar.blade.php:277
+msgid "Are you sure you want to delete your account? All content including photos and other data will be permanently removed!"
+msgstr "Tem certeza de que deseja excluir a sua conta? Todo o conteúdo, incluindo fotos e outros dados serão removidos permanentemente!"
+
+#: ../resources/views/includes/public-top-bar.blade.php:282
+msgid "Enter your password"
+msgstr "Coloque sua senha"
+
+#: ../resources/views/includes/public-top-bar.blade.php:283
+#: ../resources/views/user/manage/add.blade.php:54
+#: ../resources/views/user/sign-up.blade.php:98
+#: ../resources/views/user/login.blade.php:58
+#: ../resources/views/user/login-landing.blade.php:12
+msgid "Password"
+msgstr "Senha"
+
+#: ../resources/views/includes/top-bar.blade.php:10
+msgid "Admin Section"
+msgstr "Seção de admin"
+
+#: ../resources/views/includes/landing-navbar.blade.php:13
+msgid "HOME"
+msgstr "HOME"
+
+#: ../resources/views/includes/landing-navbar.blade.php:16
+#: ../resources/views/includes/landing-footer.blade.php:12
+#: ../resources/views/includes/footer.blade.php:12
+msgid "COMO FUNCIONA"
+msgstr "COMO FUNCIONA"
+
+#: ../resources/views/includes/landing-navbar.blade.php:19
+msgid "POLÍTICA DE PRIVACIDADE"
+msgstr "POLÍTICA DE PRIVACIDADE"
+
+#: ../resources/views/includes/landing-navbar.blade.php:22
+#: ../resources/views/includes/landing-navbar.blade.php:23
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: ../resources/views/includes/landing-navbar.blade.php:31
+msgid "CADASTRE-SE"
+msgstr "CADASTRE-SE"
+
+#: ../resources/views/includes/landing-footer.blade.php:13
+#: ../resources/views/includes/footer.blade.php:13
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../resources/views/includes/landing-footer.blade.php:14
+#: ../resources/views/includes/footer.blade.php:14
+msgid "CONTATO"
+msgstr "CONTATO"
+
+#: ../resources/views/includes/landing-footer.blade.php:38
+#: ../resources/views/includes/footer.blade.php:38
+msgid " © __copyrightYear__ __storeName__ "
+msgstr " © __copyrightYear__ __storeName__"
+
+#: ../resources/views/includes/landing-footer.blade.php:42
+#: ../resources/views/includes/footer.blade.php:42
+msgid "TODOS OS DIREITOS RESERVADOS - DESENVOLVIDO POR"
+msgstr ""
+
+#: ../resources/views/includes/landing-footer.blade.php:42
+#: ../resources/views/includes/footer.blade.php:42
+msgid "YPB MKT DIGITAL"
+msgstr ""
+
+#: ../resources/views/includes/landing-footer.blade.php:55
+#: ../resources/views/includes/footer.blade.php:71
+msgid "Chat"
+msgstr "Bate-papo"
+
+#: ../resources/views/includes/landing-footer.blade.php:56
+#: ../resources/views/includes/footer.blade.php:72
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:233
+#: ../resources/views/messenger/user-conversation.blade.php:176
+#: ../resources/views/messenger/audio-video.blade.php:20
+#: ../resources/views/messenger/audio-video.blade.php:59
+msgid "Close"
+msgstr "Fechar"
+
+#: ../resources/views/includes/landing-footer.blade.php:63
+#: ../resources/views/includes/footer.blade.php:79
+#: ../resources/views/messenger/user-conversation.blade.php:128
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: ../resources/views/includes/landing-footer.blade.php:91
+#: ../resources/views/includes/footer.blade.php:107
+msgid "This field is required."
+msgstr "Este campo é obrigatório."
+
+#: ../resources/views/includes/landing-footer.blade.php:92
+#: ../resources/views/includes/footer.blade.php:108
+msgid "Please fix this field."
+msgstr "Corrija este campo."
+
+#: ../resources/views/includes/landing-footer.blade.php:93
+#: ../resources/views/includes/footer.blade.php:109
+msgid "Please enter a valid email address."
+msgstr "Por favor insira um endereço de e-mail válido."
+
+#: ../resources/views/includes/landing-footer.blade.php:94
+#: ../resources/views/includes/footer.blade.php:110
+msgid "Please enter a valid URL."
+msgstr "Por favor, insira um URL válido."
+
+#: ../resources/views/includes/landing-footer.blade.php:95
+#: ../resources/views/includes/footer.blade.php:111
+msgid "Please enter a valid date."
+msgstr "Por favor insira uma data válida."
+
+#: ../resources/views/includes/landing-footer.blade.php:96
+#: ../resources/views/includes/footer.blade.php:112
+msgid "Please enter a valid date (ISO)."
+msgstr "Por favor, indique uma data válida (ISO)."
+
+#: ../resources/views/includes/landing-footer.blade.php:97
+#: ../resources/views/includes/footer.blade.php:113
+msgid "Please enter a valid number."
+msgstr "por favor insira um número válido."
+
+#: ../resources/views/includes/landing-footer.blade.php:98
+#: ../resources/views/includes/footer.blade.php:114
+msgid "Please enter only digits."
+msgstr "Insira apenas dígitos."
+
+#: ../resources/views/includes/landing-footer.blade.php:99
+#: ../resources/views/includes/footer.blade.php:115
+msgid "Please enter the same value again."
+msgstr "Por favor entre com o mesmo valor novamente."
+
+#: ../resources/views/includes/landing-footer.blade.php:100
+#: ../resources/views/includes/footer.blade.php:116
+msgid "Please enter no more than {0} characters."
+msgstr "Por favor, indique não mais do que {0} caracteres."
+
+#: ../resources/views/includes/landing-footer.blade.php:101
+#: ../resources/views/includes/footer.blade.php:117
+msgid "Please enter at least {0} characters."
+msgstr "Por favor, insira pelo menos {0} caracteres."
+
+#: ../resources/views/includes/landing-footer.blade.php:102
+#: ../resources/views/includes/footer.blade.php:118
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Por favor insira um valor entre {0} e {1} caracteres."
+
+#: ../resources/views/includes/landing-footer.blade.php:103
+#: ../resources/views/includes/footer.blade.php:119
+msgid "Please enter a value between {0} and {1}."
+msgstr "Por favor insira um valor entre {0} e {1}."
+
+#: ../resources/views/includes/landing-footer.blade.php:104
+#: ../resources/views/includes/footer.blade.php:120
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Por favor insira um valor menor ou igual a {0}."
+
+#: ../resources/views/includes/landing-footer.blade.php:105
+#: ../resources/views/includes/footer.blade.php:121
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Por favor insira um valor maior ou igual a {0}."
+
+#: ../resources/views/includes/landing-footer.blade.php:106
+#: ../resources/views/includes/footer.blade.php:122
+msgid "Please enter a multiple of {0}."
+msgstr "Por favor, indique um múltiplo de {0}."
+
+#: ../resources/views/includes/landing-footer.blade.php:115
+#: ../resources/views/includes/footer.blade.php:131
+msgid "processing"
+msgstr "processando"
+
+#: ../resources/views/includes/landing-footer.blade.php:116
+#: ../resources/views/includes/footer.blade.php:132
+msgid "Drag & Drop Files or Browse"
+msgstr "Arrastar & Soltar arquivos ou Procurar"
+
+#: ../resources/views/includes/landing-footer.blade.php:117
+#: ../resources/views/includes/footer.blade.php:133
+msgid "Result Not Found"
+msgstr "Resultado não encontrado"
+
+#: ../resources/views/includes/landing-footer.blade.php:118
+#: ../resources/views/includes/footer.blade.php:134
+msgid "Message is required"
+msgstr "Mensagem é obrigatória"
+
+#: ../resources/views/includes/landing-footer.blade.php:119
+#: ../resources/views/includes/footer.blade.php:135
+#: ../resources/views/includes/sidebar.blade.php:36
+msgid "Stickers"
+msgstr "Etiquetas"
+
+#: ../resources/views/includes/footer.blade.php:51
+msgid "Copyright © __storeName__ __copyrightYear__"
+msgstr "Copyright © __storeName__ __copyrightYear__"
+
+#: ../resources/views/includes/footer.blade.php:55
+#: ../resources/views/user/contact.blade.php:23
+msgid "Contact"
+msgstr "Contato"
+
+#: ../resources/views/includes/sidebar.blade.php:18
+#: ../resources/views/dashboard/dashboard.blade.php:12
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ../resources/views/includes/sidebar.blade.php:24
+msgid "Pages"
+msgstr "Páginas"
+
+#: ../resources/views/includes/sidebar.blade.php:30
+#: ../resources/views/user/profile.blade.php:265
+msgid "Gifts"
+msgstr "Presentes"
+
+#: ../resources/views/includes/sidebar.blade.php:42
+msgid "Credit Packages"
+msgstr "Pacotes de crédito"
+
+#: ../resources/views/includes/sidebar.blade.php:48
+msgid "Abuse Reports"
+msgstr "Relatórios de abuso"
+
+#: ../resources/views/includes/sidebar.blade.php:60
+msgid "User Uploads"
+msgstr "Carregamentos de usuários"
+
+#: ../resources/views/includes/sidebar.blade.php:78
+msgid "Languages"
+msgstr "Línguas"
+
+#: ../resources/views/includes/sidebar.blade.php:88
+msgid "If you have made changes which doesn't reflecting this link may help to clear all the cache."
+msgstr "Se você tiver feito alterações que não esão aparecendo, este link pode ajudar a limpar todo o cache."
+
+#: ../resources/views/includes/sidebar.blade.php:90
+msgid "Clear System Cache"
+msgstr "Limpar cache do sistema"
+
+#: ../resources/views/includes/public-sidebar.blade.php:17
+msgid "Messenger"
+msgstr "Mensageiro"
+
+#: ../resources/views/includes/public-sidebar.blade.php:64
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:18
+msgid "Credit Wallet"
+msgstr "Carteira de crédito"
+
+#: ../resources/views/includes/public-sidebar.blade.php:73
+msgid "Profile Booster"
+msgstr "Impulsionador perfil"
+
+#: ../resources/views/includes/public-sidebar.blade.php:87
+msgid "Home"
+msgstr "Home"
+
+#: ../resources/views/includes/public-sidebar.blade.php:102
+msgid "My Profile"
+msgstr "Meu perfil"
+
+#: ../resources/views/includes/public-sidebar.blade.php:109
+#: ../resources/views/user/settings/photos.blade.php:14
+msgid "My Photos"
+msgstr "Minhas fotos"
+
+#: ../resources/views/includes/public-sidebar.blade.php:117
+msgid "Who likes me"
+msgstr "Quem me curtiu"
+
+#: ../resources/views/includes/public-sidebar.blade.php:130
+#: ../resources/views/user/mutual-like.blade.php:15
+msgid "Mutual Likes"
+msgstr "Curtidas mútuas"
+
+#: ../resources/views/includes/public-sidebar.blade.php:136
+#: ../resources/views/user/my-liked.blade.php:15
+msgid "My Likes"
+msgstr "Minhas curtidas"
+
+#: ../resources/views/includes/public-sidebar.blade.php:142
+#: ../resources/views/user/my-disliked.blade.php:15
+msgid "My Dislikes"
+msgstr "Minhas Não Curtidas"
+
+#: ../resources/views/includes/public-sidebar.blade.php:148
+#: ../resources/views/user/profile-visitor.blade.php:14
+msgid "Visitors"
+msgstr "Quem me Viu"
+
+#: ../resources/views/includes/public-sidebar.blade.php:160
+#: ../resources/views/user/block-user/list.blade.php:14
+#: ../resources/views/dashboard/dashboard.blade.php:84
+msgid "Blocked Users"
+msgstr "Usuários bloqueados"
+
+#: ../resources/views/includes/public-sidebar.blade.php:169
+msgid "Featured Users"
+msgstr "Usuários em destaque"
+
+#: ../resources/views/user/my-disliked.blade.php:27
+msgid "There are no Disliked users."
+msgstr "Não há usuários não curtidos."
+
+#: ../resources/views/user/settings/notification.blade.php:13
+msgid "Notification Settings"
+msgstr "Configurações de notificação"
+
+#: ../resources/views/user/settings/notification.blade.php:24
+msgid "Show Visitors Notification"
+msgstr "Mostrar aos visitantes Notificação"
+
+#: ../resources/views/user/settings/notification.blade.php:34
+msgid "Show Likes Notification"
+msgstr "Mostrar notificação de curtidas"
+
+#: ../resources/views/user/settings/notification.blade.php:47
+msgid "Show Gifts Notification"
+msgstr "Mostrar notificação de presentes"
+
+#: ../resources/views/user/settings/notification.blade.php:56
+msgid "Show Messages Notification"
+msgstr "Mostrar notificação de mensagens"
+
+#: ../resources/views/user/settings/notification.blade.php:65
+msgid "Show Login Notification For Your Liked Users"
+msgstr "Mostrar notificação de online para usuários que curti"
+
+#: ../resources/views/user/settings/photos.blade.php:35
+msgid "There are no photos found."
+msgstr "Não há fotos encontradas."
+
+#: ../resources/views/user/reset-password.blade.php:27
+msgid "Reset Your Password?"
+msgstr "Redefinir sua senha?"
+
+#: ../resources/views/user/reset-password.blade.php:28
+#: ../resources/views/user/forgot-password.blade.php:35
+msgid "We get it, stuff happens. Just enter your email address below and we'll send you a link to reset your password!"
+msgstr "Nós sabemos que estas coisas acontecem. Basta digitar o seu endereço de e-mail abaixo e nós enviaremos um link para redefinir sua senha!"
+
+#: ../resources/views/user/reset-password.blade.php:35
+#: ../resources/views/user/forgot-password.blade.php:42
+#: ../resources/views/user/login.blade.php:52
+#: ../resources/views/user/login-landing.blade.php:6
+msgid "Enter Email Address..."
+msgstr "Insira o endereço de e-mail..."
+
+#: ../resources/views/user/reset-password.blade.php:41
+#: ../resources/views/user/change-password.blade.php:43
+msgid "New Password"
+msgstr "Nova senha"
+
+#: ../resources/views/user/reset-password.blade.php:47
+#: ../resources/views/user/change-password.blade.php:47
+msgid "New Password Confirmation"
+msgstr "Nova confirmação de senha"
+
+#: ../resources/views/user/reset-password.blade.php:53
+#: ../resources/views/user/forgot-password.blade.php:48
+msgid "Reset Password"
+msgstr "Password Reset"
+
+#: ../resources/views/user/reset-password.blade.php:61
+#: ../resources/views/user/forgot-password.blade.php:56
+#: ../resources/views/user/sign-up.blade.php:41
+#: ../resources/views/user/login.blade.php:97
+#: ../resources/views/user/contact.blade.php:66
+msgid "Create an Account!"
+msgstr "Crie a sua conta aqui!"
+
+#: ../resources/views/user/reset-password.blade.php:64
+#: ../resources/views/user/forgot-password.blade.php:59
+#: ../resources/views/user/sign-up.blade.php:155
+#: ../resources/views/user/contact.blade.php:69
+msgid "Already have an account? Login!"
+msgstr "já tem uma conta? Conecte-se!"
+
+#: ../resources/views/user/mutual-like.blade.php:27
+msgid "There are no mutual likes."
+msgstr "Não há gostos mútuos."
+
+#: ../resources/views/user/change-email.blade.php:23
+msgid "Activate your new email address"
+msgstr "Ative seu novo endereço de email"
+
+#: ../resources/views/user/change-email.blade.php:25
+msgid "Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you."
+msgstr "Quase terminado ... Você precisa confirmar o seu endereço de e-mail. Para completar o processo de ativação, por favor clique no link no e-mail que acabamos de enviar você."
+
+#: ../resources/views/user/change-email.blade.php:32
+msgid "Current Email"
+msgstr "Email atual"
+
+#: ../resources/views/user/change-email.blade.php:40
+#: ../resources/views/user/change-password.blade.php:35
+msgid "Current Password"
+msgstr "Senha atual"
+
+#: ../resources/views/user/change-email.blade.php:44
+msgid "New Email"
+msgstr "Novo Email"
+
+#: ../resources/views/user/change-email.blade.php:51
+msgid "Update Email"
+msgstr "Atualizar Email"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:30
+msgid "Please complete your profile"
+msgstr "Por favor, complete seu perfil"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:37
+msgid "Profile Pictures"
+msgstr "Fotos de perfil"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:40
+msgid "Choose Location"
+msgstr "Escolha a localização"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:44
+msgid "Finished"
+msgstr "Concluído"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:60
+#: ../resources/views/user/profile.blade.php:383
+#: ../resources/views/user/profile.blade.php:484
+msgid "Birthday"
+msgstr "Aniversário"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:61
+#: ../resources/views/user/profile.blade.php:485
+#: ../resources/views/user/sign-up.blade.php:90
+msgid "DD/MM/AAAA"
+msgstr ""
+
+#: ../resources/views/user/profile/update-wizard.blade.php:65
+#: ../resources/views/user/profile/update-wizard.blade.php:67
+msgid "Eu sou"
+msgstr ""
+
+#: ../resources/views/user/profile/update-wizard.blade.php:121
+#: ../resources/views/user/profile/update-wizard.blade.php:126
+#: ../resources/views/user/profile.blade.php:524
+#: ../resources/views/user/profile.blade.php:538
+msgid "Location"
+msgstr "Localização"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:138
+#: ../resources/views/user/profile.blade.php:550
+msgid "Something went wrong with Google Api Key, please contact to system administrator."
+msgstr "Algo deu errado com Google Api Key, entre em contato com administrador do sistema."
+
+#: ../resources/views/user/profile/update-wizard.blade.php:146
+#: ../resources/views/user/premium-plan/premium-plan-success.blade.php:3
+msgid "Congratulations"
+msgstr "Parabéns"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:149
+msgid "Ir para pagina de perfil"
+msgstr ""
+
+#: ../resources/views/user/profile/update-wizard.blade.php:161
+#: ../resources/views/manage-master.blade.php:52
+#: ../resources/views/public-master.blade.php:90
+msgid "Ready to Leave?"
+msgstr "Pronto para partir?"
+
+#: ../resources/views/user/profile/update-wizard.blade.php:167
+#: ../resources/views/manage-master.blade.php:58
+#: ../resources/views/public-master.blade.php:96
+msgid "Select \"Logout\" below if you are ready to end your current session."
+msgstr "Selecione \"Sair\" abaixo se você está pronto para encerrar sua sessão atual."
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:13
+msgid "Selected"
+msgstr "Selecionado"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:31
+msgid "Your Wallet Balance"
+msgstr "Saldo da sua Carteira Virtual"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:35
+msgid "__creditBalance__ Credit"
+msgid_plural "__creditBalance__ Credits"
+msgstr[0] "__creditBalance__ Crédito"
+msgstr[1] "__creditBalance__ Créditos"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:41
+msgid "You can use these credits on this website for the various purchases like Gift & Sticker purchases etc"
+msgstr "Você pode usar esses créditos neste site para as várias compras como Presentes & Etiquetas, etc."
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:76
+msgid "Buy More Credits"
+msgstr "Comprar mais créditos"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:90
+msgid "__credits__ Credit"
+msgid_plural "__credits__ Credits"
+msgstr[0] "__credits__ crédito"
+msgstr[1] "__credits__ crédito"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:95
+msgid "for __currencyCode__ __price__ only"
+msgstr "por apenas __currencyCode__ __price__"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:106
+msgid "There are no packages"
+msgstr "Não há pacotes"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:124
+msgid "Stripe Payment"
+msgstr "Stripe Payment"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:128
+msgid "Razorpay Payment"
+msgstr "Razorpay Payment"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:143
+msgid "Wallet Transactions"
+msgstr "Transações da carteira"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:150
+msgid "Transaction On"
+msgstr "Data da Transação"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:151
+msgid "Transaction For"
+msgstr "Transação Para"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:152
+msgid "Credits (credited/debited)"
+msgstr "Créditos (creditado / debitado)"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:174
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:190
+msgid "Financial Transaction"
+msgstr "Trasação financeira"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:220
+msgid "Method"
+msgstr "Método"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:224
+msgid "Mode"
+msgstr "Modo"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:402
+msgid "Payment Canceled by User"
+msgstr "Pagamento cancelado pelo usuário"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:414
+msgid "Something went wrong with paypal checkout, please contact to administrator."
+msgstr "Algo deu errado com checkout paypal, por favor contacte o administrador."
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:546
+msgid "Payment Successful, Credits has been added successfully to your wallet"
+msgstr "Pagamento bem sucedido, Créditos foi adicionado com sucesso à sua carteira"
+
+#: ../resources/views/user/credit-wallet/credit-wallet.blade.php:548
+msgid "Reload to Update"
+msgstr "Recarregue para atualizar"
+
+#: ../resources/views/user/my-liked.blade.php:27
+msgid "There are no any users who likes me."
+msgstr "Não há quaisquer usuários que gosta de mim."
+
+#: ../resources/views/user/forgot-password.blade.php:34
+msgid "Forgot Your Password?"
+msgstr "Esqueceu sua senha?"
+
+#: ../resources/views/user/profile-visitor.blade.php:27
+msgid "There are no visitors."
+msgstr "Não há visitantes."
+
+#: ../resources/views/user/manage/edit.blade.php:3
+msgid "Update User"
+msgstr "Atualizar Usuário"
+
+#: ../resources/views/user/manage/edit.blade.php:6
+#: ../resources/views/user/manage/add.blade.php:6
+msgid "Back to Users"
+msgstr "Voltar para usuários"
+
+#: ../resources/views/user/manage/edit.blade.php:24
+#: ../resources/views/user/manage/add.blade.php:24
+#: ../resources/views/user/profile.blade.php:324
+#: ../resources/views/user/profile.blade.php:409
+#: ../resources/views/user/profile.blade.php:411
+#: ../resources/views/user/sign-up.blade.php:48
+msgid "First Name"
+msgstr "Primeiro nome"
+
+#: ../resources/views/user/manage/edit.blade.php:30
+#: ../resources/views/user/manage/add.blade.php:31
+#: ../resources/views/user/profile.blade.php:330
+#: ../resources/views/user/profile.blade.php:416
+#: ../resources/views/user/profile.blade.php:417
+#: ../resources/views/user/sign-up.blade.php:54
+msgid "Last Name"
+msgstr "Último nome"
+
+#: ../resources/views/user/manage/edit.blade.php:44
+#: ../resources/views/user/manage/add.blade.php:46
+#: ../resources/views/user/manage/details.blade.php:23
+#: ../resources/views/user/manage/list.blade.php:67
+#: ../resources/views/user/sign-up.blade.php:61
+msgid "Username"
+msgstr "Nome do usuário"
+
+#: ../resources/views/user/manage/edit.blade.php:52
+#: ../resources/views/user/manage/add.blade.php:76
+#: ../resources/views/user/manage/details.blade.php:35
+#: ../resources/views/user/profile.blade.php:393
+#: ../resources/views/user/profile.blade.php:494
+#: ../resources/views/user/profile.blade.php:495
+msgid "Mobile Number"
+msgstr "Número de celular"
+
+#: ../resources/views/user/manage/add.blade.php:3
+msgid "Add New User"
+msgstr "Adicionar novo usuário"
+
+#: ../resources/views/user/manage/add.blade.php:61
+msgid "Confirm Password"
+msgstr "Confirme a Senha"
+
+#: ../resources/views/user/manage/add.blade.php:69
+#: ../resources/views/user/manage/details.blade.php:29
+msgid "Designation"
+msgstr "Designação"
+
+#: ../resources/views/user/manage/add.blade.php:92
+#: ../resources/views/user/contact.blade.php:57
+#: ../resources/views/abuse-report/manage/list.blade.php:163
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../resources/views/user/manage/details.blade.php:3
+msgid "User Details"
+msgstr "Detalhes do usuario"
+
+#: ../resources/views/user/manage/details.blade.php:11
+#: ../resources/views/user/manage/list.blade.php:66
+#: ../resources/views/user/photos/list.blade.php:29
+#: ../resources/views/user/contact.blade.php:30
+msgid "Full Name"
+msgstr "Nome completo"
+
+#: ../resources/views/user/manage/list.blade.php:30
+#: ../config/__tech.php:47
+msgid "Inactive"
+msgstr "Inativo"
+
+#: ../resources/views/user/manage/list.blade.php:38
+#: ../config/__tech.php:50
+msgid "Deleted"
+msgstr "Deleted"
+
+#: ../resources/views/user/manage/list.blade.php:46
+#: ../config/__tech.php:49
+msgid "Never Activated"
+msgstr "Nunca Ativado"
+
+#: ../resources/views/user/manage/list.blade.php:54
+#: ../config/__tech.php:48
+msgid "Blocked"
+msgstr "Bloqueado"
+
+#: ../resources/views/user/manage/list.blade.php:65
+msgid "Profile Picture"
+msgstr "Foto do perfil"
+
+#: ../resources/views/user/manage/list.blade.php:87
+msgid "You want to delete this user, it will be placed in deleted tab."
+msgstr "Você deseja excluir este usuário, ele será colocado no tab eliminados."
+
+#: ../resources/views/user/manage/list.blade.php:94
+msgid "You want to permanent delete this user."
+msgstr "Você quer permanente excluir este usuário."
+
+#: ../resources/views/user/manage/list.blade.php:125
+msgid "Transactions"
+msgstr "Transações"
+
+#: ../resources/views/user/manage/list.blade.php:130
+msgid "Verify"
+msgstr "Verificar"
+
+#: ../resources/views/user/manage/list.blade.php:140
+msgid "Restore"
+msgstr "Restaurar"
+
+#: ../resources/views/user/manage/list.blade.php:144
+#: ../resources/views/user/manage/list.blade.php:156
+msgid "Block"
+msgstr "Quadra"
+
+#: ../resources/views/user/manage/list.blade.php:152
+msgid "Soft Delete"
+msgstr "Excluir logicamente"
+
+#: ../resources/views/user/manage/list.blade.php:164
+#: ../resources/views/user/partial-templates/blocked-users.blade.php:18
+msgid "Unblock"
+msgstr "Desbloquear"
+
+#: ../resources/views/user/manage/list.blade.php:183
+msgid "User Transactions"
+msgstr "Transações de usuários"
+
+#: ../resources/views/user/profile.blade.php:23
+msgid "This user is unavailable."
+msgstr "Este usuário não está disponível."
+
+#: ../resources/views/user/profile.blade.php:29
+msgid "You have blocked this user."
+msgstr "Você bloqueou este usuário."
+
+#: ../resources/views/user/profile.blade.php:39
+msgid "__totalUserLike__ like"
+msgid_plural "__totalUserLike__ likes"
+msgstr[0] "__totalUserLike__ como"
+msgstr[1] "__totalUserLike__ gostos"
+
+#: ../resources/views/user/profile.blade.php:45
+msgid "__totalVisitors__ view"
+msgid_plural "__totalVisitors__ views"
+msgstr[0] "__totalVisitors__ vista"
+msgstr[1] "__totalVisitors__ visualizações"
+
+#: ../resources/views/user/profile.blade.php:55
+#: ../resources/views/user/profile.blade.php:658
+msgid "Report"
+msgstr "Relatório"
+
+#: ../resources/views/user/profile.blade.php:59
+msgid "Block User"
+msgstr "Bloquear usuário"
+
+#: ../resources/views/user/profile.blade.php:65
+msgid "anos"
+msgstr "anos"
+
+#: ../resources/views/user/profile.blade.php:69
+#: ../config/__tech.php:60
+msgid "Online"
+msgstr "Conectados"
+
+#: ../resources/views/user/profile.blade.php:71
+#: ../config/__tech.php:61
+msgid "Idle"
+msgstr "Ocioso"
+
+#: ../resources/views/user/profile.blade.php:73
+#: ../config/__tech.php:62
+msgid "Offline"
+msgstr "Desconectados"
+
+#: ../resources/views/user/profile.blade.php:126
+#: ../resources/views/user/profile.blade.php:145
+msgid "Drag & Drop your picture or"
+msgstr "Arraste & Solte sua imagem ou"
+
+#: ../resources/views/user/profile.blade.php:126
+#: ../resources/views/user/profile.blade.php:145
+msgid "Browse"
+msgstr "Procurar"
+
+#: ../resources/views/user/profile.blade.php:158
+#: ../resources/views/user/profile.blade.php:747
+#: ../resources/views/home.blade.php:23
+msgid "Premium User"
+msgstr "Utilizador premium"
+
+#: ../resources/views/user/profile.blade.php:171
+msgid "Like Dislike"
+msgstr "Curtir Não Curtir"
+
+#: ../resources/views/user/profile.blade.php:181
+#: ../resources/views/user/profile.blade.php:757
+#: ../resources/views/user/profile.blade.php:831
+msgid "Liked"
+msgstr "Curtida"
+
+#: ../resources/views/user/profile.blade.php:181
+#: ../resources/views/user/profile.blade.php:757
+#: ../resources/views/user/profile.blade.php:844
+#: ../resources/views/user/profile.blade.php:857
+msgid "Like"
+msgstr "Curtir"
+
+#: ../resources/views/user/profile.blade.php:190
+#: ../resources/views/user/profile.blade.php:767
+#: ../resources/views/user/profile.blade.php:845
+msgid "Disliked"
+msgstr "Não Curti"
+
+#: ../resources/views/user/profile.blade.php:190
+#: ../resources/views/user/profile.blade.php:767
+#: ../resources/views/user/profile.blade.php:832
+#: ../resources/views/user/profile.blade.php:864
+msgid "Dislike"
+msgstr "Não curti"
+
+#: ../resources/views/user/profile.blade.php:200
+#: ../resources/views/user/profile.blade.php:776
+msgid "Send a message or Gift"
+msgstr "Enviar uma mensagem ou presente"
+
+#: ../resources/views/user/profile.blade.php:205
+#: ../resources/views/user/profile.blade.php:781
+#: ../resources/views/user/contact.blade.php:51
+#: ../resources/views/user/contact.blade.php:52
+#: ../resources/views/messenger/manage/log.blade.php:16
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../resources/views/user/profile.blade.php:208
+#: ../resources/views/user/profile.blade.php:673
+#: ../resources/views/user/profile.blade.php:784
+msgid "Send Gift"
+msgstr "Enviar presente"
+
+#: ../resources/views/user/profile.blade.php:209
+#: ../resources/views/user/profile.blade.php:785
+#: ../config/__tech.php:69
+msgid "Gift"
+msgstr "Presente"
+
+#: ../resources/views/user/profile.blade.php:220
+#: ../resources/views/user/profile.blade.php:501
+msgid "About Me"
+msgstr "Sobre mim"
+
+#: ../resources/views/user/profile.blade.php:243
+msgid "Photos"
+msgstr "Fotos"
+
+#: ../resources/views/user/profile.blade.php:253
+msgid "Ooops... No images found..."
+msgstr "Ooops ... Não foram encontradas imagens ..."
+
+#: ../resources/views/user/profile.blade.php:276
+msgid "sent by"
+msgstr "enviado por"
+
+#: ../resources/views/user/profile.blade.php:279
+msgid "This is a private gift you and only sender can see this."
+msgstr "Este é um presente particular, só você e o remetente pode ver isso."
+
+#: ../resources/views/user/profile.blade.php:287
+msgid "There are no gifts."
+msgstr "Não há presentes."
+
+#: ../resources/views/user/profile.blade.php:313
+msgid "Basic Information"
+msgstr "Informação básica"
+
+#: ../resources/views/user/profile.blade.php:339
+#: ../resources/views/user/profile.blade.php:424
+msgid "Gender"
+msgstr "Gênero"
+
+#: ../resources/views/user/profile.blade.php:347
+#: ../resources/views/user/profile.blade.php:436
+msgid "Preferred Language"
+msgstr "língua preferida"
+
+#: ../resources/views/user/profile.blade.php:357
+#: ../resources/views/user/profile.blade.php:449
+#: ../resources/views/filter/filter.blade.php:135
+msgid "Relationship Status"
+msgstr "Status de relacionamento"
+
+#: ../resources/views/user/profile.blade.php:365
+#: ../resources/views/user/profile.blade.php:460
+#: ../resources/views/filter/filter.blade.php:151
+msgid "Work Status"
+msgstr "Status de trabalho"
+
+#: ../resources/views/user/profile.blade.php:375
+#: ../resources/views/user/profile.blade.php:473
+#: ../resources/views/filter/filter.blade.php:167
+msgid "Education"
+msgstr "Educação"
+
+#: ../resources/views/user/profile.blade.php:426
+#: ../resources/views/user/sign-up.blade.php:80
+msgid "Choose your gender"
+msgstr "Escolha sua opção"
+
+#: ../resources/views/user/profile.blade.php:438
+msgid "Choose your Preferred Language"
+msgstr "Escolha o seu idioma preferido"
+
+#: ../resources/views/user/profile.blade.php:451
+msgid "Choose your Relationship Status"
+msgstr "Escolha o seu Estado de Relação"
+
+#: ../resources/views/user/profile.blade.php:462
+msgid "Choose your work status"
+msgstr "Escolha o seu status de trabalho"
+
+#: ../resources/views/user/profile.blade.php:475
+msgid "Choose your education"
+msgstr "Escolha a sua educação"
+
+#: ../resources/views/user/profile.blade.php:502
+msgid "Say something about yourself."
+msgstr "Diga algo sobre si mesmo."
+
+#: ../resources/views/user/profile.blade.php:605
+msgid "Choose __label__"
+msgstr "Escolha __label__"
+
+#: ../resources/views/user/profile.blade.php:639
+msgid "Abuse Report to __username__"
+msgstr "Relatório de abusos a __username__"
+
+#: ../resources/views/user/profile.blade.php:649
+#: ../resources/views/abuse-report/manage/list.blade.php:126
+msgid "Reason"
+msgstr "Razão"
+
+#: ../resources/views/user/profile.blade.php:673
+msgid "(Credits Available:  __availableCredits__)"
+msgstr "(Créditos disponíveis: __availableCredits__)"
+
+#: ../resources/views/user/profile.blade.php:706
+msgid "Private"
+msgstr "Privado"
+
+#: ../resources/views/user/profile.blade.php:713
+msgid "Send"
+msgstr "Enviar"
+
+#: ../resources/views/user/profile.blade.php:720
+msgid "There are no gifts"
+msgstr "Não há presentes"
+
+#: ../resources/views/user/profile.blade.php:732
+msgid "You want to block this user."
+msgstr "Você deseja bloquear este usuário."
+
+#: ../resources/views/user/sign-up.blade.php:67
+msgid "Mobile No"
+msgstr "Celular"
+
+#: ../resources/views/user/sign-up.blade.php:73
+msgid "Email Address"
+msgstr "Endereço de e-mail"
+
+#: ../resources/views/user/sign-up.blade.php:104
+msgid "Repeat Password"
+msgstr "Repita a senha"
+
+#: ../resources/views/user/sign-up.blade.php:114
+msgid "I accept all "
+msgstr "Eu aceito tudo"
+
+#: ../resources/views/user/sign-up.blade.php:116
+msgid "terms and conditions"
+msgstr "termos e condições"
+
+#: ../resources/views/user/sign-up.blade.php:124
+msgid "Register Account"
+msgstr "Registar Conta"
+
+#: ../resources/views/user/sign-up.blade.php:132
+msgid "Register with Google"
+msgstr "Registe-se no Google"
+
+#: ../resources/views/user/sign-up.blade.php:140
+msgid "Register with Facebook"
+msgstr "Registe-se no Facebook"
+
+#: ../resources/views/user/sign-up.blade.php:150
+#: ../resources/views/user/login.blade.php:90
+msgid "Forgot Password?"
+msgstr "Esqueceu a senha?"
+
+#: ../resources/views/user/login.blade.php:38
+msgid "Login to your account"
+msgstr "Faça login na sua conta"
+
+#: ../resources/views/user/login.blade.php:66
+msgid "Remember Me"
+msgstr "Lembrar"
+
+#: ../resources/views/user/login.blade.php:72
+#: ../resources/views/user/login-landing.blade.php:17
+msgid "Login"
+msgstr "Login"
+
+#: ../resources/views/user/login.blade.php:77
+msgid "Login with Google"
+msgstr "Entrar com o Google"
+
+#: ../resources/views/user/login.blade.php:82
+msgid "Login with Facebook"
+msgstr "Entrar com o Facebook"
+
+#: ../resources/views/user/login.blade.php:96
+msgid "Don't have a Account Create New Its Free!!"
+msgstr "Não tem uma conta, Criar sua conta grátis !!"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:3
+msgid "Premium"
+msgstr "Premium"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:13
+msgid "You have already purchased the premium plan"
+msgstr "Você já comprou o plano premium"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:17
+msgid "Plan"
+msgstr "Plano"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:25
+msgid "Expiry"
+msgstr "Expira"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:33
+msgid "Debited Credits"
+msgstr "Créditos debitados"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:41
+msgid "Choose Duration Plan for Premium"
+msgstr "Escolha seu plano premium"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:52
+msgid "__creditPrice__ Credit"
+msgid_plural "__creditPrice__ Credits"
+msgstr[0] "__creditPrice__ crédito"
+msgstr[1] "__creditPrice__ créditos"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:63
+msgid "Be Premium Now"
+msgstr "Seja premium Agora"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:68
+msgid "There are no premium plans."
+msgstr "Não há planos premium."
+
+#: ../resources/views/user/premium-plan/premium.blade.php:77
+msgid "Premium Features"
+msgstr "Recursos premium"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:86
+msgid "Discounts on Gifts, Stickers & Profile Booster"
+msgstr "Descontos em presentes, etiquetas & perfil impulsionador"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:94
+msgid "Premium Badge"
+msgstr "Emblema premium"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:101
+msgid "Priority In Search Result & Random Users"
+msgstr "Prioridade em busca de resultado e usuários aleatórios"
+
+#: ../resources/views/user/premium-plan/premium.blade.php:118
+msgid "There are no premium features."
+msgstr "Não há recursos premium."
+
+#: ../resources/views/user/premium-plan/premium.blade.php:135
+msgid "You want to buy __selectedPlanTitle__ plan."
+msgstr "Você quer comprar plano de __selectedPlanTitle__."
+
+#: ../resources/views/user/premium-plan/premium.blade.php:182
+msgid "Your credit balance is too low, please purchase credits"
+msgstr "Seu saldo de crédito é muito baixo, por favor, compre mais créditos"
+
+#: ../resources/views/user/premium-plan/premium-plan-success.blade.php:6
+msgid "You are the Premium User now"
+msgstr "Você é o usuário premium agora"
+
+#: ../resources/views/user/partial-templates/my-liked-users.blade.php:39
+#: ../resources/views/user/partial-templates/blocked-users.blade.php:24
+msgid "Load more"
+msgstr "Carregue mais"
+
+#: ../resources/views/user/partial-templates/my-liked-users.blade.php:42
+#: ../resources/views/user/partial-templates/blocked-users.blade.php:26
+msgid "Looks like you reached the end."
+msgstr "Parece que você chegou ao final."
+
+#: ../resources/views/user/change-password.blade.php:22
+msgid "As you had registered using social account & didn’t set the password yet, you need to logout and use Forgot Password link to set a password."
+msgstr "Como você tinha registrado usando a conta sociais e não definir a senha ainda, você precisa sair e usar link Esqueceu a senha para definir uma senha."
+
+#: ../resources/views/user/change-password.blade.php:54
+msgid "Update Password"
+msgstr "Atualizar senha"
+
+#: ../resources/views/user/photos/list.blade.php:13
+msgid "Manage User Uploads"
+msgstr "Gerir Carregamentos de usuários"
+
+#: ../resources/views/user/photos/list.blade.php:30
+msgid "Type"
+msgstr "Tipo"
+
+#: ../resources/views/user/photos/list.blade.php:48
+msgid "You want to delete this Photo"
+msgstr "Você deseja excluir esta foto"
+
+#: ../resources/views/user/forgot-password-success.blade.php:5
+msgid "Reset your password"
+msgstr "Redefinir sua senha"
+
+#: ../resources/views/user/forgot-password-success.blade.php:6
+msgid "We have sent password reset link to your email address.."
+msgstr "Nós enviamos um link de redefinição de senha para o seu endereço de e-mail .."
+
+#: ../resources/views/user/contact.blade.php:31
+msgid "Enter Full Name"
+msgstr "Insira o nome completo"
+
+#: ../resources/views/user/contact.blade.php:38
+msgid "Enter Email"
+msgstr "Digite e-mail"
+
+#: ../resources/views/user/contact.blade.php:44
+#: ../resources/views/user/contact.blade.php:45
+msgid "Subject"
+msgstr "Assunto"
+
+#: ../resources/views/user/block-user/list.blade.php:27
+msgid "There are no blocked users."
+msgstr "Não há usuários bloqueados."
+
+#: ../resources/views/user/who-liked-me.blade.php:15
+msgid "Who Likes Me"
+msgstr "Quem me deu curtidas"
+
+#: ../resources/views/user/who-liked-me.blade.php:28
+msgid "There are no people liked me."
+msgstr "Não há pessoas que me deram curtidas"
+
+#: ../resources/views/user/who-liked-me.blade.php:35
+msgid "This is a premium feature, to view who likes me you need to buy premium plan first."
+msgstr "Este é um recurso premium, você precisa comprar plano premium para acessa-lo."
+
+#: ../resources/views/dashboard/dashboard.blade.php:24
+msgid "Users Online"
+msgstr "Usuários online"
+
+#: ../resources/views/dashboard/dashboard.blade.php:25
+msgid "__onlineUsersCount__"
+msgstr "__onlineUsersCount__"
+
+#: ../resources/views/dashboard/dashboard.blade.php:44
+msgid "Active Users"
+msgstr "Usuários ativos"
+
+#: ../resources/views/dashboard/dashboard.blade.php:45
+msgid "__activeUsersCount__"
+msgstr "__activeUsersCount__"
+
+#: ../resources/views/dashboard/dashboard.blade.php:64
+msgid "Inactive Users"
+msgstr "Usuários inativos"
+
+#: ../resources/views/dashboard/dashboard.blade.php:65
+msgid "__inactiveUsersCount__"
+msgstr "__inactiveUsersCount__"
+
+#: ../resources/views/dashboard/dashboard.blade.php:85
+msgid "__blockedUsersCount__"
+msgstr "__blockedUsersCount__"
+
+#: ../resources/views/dashboard/dashboard.blade.php:103
+msgid "Awaiting Abuse Reports"
+msgstr "Aguardando Denúncias de Abuso"
+
+#: ../resources/views/dashboard/dashboard.blade.php:104
+msgid "__awaitingAbuseReportsCount__"
+msgstr "__awaitingAbuseReportsCount__"
+
+#: ../resources/views/dashboard/dashboard.blade.php:122
+msgid "Current Month Earnings"
+msgstr "Lucro do mês atual"
+
+#: ../resources/views/dashboard/dashboard.blade.php:124
+msgid "__currencyCode__ __currentMonthIncome__"
+msgstr "__currencyCode__ __currentMonthIncome__"
+
+#: ../resources/views/dashboard/dashboard.blade.php:145
+msgid "Earnings Overview"
+msgstr "Lucro Overview"
+
+#: ../resources/views/dashboard/dashboard.blade.php:168
+msgid "Current Year Registrations"
+msgstr "Cadastros no ano"
+
+#: ../resources/views/messenger/user-conversation.blade.php:21
+#: ../resources/views/messenger/user-conversation.blade.php:23
+#: ../resources/views/messenger/audio-video.blade.php:159
+#: ../resources/views/messenger/audio-video.blade.php:162
+msgid "Audio Call"
+msgstr "Chamada de áudio"
+
+#: ../resources/views/messenger/user-conversation.blade.php:28
+#: ../resources/views/messenger/user-conversation.blade.php:30
+#: ../resources/views/messenger/audio-video.blade.php:164
+msgid "Video Call"
+msgstr "Chamada de video"
+
+#: ../resources/views/messenger/user-conversation.blade.php:36
+#: ../resources/views/messenger/user-conversation.blade.php:37
+msgid "Delete All Chat"
+msgstr "Excluir Todos os Chat"
+
+#: ../resources/views/messenger/user-conversation.blade.php:139
+#: ../resources/views/messenger/audio-video.blade.php:51
+#: ../resources/views/abuse-report/manage/list.blade.php:151
+msgid "Accept"
+msgstr "Aceitar"
+
+#: ../resources/views/messenger/user-conversation.blade.php:143
+msgid "Decline"
+msgstr "Rejeitar"
+
+#: ../resources/views/messenger/user-conversation.blade.php:147
+msgid "Message Request Declined"
+msgstr "Pedido mensagem Recusado"
+
+#: ../resources/views/messenger/user-conversation.blade.php:152
+msgid "Are you sure to purchase this sticker"
+msgstr "Tem certeza que deseja comprar esta etiqueta"
+
+#: ../resources/views/messenger/user-conversation.blade.php:173
+msgid "User needs to accept chat request"
+msgstr "O usuário precisa aceitar o pedido de chat"
+
+#: ../resources/views/messenger/audio-video.blade.php:55
+msgid "Reject"
+msgstr "Rejeitar"
+
+#: ../resources/views/messenger/audio-video.blade.php:85
+msgid "Error!"
+msgstr "Erro!"
+
+#: ../resources/views/messenger/audio-video.blade.php:86
+msgid "May be your browser not support Audio/Video Calling. We recommend you to use another browser."
+msgstr "Pode ser que o seu navegador não suporta chamada de áudio / vídeo. Recomendamos que você use outro navegador."
+
+#: ../resources/views/messenger/audio-video.blade.php:102
+msgid "Ringing..."
+msgstr "Tocando..."
+
+#: ../resources/views/messenger/audio-video.blade.php:103
+msgid "Calling..."
+msgstr "Chamando ..."
+
+#: ../resources/views/messenger/audio-video.blade.php:104
+msgid "Connecting..."
+msgstr "Conectando ..."
+
+#: ../resources/views/messenger/audio-video.blade.php:105
+msgid "Connected"
+msgstr "Conectado"
+
+#: ../resources/views/messenger/audio-video.blade.php:106
+msgid "Call Disconnected..."
+msgstr "Chamada Desconectada ..."
+
+#: ../resources/views/messenger/audio-video.blade.php:107
+msgid "Some went wrong, please contact to administrator."
+msgstr "Algo deu errado, por favor, contacte para o administrador."
+
+#: ../resources/views/messenger/audio-video.blade.php:108
+msgid "Busy..."
+msgstr "Ocupado..."
+
+#: ../resources/views/messenger/audio-video.blade.php:217
+#: ../resources/views/messenger/audio-video.blade.php:219
+msgid "Incoming Audio Call"
+msgstr "Nova Chamada de áudio"
+
+#: ../resources/views/messenger/audio-video.blade.php:221
+msgid "Incoming Video Call"
+msgstr "Nova Chamada de vídeo"
+
+#: ../resources/views/messenger/manage/log.blade.php:3
+msgid "Messenger Log"
+msgstr "Log de mensagens"
+
+#: ../resources/views/messenger/manage/log.blade.php:14
+msgid "Sender"
+msgstr "Remetente"
+
+#: ../resources/views/messenger/manage/log.blade.php:15
+msgid "Receiver"
+msgstr "Destinatário"
+
+#: ../resources/views/messenger/manage/log.blade.php:17
+msgid "Send On"
+msgstr "Enviar em"
+
+#: ../resources/views/public-master.blade.php:72
+msgid "OK"
+msgstr "OK"
+
+#: ../resources/views/public-master.blade.php:99
+msgid "Not now"
+msgstr "Agora não"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:13
+msgid "Manage Abuse Reports"
+msgstr "Gerenciar relatórios Abuso"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:25
+#: ../config/__tech.php:159
+msgid "Awaiting"
+msgstr "Aguardando"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:33
+#: ../config/__tech.php:160
+msgid "Accepted"
+msgstr "Aceito"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:41
+#: ../resources/views/abuse-report/manage/list.blade.php:158
+#: ../config/__tech.php:161
+msgid "Rejected"
+msgstr "Rejeitado"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:51
+msgid "Reported User"
+msgstr "Usuário reportado"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:53
+msgid "Total Report"
+msgstr "Relatório total"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:73
+msgid "Moderate"
+msgstr "Moderado"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:108
+msgid "Report Moderation"
+msgstr "Relatório de Moderação"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:124
+msgid "Reported By"
+msgstr "Reportado por"
+
+#: ../resources/views/abuse-report/manage/list.blade.php:143
+msgid "Remarks"
+msgstr "Observações"
+
+#: ../resources/views/filter/filter.blade.php:51
+#: ../resources/views/filter/filter.blade.php:58
+msgid "__translatedAge__"
+msgstr "__translatedAge__"
+
+#: ../resources/views/filter/filter.blade.php:67
+msgid "Distance in __distanceUnit__"
+msgstr "Distância em __distanceUnit__"
+
+#: ../resources/views/filter/filter.blade.php:74
+msgid "Show Advance Filter"
+msgstr "Mostrar Filtro Avançado"
+
+#: ../resources/views/filter/filter.blade.php:75
+msgid "Hide Advance Filter"
+msgstr "Esconder Filtro Avançado"
+
+#: ../resources/views/filter/filter.blade.php:92
+msgid "Personal"
+msgstr "Pessoal"
+
+#: ../resources/views/filter/filter.blade.php:119
+msgid "Language"
+msgstr "Língua"
+
+#: ../resources/views/filter/filter.blade.php:195
+msgid "Select Min Height"
+msgstr "Selecionar altura miníma"
+
+#: ../resources/views/filter/filter.blade.php:201
+msgid "Select Max Height"
+msgstr "Selecionar altura máxima"
+
+#: ../resources/views/filter/filter.blade.php:231
+msgid "Apply Filters"
+msgstr "Aplicar Filtros"
+
+#: ../resources/views/filter/filter.blade.php:238
+msgid "__filterCount__ Match Found"
+msgid_plural "__filterCount__ Matches Found"
+msgstr[0] "__filterCount__ Registro encontrado"
+msgstr[1] "__filterCount__ Registos encontrados"
+
+#: ../resources/views/filter/filter.blade.php:247
+msgid "Load More"
+msgstr "Mostrar Mais"
+
+#: ../resources/views/filter/find-matches.blade.php:38
+#: ../resources/views/home.blade.php:109
+msgid "There are no matches found."
+msgstr "Nenhum resultado encontrado"
+
+#: ../resources/views/items/sticker/manage/edit.blade.php:3
+msgid "Edit Sticker"
+msgstr "Editar Etiqueta"
+
+#: ../resources/views/items/sticker/manage/edit.blade.php:6
+#: ../resources/views/items/sticker/manage/add.blade.php:6
+msgid "Back to Stickers"
+msgstr "voltar às etiquetas"
+
+#: ../resources/views/items/sticker/manage/edit.blade.php:39
+#: ../resources/views/items/sticker/manage/add.blade.php:39
+#: ../resources/views/items/gift/manage/edit.blade.php:37
+#: ../resources/views/items/gift/manage/add.blade.php:36
+msgid "Normal Price"
+msgstr "Preço normal"
+
+#: ../resources/views/items/sticker/manage/edit.blade.php:51
+#: ../resources/views/items/sticker/manage/add.blade.php:51
+#: ../resources/views/items/gift/manage/edit.blade.php:49
+#: ../resources/views/items/gift/manage/add.blade.php:47
+msgid "Premium Price"
+msgstr "Preço premium"
+
+#: ../resources/views/items/sticker/manage/edit.blade.php:65
+#: ../resources/views/items/sticker/manage/add.blade.php:65
+msgid "Is for premium user only"
+msgstr "É apenas para usuários premium"
+
+#: ../resources/views/items/sticker/manage/add.blade.php:3
+msgid "Add Sticker"
+msgstr "Adicionar etiqueta"
+
+#: ../resources/views/items/sticker/manage/list.blade.php:13
+msgid "Manage Stickers"
+msgstr "Gerenciar etiquetas"
+
+#: ../resources/views/items/sticker/manage/list.blade.php:14
+msgid "Add New Sticker"
+msgstr "Adicionar nova etiqueta"
+
+#: ../resources/views/items/sticker/manage/list.blade.php:27
+#: ../resources/views/items/gift/manage/list.blade.php:27
+msgid "Normal Price (In Credits)"
+msgstr "Preço normal (em créditos)"
+
+#: ../resources/views/items/sticker/manage/list.blade.php:28
+#: ../resources/views/items/gift/manage/list.blade.php:28
+msgid "Premium Price (In Credits)"
+msgstr "Premium Preço (em créditos)"
+
+#: ../resources/views/items/sticker/manage/list.blade.php:30
+msgid "Is Premium"
+msgstr "É premium"
+
+#: ../resources/views/items/gift/manage/edit.blade.php:3
+msgid "Edit Gift"
+msgstr "Editar Presente"
+
+#: ../resources/views/items/gift/manage/edit.blade.php:6
+#: ../resources/views/items/gift/manage/add.blade.php:6
+msgid "Back to Gifts"
+msgstr "Voltar para presentes"
+
+#: ../resources/views/items/gift/manage/add.blade.php:3
+msgid "Add Gift"
+msgstr "Adicionar presente"
+
+#: ../resources/views/items/gift/manage/list.blade.php:13
+msgid "Manage Gifts"
+msgstr "Gerenciar presentes"
+
+#: ../resources/views/items/gift/manage/list.blade.php:14
+msgid "Add New Gift"
+msgstr "Adicionar novo presente"
+
+#: ../resources/views/pages/manage/edit.blade.php:13
+msgid "Edit Page"
+msgstr "Editar Página"
+
+#: ../resources/views/pages/manage/edit.blade.php:16
+#: ../resources/views/pages/manage/add.blade.php:16
+msgid "Back to Pages"
+msgstr "Voltar para Páginas"
+
+#: ../resources/views/pages/manage/edit.blade.php:26
+msgid "Preview URL"
+msgstr "URL de Previsualizaçao"
+
+#: ../resources/views/pages/manage/edit.blade.php:45
+#: ../resources/views/pages/manage/add.blade.php:36
+msgid "Description"
+msgstr "Descrição"
+
+#: ../resources/views/pages/manage/add.blade.php:13
+msgid "Add Page"
+msgstr "Adicionar Página"
+
+#: ../resources/views/pages/manage/list.blade.php:13
+msgid "Manage Pages"
+msgstr "Gerenciar Páginas"
+
+#: ../resources/views/pages/manage/list.blade.php:14
+msgid "Add New Page"
+msgstr "Adicionar Nova Página"
+
+#: ../resources/views/pages/manage/list.blade.php:25
+msgid "Created"
+msgstr "Criado em"
+
+#: ../resources/views/pages/manage/list.blade.php:26
+msgid "Updated"
+msgstr "Atualizado em"
+
+#: ../resources/views/pages/manage/list.blade.php:42
+msgid "You want to delete this page."
+msgstr "Você quer eliminar esta página."
+
+#: ../resources/views/pages/manage/list.blade.php:58
+msgid "Preview Page"
+msgstr "Visualizar Página"
+
+#: ../resources/views/home.blade.php:14
+msgid "Encounter"
+msgstr "Encontrar"
+
+#: ../resources/views/home.blade.php:82
+msgid "Your daily limit for encounters may exceed or there are no users to show."
+msgstr "O seu limite diário de encontros pode ter excedido ou não há usuários para mostrar."
+
+#: ../resources/views/home.blade.php:89
+msgid "This is a premium feature, to view encounter you need to buy premium plan first."
+msgstr "Este é um recurso premium, você precisa comprar plano premium em primeiro lugar."
+
+#: ../resources/views/home.blade.php:98
+msgid "Random Users"
+msgstr "Usuário Aleatórios"
+
+#: ../config/__settings.php:391
+msgid "Gold (SDD/SMM) - 1 Mês"
+msgstr "Gold (SDD / SMM) - 1 Mês"
+
+#: ../config/__settings.php:396
+msgid "Gold (SDD/SMM) - 3 Meses"
+msgstr "Gold (SDD / SMM) - 3 Meses"
+
+#: ../config/__settings.php:401
+msgid "Gold (SDD/SMM) - 6 Meses"
+msgstr "Gold (SDD / SMM) - 6 Meses"
+
+#: ../config/__settings.php:406
+msgid "Gold (SDD/SMM) - 1 Ano"
+msgstr "Gold (SDD / SMM) - 1 Ano"
+
+#: ../config/__settings.php:413
+msgid "Plantium (SDD/SMM) - 1 Mês"
+msgstr "Plantium (SDD / SMM) - 1 Mês"
+
+#: ../config/__settings.php:418
+msgid "Plantium (SDD/SMM) - 3 Meses"
+msgstr "Plantium (SDD / SMM) - 3 Meses"
+
+#: ../config/__settings.php:423
+msgid "Plantium (SDD/SMM) - 5 Meses"
+msgstr "Plantium (SDD / SMM) - 5 Meses"
+
+#: ../config/__settings.php:428
+msgid "Plantium (SDD/SMM) - 1 Ano"
+msgstr "Plantium (SDD / SMM) - 1 Ano"
+
+#: ../config/__settings.php:435
+msgid "Gold (SBB) - 1 Mês"
+msgstr "Gold (SBB) - 1 Mês"
+
+#: ../config/__settings.php:440
+msgid "Gold (SBB) - 3 Meses"
+msgstr "Gold (SBB) - 3 Meses"
+
+#: ../config/__settings.php:445
+msgid "Gold (SBB) - 6 Meses"
+msgstr "Gold (SBB) - 6 Meses"
+
+#: ../config/__settings.php:450
+msgid "Gold (SBB) - 1 Ano"
+msgstr "Gold (SBB) - 1 Ano"
+
+#: ../config/__settings.php:457
+msgid "Plantium (SBB) - 1 Mês"
+msgstr "Plantium (SBB) - 1 Mês"
+
+#: ../config/__settings.php:462
+msgid "Plantium (SBB) - 3 Meses"
+msgstr "Plantium (SBB) - 3 Meses"
+
+#: ../config/__settings.php:467
+msgid "Plantium (SBB) - 6 Meses"
+msgstr "Plantium (SBB) - 6 Meses"
+
+#: ../config/__settings.php:472
+msgid "Plantium (SBB) - 1 Ano"
+msgstr "Plantium (SBB) - 1 Ano"
+
+#: ../config/__settings.php:485
+msgid "No Adds"
+msgstr "No Adds"
+
+#: ../config/__settings.php:491
+#: ../config/__settings.php:507
+#: ../config/__settings.php:523
+#: ../config/__settings.php:539
+#: ../config/__settings.php:555
+#: ../config/__settings.php:572
+msgid "All Users"
+msgstr "Todos os usuários"
+
+#: ../config/__settings.php:495
+#: ../config/__settings.php:511
+#: ../config/__settings.php:527
+#: ../config/__settings.php:543
+#: ../config/__settings.php:559
+#: ../config/__settings.php:576
+msgid "Premium Users"
+msgstr "Usuários premium"
+
+#: ../config/__settings.php:501
+msgid "Browse in Incognito mode"
+msgstr "Navegar no modo Incognito"
+
+#: ../config/__settings.php:517
+msgid "Show Who Likes Me"
+msgstr "Mostrar quem me deu curtida"
+
+#: ../config/__settings.php:533
+msgid "Audio Call Via Messenger"
+msgstr "Chamada de Áudio via Mensageiro"
+
+#: ../config/__settings.php:549
+msgid "Video Call Via Messenger"
+msgstr "Chamada de Vídeo via do Mensageiro"
+
+#: ../config/__settings.php:565
+msgid "User Encounter"
+msgstr "Encontro de usuário"
+
+#: ../config/__settings.php:590
+msgid "728 X 90 (Appear in Header)"
+msgstr "728 X 90 (aparecer no cabeçalho)"
+
+#: ../config/__settings.php:602
+msgid "728 X 90 (Appear in Footer)"
+msgstr "728 X 90 (aparecem no rodapé)"
+
+#: ../config/__settings.php:614
+msgid "200 X 200 (Appear in User Sidebar)"
+msgstr "200 X 200 (aparecem na barra lateral do utilizador)"
+
+#: ../config/__tech.php:51
+msgid "Suspended"
+msgstr "Suspenso"
+
+#: ../config/__tech.php:52
+msgid "On Hold"
+msgstr "Em espera"
+
+#: ../config/__tech.php:53
+#: ../config/__tech.php:101
+msgid "Completed"
+msgstr "Concluído"
+
+#: ../config/__tech.php:54
+msgid "Invite"
+msgstr "Convite"
+
+#: ../config/__tech.php:68
+msgid "Buying Package"
+msgstr "Compra Package"
+
+#: ../config/__tech.php:70
+msgid "Sticker"
+msgstr "Etiqueta"
+
+#: ../config/__tech.php:71
+msgid "Profile Boost"
+msgstr "Impulsionar perfil"
+
+#: ../config/__tech.php:72
+msgid "Premium Plan"
+msgstr "Plano premium"
+
+#: ../config/__tech.php:73
+msgid "Bonus Credits"
+msgstr "Créditos de bônus"
+
+#: ../config/__tech.php:100
+msgid "Awaiting Payment"
+msgstr "Aguardando Pagamento"
+
+#: ../config/__tech.php:103
+msgid "Pending"
+msgstr "Pendente"
+
+#: ../config/__tech.php:104
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: ../config/__tech.php:107
+msgid "Test"
+msgstr "Teste"
+
+#: ../config/__tech.php:108
+msgid "Live"
+msgstr "Live"
+
+#: ../config/__tech.php:111
+msgid "Bonuses"
+msgstr "Bônus"
+
+#: ../config/__tech.php:112
+msgid "Purchased"
+msgstr "Comprado"
+
+#: ../config/__tech.php:227
+msgid "Sugar Daddy"
+msgstr "Sugar Daddy"
+
+#: ../config/__tech.php:228
+msgid "Sugar Mommy"
+msgstr "Sugar Mommy"
+
+#: ../config/__tech.php:229
+msgid "Sugar Baby (Girl)"
+msgstr ""
+
+#: ../config/__tech.php:230
+msgid "Sugar Baby (Boy)"
+msgstr ""
+
+#: ../config/__tech.php:235
+msgid "English"
+msgstr "Inglês"
+
+#: ../config/__tech.php:240
+msgid "Italian"
+msgstr "Italiano"
+
+#: ../config/__tech.php:241
+msgid "Portuguese"
+msgstr "Português"
+
+#: ../config/__tech.php:242
+msgid "Russian"
+msgstr "Russo"
+
+#: ../config/__tech.php:243
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: ../config/__tech.php:248
+msgid "Chinese"
+msgstr "Chinês"
+
+#: ../config/__tech.php:249
+msgid "Japanese"
+msgstr "Japonês"
+
+#: ../config/__tech.php:252
+msgid "Korean"
+msgstr "Coreano"
+
+#: ../config/__tech.php:259
+msgid "Single"
+msgstr "Solteiro(a)"
+
+#: ../config/__tech.php:260
+msgid "Married"
+msgstr "Casado(a)"
+
+#: ../config/__tech.php:261
+msgid "Divorced"
+msgstr "Divorciado(a)"
+
+#: ../config/__tech.php:262
+msgid "Widow"
+msgstr "Viúvo(a)"
+
+#: ../config/__tech.php:265
+msgid "Studying"
+msgstr "Estudando"
+
+#: ../config/__tech.php:266
+msgid "Working"
+msgstr "Trabalhando"
+
+#: ../config/__tech.php:267
+msgid "Looking for work"
+msgstr "Procurando por trabalho"
+
+#: ../config/__tech.php:268
+msgid "Retired"
+msgstr "Aposentado(a)"
+
+#: ../config/__tech.php:269
+msgid "Self-Employed"
+msgstr "Empresário"
+
+#: ../config/__tech.php:273
+msgid "Secondary school"
+msgstr "Ensino Médio"
+
+#: ../config/__tech.php:274
+msgid "ITI"
+msgstr "ITI"
+
+#: ../config/__tech.php:275
+msgid "College"
+msgstr "Faculdade"
+
+#: ../config/__tech.php:276
+msgid "University"
+msgstr "Universidade"
+
+#: ../config/__tech.php:277
+msgid "Advanced degree"
+msgstr "Mestrado e/ou Doutorado"
