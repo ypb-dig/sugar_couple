@@ -105,16 +105,16 @@ use App\Yantrana\Components\UserSetting\Repositories\{UserSettingRepository};
     {
         function parseDateToIso($date, $format = '%d/%m/%Y')
         {
-            $parsed = strptime($date , $format);
+            $parsed = date_parse_from_format($date, $format);
 
             if(is_array($parsed))
             {
-                $y = (int)$parsed['tm_year'] + 1900;
+                $y = (int)$parsed['year'] + 1900;
                 
-                $m = (int)$parsed['tm_mon'] + 1;
+                $m = (int)$parsed['month'] + 1;
                 $m = sprintf("%02d", $m);
                 
-                $d = (int)$parsed['tm_mday'];
+                $d = (int)$parsed['day'];
                 $d = sprintf("%02d", $d);
                 
                 $iso_date = "$y-$m-$d";
