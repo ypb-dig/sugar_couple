@@ -126,6 +126,8 @@ class CreditWalletRepository extends BaseRepository
      *
      * @return mixed
      *---------------------------------------------------------------- */
+    // Aqui está a lógica de conversão de moedas
+    
     public function storePlanTransaction($inputData, $packageData)
     {
         $keyValues = [
