@@ -41,6 +41,8 @@ class FinancialTransactionRepository extends BaseRepository
      *
      * @return array
      *---------------------------------------------------------------- */
+
+    // aqui paga os dados financeiros, adicionar dados de gift
     public function fetchTransactionListData($transactionType)
     {
         $dataTableConfig = [
