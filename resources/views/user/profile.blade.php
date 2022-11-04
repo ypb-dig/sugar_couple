@@ -888,6 +888,9 @@
 				</div> 
 				<div class="card-body">
 					<img class="profile-image-badge profile-image-badge-{{getUserPlan($userData['userId'])}} lw-profile-thumbnail lw-photoswipe-gallery-img lw-lazy-img" id="lwProfilePictureStaticImage" data-src="<?= imageOrNoImageAvailable($userData['profilePicture']) ?>">
+
+					<!-- user credit data -->
+					
 					@if(getUserSettings('show_wallet_credits', $userData['userId']) == true && !$isOwnProfile)
 					<div class="credits">SC$ <span><?= totalUserCredits($userData['userId']) ?></span></div>
 					@endif

@@ -20,8 +20,8 @@ class FinancialTransaction extends BaseModel
      */
     protected $casts = [
         '_id'          => 'integer',
-		'status'       => 'integer',
-		'__data'   	   => 'array'
+		    'status'       => 'integer',
+		    '__data'   	   => 'array'
     ];
 
     /**
@@ -32,7 +32,7 @@ class FinancialTransaction extends BaseModel
     protected $jsonColumns = [
 		'__data' => [
 			'rawPaymentData' => 'array',
-			'packageName'	 => 'string'
+			'packageName'	   => 'string'
 		]
 	];
 }

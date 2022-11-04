@@ -267,7 +267,7 @@ class ManageUserRepository extends BaseRepository
         // Store New User
         if ($walletIds = $creditWalletTransaction->prepareAndInsert($storeData, '_id')) {
 
-        	// activityLog(strtr("__usersCount__ fake users credit wallet added.", ['__usersCount__' => count($walletIds)]));
+        	activityLog(strtr("__usersCount__ fake users credit wallet added.", ['__usersCount__' => count($walletIds)]));
 
             return $walletIds;
         }

@@ -1,8 +1,7 @@
 <?php
 
 use Carbon\Carbon;
-
-use App\Yantrana\Components\User\Models\{ User, UserProfile, UserAuthorityModel, LikeDislikeModal, CreditWalletTransaction, UserSubscription, ProfileBoost, UserBlock };
+use App\Yantrana\Components\User\Models\{ User, UserProfile, UserAuthorityModel, LikeDislikeModal, CreditWalletTransaction, UserSubscription, ProfileBoost, UserBlock, UserGiftModel };
 use App\Yantrana\Components\User\Models\NotificationLog;
 use App\Yantrana\Support\CommonTrait;
 use App\Yantrana\Components\User\Repositories\{UserRepository};
@@ -1160,7 +1159,6 @@ use App\Yantrana\Components\UserSetting\Repositories\{UserSettingRepository};
     if (!function_exists('totalUserCredits')) {
         function totalUserCredits($userID = null)
         {
-
             //if user is not exist then user loggedIn user id
             if (__isEmpty($userID)) {
                 $userID = getUserID();
@@ -1171,7 +1169,13 @@ use App\Yantrana\Components\UserSetting\Repositories\{UserSettingRepository};
 			//get wallet credits array
 			$credits = $walletTransactions->pluck('credits')->toArray();
 			//sum total credits
-			return array_sum($credits);
+
+            
+            $walletGiftTransactions = UserGiftModel::where('to_users__id', $userID)->get();
+            $creditsGift = $walletGiftTransactions->pluck('price')->toArray();
+            
+
+			return array_sum($credits) + array_sum($creditsGift);
         }
 	}
 

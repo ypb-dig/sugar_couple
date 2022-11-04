@@ -1108,6 +1108,7 @@ class UserRepository extends BaseRepository implements UserRepositoryBlueprint
 		];
 		
 		$creditWalletTransaction = new CreditWalletTransaction;
+        
 		// Check if new User added
 		if ($creditWalletTransaction->assignInputsAndSave($storeData, $keyValues)) {
 			return $creditWalletTransaction->_id;

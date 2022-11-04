@@ -301,8 +301,7 @@ class UserEngine extends BaseEngine
     public function userSignUpProcess($inputData)
     {
 
-
-        $inputData['first_name'] = $inputData['username'];
+		$inputData['first_name'] = $inputData['username'];
 
         $transactionResponse = $this->userRepository->processTransaction(function() use($inputData) {
             $activationRequiredForNewUser = getStoreSettings('activation_required_for_new_user');
@@ -313,7 +312,6 @@ class UserEngine extends BaseEngine
                 $inputData['status'] = 4; // Never Activated
             }
 
-
             // Store user
             $newUser = $this->userRepository->storeUser($inputData);
             // Check if user not stored successfully
@@ -323,7 +321,7 @@ class UserEngine extends BaseEngine
             $userAuthorityData = [
                 'user_id' => $newUser->_id,
                 'user_roles__id' => 2
-            ]; 
+            ];
             // Add user authority
             if ($this->userRepository->storeUserAuthority($userAuthorityData)) {
 
@@ -799,10 +797,13 @@ class UserEngine extends BaseEngine
 						
 						//loggedIn user name
 						$loggedInUserName = Auth::user()->first_name.' '.Auth::user()->last_name;
+
 						//check user browser
 						$allowVisitorProfile = getFeatureSettings('browse_incognito_mode');
+
 						//check in setting allow visitor notification log and pusher request
-						if (!$allowVisitorProfile) {						
+						if (!$allowVisitorProfile) {
+
 							//notification log message
 							notificationLog('Perfil visitado por:'.' '.$loggedInUserName, route('user.profile_view', ['username' => Auth::user()->username]), null, $userId);
 
@@ -823,6 +824,7 @@ class UserEngine extends BaseEngine
 				                'visitorName' => $loggedInUserName,
 				                'url' => URL::to('/')
 			            	];
+							
 							// check if email send to member
 				            if($this->baseMailer->notifyToUser('Seu perfil foi visitado', 'account.visited', $emailData, $user->email)){}
 
@@ -1352,6 +1354,7 @@ class UserEngine extends BaseEngine
 					'price'			 => $giftData->normal_price,
 					'message'	     => (isset($inputData['gift_message'])) ? $inputData['gift_message'] : '',
 					'credit_wallet_transactions__id' => $creditWalledId
+					
 				];
 
 				//store gift data
