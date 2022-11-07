@@ -61,8 +61,4 @@
             'js/app.js'            
 		], true) ?>
         @stack('header')
-
-		<script>
-			console.log({test: window.location});	
-		</script>
 	</head>

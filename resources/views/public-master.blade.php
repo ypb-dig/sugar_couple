@@ -2,9 +2,6 @@
 @include('includes.header')
 <!-- /include header -->
 <body id="page-top" class="lw-page-bg lw-public-master">
-    <script>
-        console.log({test: window.location});	
-    </script>
     <div class="public-topbar">
         <div class="logo">
             <a class="sidebar-brand d-flex align-items-center bg-dark" href="<?= url('/home') ?>">

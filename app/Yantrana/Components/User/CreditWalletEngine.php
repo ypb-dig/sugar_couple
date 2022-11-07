@@ -16,6 +16,7 @@ use App\Yantrana\Components\User\StripeEngine;
 use App\Yantrana\Components\User\RazorpayEngine;
 use App\Yantrana\Components\User\PremiumPlanEngine;
 use App\Yantrana\Components\Configuration\Models\CupomModel;
+use Illuminate\Support\Facades\Log;
 
 
 class CreditWalletEngine extends BaseEngine 
@@ -158,6 +159,9 @@ class CreditWalletEngine extends BaseEngine
     public function prepareUserWalletTransactionList()
     {	
 		$transactionCollection = $this->creditWalletRepository->fetchUserWalletTransactionList();
+
+        // Crio um log para verificar o que a variável retornas
+        Log::info($transactionCollection);
 		
         $requireColumns = [
             '_id',
