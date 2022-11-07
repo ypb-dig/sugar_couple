@@ -1168,13 +1168,12 @@ use App\Yantrana\Components\UserSetting\Repositories\{UserSettingRepository};
 			$walletTransactions = CreditWalletTransaction::where('users__id', $userID)->get();
 			//get wallet credits array
 			$credits = $walletTransactions->pluck('credits')->toArray();
-			//sum total credits
 
-            
+            // get wallet gift credts
             $walletGiftTransactions = UserGiftModel::where('to_users__id', $userID)->get();
             $creditsGift = $walletGiftTransactions->pluck('price')->toArray();
             
-
+            //sum total credits
 			return array_sum($credits) + array_sum($creditsGift);
         }
 	}
