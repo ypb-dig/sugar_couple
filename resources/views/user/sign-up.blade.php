@@ -98,17 +98,17 @@
                                     <!-- Selec Gender Fillter -->
                                     <div class="col-sm-12 mb-6 mb-sm-0" style="padding: 0px 0px 12px !important;">
                                         <select name="gender" class="select-gender-filter form-control form-control-user lw-user-gender-select-box" data-toggle="tooltip" data-placement="top" title="Escolha o que você é"  required>
-                                            <option value="" selected disabled>Genêro</option>
-                                                <option value="Masculino">Masculino</option>
-                                                <option value="Feminino">Feminino</option>
+                                            <option value="" selected disabled>EU SOU</option>
+                                                <option value="Masculino">Homem</option>
+                                                <option value="Feminino">Mulher</option>
                                         </select>
                                     </div>
 				                        <!-- /Gender -->
                                     <div class="form-group row">
                                         <!-- Gender -->
 				                        <div class="col-sm-6 mb-3 mb-sm-0">
-				                            <select name="gender" class="form-control form-control-user lw-user-gender-select-box" id="select_gender" data-toggle="tooltip" data-placement="top" title="Escolha o que você é"  required>
-				                                <option value="" selected disabled><?= __tr('EU SOU') ?></option>
+				                            <select name="gender" class="form-control form-control-user lw-user-gender-select-box" id="select_gender" data-toggle="tooltip" data-placement="top" title="Escolha o que você é"  required disabled>
+				                                <option value="" selected disabled><?= __tr('EU QUERO SER') ?></option>
 				                                @foreach($genders as $genderKey => $gender)
 				                                    <option value="<?= $genderKey ?>"><?= $gender ?></option>
 				                                @endforeach
@@ -239,6 +239,8 @@
 
                   if(filterGender.value == "Masculino"){
 
+                    gender.removeAttribute('disabled');
+
                     console.log("Sou macho");
 
                     gender.options[1].classList.remove("hide-filter");
@@ -248,6 +250,8 @@
                     gender.options[3].classList.add("hide-filter");
 
                   }else if(filterGender.value == "Feminino"){
+                    
+                    gender.removeAttribute('disabled');
                     
                     console.log("Sou Fêmea");
 
