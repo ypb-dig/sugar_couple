@@ -6,6 +6,7 @@ use App\Yantrana\Base\BaseModel;
 use App\Yantrana\Components\FinancialTransaction\Models\FinancialTransaction;
 use App\Yantrana\Components\User\Models\{UserGiftModel, ProfileBoost, UserSubscription};
 use App\Yantrana\Components\Item\Models\UserItemModel;
+use Illuminate\Support\Facades\Log;
 
 class CreditWalletTransaction extends BaseModel
 {
@@ -46,8 +47,10 @@ class CreditWalletTransaction extends BaseModel
     * Get user gift transaction data.
     */
     public function getUserGiftTransaction()
-    {
-        return $this->hasOne(UserGiftModel::class, 'credit_wallet_transactions__id', '_id');
+    {   
+        Log::info($this->hasOne(UserGiftModel::class, 'credit_wallet_transactions__id', '_id'));
+
+        return $this->hasOne(UserGiftModel::class, 'credit_wallet_transactions__id', '_id'); 
 	}
 	
 	/**

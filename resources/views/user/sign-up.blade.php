@@ -94,6 +94,16 @@
                                         }
                                     </script>
                                     <!-- /Email Address Confirmation -->
+
+                                    <!-- Selec Gender Fillter -->
+                                    <div class="col-sm-12 mb-6 mb-sm-0" style="padding: 0px 0px 12px !important;">
+                                        <select name="gender" class="select-gender-filter form-control form-control-user lw-user-gender-select-box" data-toggle="tooltip" data-placement="top" title="Escolha o que você é"  required>
+                                            <option value="" selected disabled>Genêro</option>
+                                                <option value="Masculino">Masculino</option>
+                                                <option value="Feminino">Feminino</option>
+                                        </select>
+                                    </div>
+				                        <!-- /Gender -->
                                     <div class="form-group row">
                                         <!-- Gender -->
 				                        <div class="col-sm-6 mb-3 mb-sm-0">
@@ -104,7 +114,7 @@
 				                                @endforeach
 				                            </select>
 				                        </div>
-				                        <!-- /Gender -->
+
 
                                         <!-- Confirm Password -->
                                         <div class="col-sm-6">
@@ -221,6 +231,37 @@
                 $(".terms-box").hide();
             }
 
+            function ValidateGander(){
+                var filterGender = document.querySelector('.select-gender-filter');
+                var gender = document.querySelector('#select_gender');
+
+                filterGender.addEventListener('change', function(){
+
+                  if(filterGender.value == "Masculino"){
+
+                    console.log("Sou macho");
+
+                    gender.options[1].classList.remove("hide-filter");
+                    gender.options[4].classList.remove("hide-filter")
+
+                    gender.options[2].classList.add("hide-filter");
+                    gender.options[3].classList.add("hide-filter");
+
+                  }else if(filterGender.value == "Feminino"){
+                    
+                    console.log("Sou Fêmea");
+
+                    gender.options[2].classList.remove("hide-filter");
+                    gender.options[3].classList.remove("hide-filter")
+
+                    gender.options[1].classList.add("hide-filter");
+                    gender.options[4].classList.add("hide-filter");
+                  }
+                });
+            }
+
+            ValidateGander();
+
         </script>
         <style>
             .terms-box{
@@ -267,6 +308,10 @@
 
             .lw-login-register-page input[type=email]{
               text-transform: lowercase;
+            }
+
+            .hide-filter{
+                display: none;
             }
 
         </style>
