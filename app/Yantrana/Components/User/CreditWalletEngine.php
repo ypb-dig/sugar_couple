@@ -109,10 +109,10 @@ class CreditWalletEngine extends BaseEngine
 
         $premiumUser = isPremiumUser();
 
-        if(!$premiumUser){
-            $descount = 'é Não';
+        if($premiumUser){
+            $isPremium = 'É Sim';
         }else{
-            $isPremium = 'é sim';
+            $isPremium = 'É não';
         }
 
         $creditPackages = [];
