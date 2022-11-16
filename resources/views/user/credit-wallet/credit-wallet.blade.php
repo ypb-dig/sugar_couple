@@ -92,7 +92,7 @@
                                 ]) ?>
                             </h3>
 							@if($package['premiumUser'])
-								<p styel="margin-bottom: 0px; text-decoration: line-through;">
+								<p style="margin-bottom: 0px; text-decoration: line-through;">
 									De: <?= $package['price'] ?>
 								</p>
 								<span>
