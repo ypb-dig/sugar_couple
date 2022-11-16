@@ -83,7 +83,11 @@
 					@foreach($creditWalletData['creditPackages'] as $key => $package)
 					<span class="btn lw-group-radio-option-img">
 						<span class="lw-credit-package-name"><?= $package['package_name'] ?></span>
-						<input type="radio" value="<?= $package['_uid'] ?>" data-package-price="<?= $package['price'] ?>"  data-package-name="<?= $package['package_name'] ?>" name="select_package"/>
+							@if($package['premiumUser'])
+								<input type="radio" value="<?= $package['_uid'] ?>" data-package-price="<?= $package['discountValue'] ?>"  data-package-name="<?= $package['package_name'] ?>" name="select_package"/>
+							@else
+								<input type="radio" value="<?= $package['_uid'] ?>" data-package-price="<?= $package['price'] ?>"  data-package-name="<?= $package['package_name'] ?>" name="select_package"/>
+							@endif
 						<div>
 							<img src="<?= $package['packageImageUrl'] ?>"/>
                             <h3 class="text-success">
@@ -429,13 +433,6 @@
 			}
 		});
 	});
-
-	<style>
-		.from-price{
-			
-    		
-		}
-	</style>
 
 	//on success callback
 	function onSuccessCallback(responseData) {
