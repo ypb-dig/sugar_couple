@@ -88,6 +88,7 @@
 						<li><?= $package['credit'] ?></li>
 						<li><?= $package['price'] ?></li>
 						<li><?= $package['premiumUser'] ?></li>
+						<li><?= $package['discountValue'] ?></li>
 					</ul>
 					
 				@endforeach

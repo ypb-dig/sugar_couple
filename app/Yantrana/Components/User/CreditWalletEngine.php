@@ -109,16 +109,20 @@ class CreditWalletEngine extends BaseEngine
 
         $premiumUser = isPremiumUser();
 
-        if($premiumUser){
-            $isPremium = 'É Sim';
-        }else{
-            $isPremium = 'É não';
-        }
+
 
         $creditPackages = [];
         // check if user collection exists
         if (!__isEmpty($packageCollection)) {
             foreach($packageCollection as $key => $package) {
+                
+                $normalPrice = intval($package['price']);
+
+                if($premiumUser){
+                    $discountValue = 0.1;
+                    $discount = $normalPrice - ($normalPrice * $discountValue);
+                }
+
 				$packageImageUrl = '';
 				$packageImageFolderPath = getPathByKey('package_image', ['{_uid}' => $package->_uid]);
 				$packageImageUrl = getMediaUrl($packageImageFolderPath, $package['image']);
@@ -127,9 +131,10 @@ class CreditWalletEngine extends BaseEngine
 					'_uid'				=> $package['_uid'],
                     'package_name'   	=> $package['title'],
                     'credit' 			=> $package['credits'],
-					'price' 			=> intval($package['price']),
+					'price' 			=> $normalPrice,
 					'packageImageUrl'	=> $packageImageUrl,
-                    'premiumUser'       => $isPremium
+                    'premiumUser'       => $premiumUser,
+                    'discountValue'     => $discount
                 ];
             }
 		}
