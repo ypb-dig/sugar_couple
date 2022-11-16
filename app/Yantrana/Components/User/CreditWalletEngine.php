@@ -115,12 +115,13 @@ class CreditWalletEngine extends BaseEngine
         // check if user collection exists
         if (!__isEmpty($packageCollection)) {
             foreach($packageCollection as $key => $package) {
-                
+                //get the price in R$ currency
                 $normalPrice = intval($package['price']);
 
+                // apply the descount in value if the user is premium
                 if($premiumUser){
-                    $discountValue = 0.1;
-                    $discount = $normalPrice - ($normalPrice * $discountValue);
+                    $finalValueDisount = 0.9;
+                    $discount = $normalPrice  * $finalValueDisount;
                 }
 
 				$packageImageUrl = '';
