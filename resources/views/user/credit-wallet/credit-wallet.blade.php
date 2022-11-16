@@ -93,7 +93,7 @@
                             </h3>
 							@if($package['premiumUser'])
 								<p style="margin-bottom: 0px; text-decoration: line-through;">
-									De: <?= $package['price'] ?>
+									De: R$<?= $package['price'] ?>
 								</p>
 								<span>
 									<?= __tr('for __currencyCode__ __price__ only', [
