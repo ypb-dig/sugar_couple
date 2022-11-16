@@ -105,12 +105,25 @@
                                     '__credits__' => $package['credit']
                                 ]) ?>
                             </h3>
-							<span>
-								<?= __tr('for __currencyCode__ __price__ only', [
-                                    '__currencyCode__' => getStoreSettings('currency_symbol'),
-                                    '__price__' => $package['price']
-                                ]) ?>
-							</span>
+							@if($package['premiumUser'])
+								<p>
+									De: <?= $package['price'] ?>
+								</p>
+								<span>
+									<?= __tr('for __currencyCode__ __price__ only', [
+										'__currencyCode__' => getStoreSettings('currency_symbol'),
+										'__price__' => $package['price']
+									]) ?>
+								</span>
+							@else
+								<span>
+									<?= __tr('for __currencyCode__ __price__ only', [
+										'__currencyCode__' => getStoreSettings('currency_symbol'),
+										'__price__' => $package['price']
+									]) ?>
+								</span>
+							@endif
+							
 						</div>
 					</span>
 					@endforeach

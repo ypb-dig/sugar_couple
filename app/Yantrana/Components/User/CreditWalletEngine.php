@@ -115,6 +115,8 @@ class CreditWalletEngine extends BaseEngine
         // check if user collection exists
         if (!__isEmpty($packageCollection)) {
             foreach($packageCollection as $key => $package) {
+                $discount = 0;
+
                 //get the price in R$ currency
                 $normalPrice = intval($package['price']);
 
