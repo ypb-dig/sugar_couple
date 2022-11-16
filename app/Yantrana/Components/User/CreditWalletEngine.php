@@ -107,6 +107,14 @@ class CreditWalletEngine extends BaseEngine
 		//get credit package data
 		$packageCollection = $this->creditPackageRepository->fetchAllActiveCreditPackage();
 
+        $premiumUser = isPremiumUser();
+
+        if(!$premiumUser){
+            $descount = 'é Não';
+        }else{
+            $isPremium = 'é sim';
+        }
+
         $creditPackages = [];
         // check if user collection exists
         if (!__isEmpty($packageCollection)) {
@@ -120,7 +128,8 @@ class CreditWalletEngine extends BaseEngine
                     'package_name'   	=> $package['title'],
                     'credit' 			=> $package['credits'],
 					'price' 			=> intval($package['price']),
-					'packageImageUrl'	=> $packageImageUrl
+					'packageImageUrl'	=> $packageImageUrl,
+                    'premiumUser'       => $isPremium
                 ];
             }
 		}

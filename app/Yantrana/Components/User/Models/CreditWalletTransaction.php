@@ -46,11 +46,10 @@ class CreditWalletTransaction extends BaseModel
 	/**
     * Get user gift transaction data.
     */
-    public function getUserGiftTransaction()
-    {   
-        Log::info($this->hasOne(UserGiftModel::class, 'credit_wallet_transactions__id', '_id'));
+    public function getUserGiftTransaction(){
 
-        return $this->hasOne(UserGiftModel::class, 'credit_wallet_transactions__id', '_id'); 
+        return $this->hasOne(UserGiftModel::class, 'credit_wallet_transactions__id', '_id');
+        
 	}
 	
 	/**

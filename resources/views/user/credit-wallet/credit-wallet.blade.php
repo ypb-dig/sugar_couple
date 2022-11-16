@@ -79,6 +79,19 @@
 		<form class="lw-ajax-form lw-form text-center" name="credit_wallet_form" method="post" action="<?= route('user.credit_wallet.write.payment_process') ?>" data-callback="onSuccessCallback">
  			<!-- show credit packages radio options -->
 			<div class="btn-group-toggle lw-img-credits-radio-btns-container" data-toggle="buttons">
+				<div> {{ $creditWalletData['creditPackages'][1]['price']  }} </div> 
+
+				@foreach($creditWalletData['creditPackages'] as $key => $package)
+					<ul>
+						<?= $package['package_name'] ?>
+						<li><?= $package['_uid'] ?></li>
+						<li><?= $package['credit'] ?></li>
+						<li><?= $package['price'] ?></li>
+						<li><?= $package['premiumUser'] ?></li>
+					</ul>
+					
+				@endforeach
+				
 				@if(isset($creditWalletData) and !__isEmpty($creditWalletData['creditPackages']))
 					@foreach($creditWalletData['creditPackages'] as $key => $package)
 					<span class="btn lw-group-radio-option-img">
