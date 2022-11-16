@@ -121,7 +121,7 @@ class CreditWalletEngine extends BaseEngine
                 // apply the descount in value if the user is premium
                 if($premiumUser){
                     $finalValueDisount = 0.9;
-                    $discount = $normalPrice  * $finalValueDisount;
+                    $discount = $normalPrice * $finalValueDisount;
                 }
 
 				$packageImageUrl = '';
