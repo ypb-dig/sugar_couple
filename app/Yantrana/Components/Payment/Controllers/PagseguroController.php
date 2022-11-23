@@ -3,7 +3,8 @@
 namespace App\Yantrana\Components\Payment\Controllers;
 
 use Illuminate\Http\Request;
-use App\Yantrana\Base\BaseController; 
+use App\Yantrana\Base\BaseController;
+use Illuminate\Support\Facades\Log;
 
 \PagSeguro\Library::initialize();
 \PagSeguro\Library::cmsVersion()->setName("Nome")->setRelease("1.0.0");
@@ -110,7 +111,7 @@ class PagseguroController extends BaseController
         $reponse_code = $request->get('notificationCode');
         
         Log::info($reponse_code);
-        
+
         return $reponse_code;
     }
     
