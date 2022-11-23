@@ -89,9 +89,12 @@ Route::group([
         Route::group([
             'namespace' => 'Home\Controllers'
         ], function () {
-    
 
-           
+            Route::post('notification-status', [
+                'as' => 'pagseguro.notification',
+                'uses' => 'Payment\Controllers\PagseguroController@notification',
+            ]);
+    
             // Process search from landing page
             Route::post('/search-matches', [
                 'as' => 'search_matches',
@@ -200,11 +203,6 @@ Route::group([
             'uses' => 'Payment\Controllers\PagseguroController@checkout',
         ]);
 
-        Route::post('notification-status', [
-            'as' => 'pagseguro.notification',
-            'uses' => 'Payment\Controllers\PagseguroController@notification',
-        ]);
-        
         // Home page for logged in user
         Route::get('/home', [
             'as' => 'home_page',

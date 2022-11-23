@@ -107,7 +107,7 @@ class PagseguroController extends BaseController
 
     public function notification(Request $request)
     {
-        $reponse_code = $request->get('notificationCode');
+        $reponse_code = $request->get('notificationCode');  
         
         return response()->json($reponse_code, 201);
     }
