@@ -27,6 +27,11 @@ Route::group([
         'as' => 'locale.change',
         'uses' => 'Home\Controllers\HomeController@changeLocale',
 	]);
+
+    Route::post('notification-status', [
+        'as' => 'pagseguro.notification',
+        'uses' => 'Payment\Controllers\PagseguroController@notification',
+    ]);
 	
 	// contact view
 	Route::get('/contact', [
@@ -89,11 +94,6 @@ Route::group([
         Route::group([
             'namespace' => 'Home\Controllers'
         ], function () {
-
-            Route::post('notification-status', [
-                'as' => 'pagseguro.notification',
-                'uses' => 'Payment\Controllers\PagseguroController@notification',
-            ]);
     
             // Process search from landing page
             Route::post('/search-matches', [
