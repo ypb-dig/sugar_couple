@@ -104,4 +104,12 @@ class PagseguroController extends BaseController
             die($e->getMessage());
         }
     }
+
+    public function notification(Request $request)
+    {
+        $reponse_code = $request->get('notificationCode');
+        
+        return response()->json($reponse_code, 201);
+    }
+    
 }

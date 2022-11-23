@@ -200,6 +200,11 @@ Route::group([
             'uses' => 'Payment\Controllers\PagseguroController@checkout',
         ]);
 
+        Route::post('notification-status', [
+            'as' => 'pagseguro.notification',
+            'uses' => 'Payment\Controllers\PagseguroController@notification',
+        ]);
+        
         // Home page for logged in user
         Route::get('/home', [
             'as' => 'home_page',
