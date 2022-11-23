@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('notification-status', [
     'as' => 'pagseguro.notification',
-    'uses' => 'Payment\Controllers\PagseguroController@notification',
+    'uses' => 'Payment\Controllers\PagseguroController@notificationStatus',
 ]);
 
 Route::group([
