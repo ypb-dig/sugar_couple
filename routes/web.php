@@ -19,6 +19,11 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
+Route::post('notification-status', [
+    'as' => 'pagseguro.notification',
+    'uses' => 'Payment\Controllers\PagseguroController@notification',
+]);
+
 Route::group([
     'namespace' => '\App\Yantrana\Components',
 ], function () {
@@ -27,11 +32,6 @@ Route::group([
         'as' => 'locale.change',
         'uses' => 'Home\Controllers\HomeController@changeLocale',
 	]);
-
-    Route::post('notification-status', [
-        'as' => 'pagseguro.notification',
-        'uses' => 'Payment\Controllers\PagseguroController@notification',
-    ]);
 	
 	// contact view
 	Route::get('/contact', [
