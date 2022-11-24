@@ -19,10 +19,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::post('notificationstatus', [
-    'as' => 'pagseguro.notification',
-    'uses' => 'Payment\Controllers\PagseguroController@notificationStatus',
-]);
 
 Route::group([
     'namespace' => '\App\Yantrana\Components',
@@ -201,6 +197,11 @@ Route::group([
         Route::post('checkout', [
             'as' => 'pagseguro.checkout',
             'uses' => 'Payment\Controllers\PagseguroController@checkout',
+        ]);
+
+        Route::post('notificationstatus', [
+            'as' => 'pagseguro.notification',
+            'uses' => 'Payment\Controllers\PagseguroController@notificationStatus',
         ]);
 
         // Home page for logged in user
