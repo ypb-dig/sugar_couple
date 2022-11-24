@@ -22,7 +22,8 @@ return [
     'allowed_origins' => [
         '*',
         'http://localhost',
-        isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : ''
+        isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : '',
+        "https://sandbox.pagseguro.uol.com.br"
 ],
 
     'allowed_origins_patterns' => [],
