@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::post('notificationstatus', [
+Route::post('notificationstatus/{notificationType?}/{notificationCode?}', [
     'as' => 'pagseguro.notification',
     'uses' => 'NotificationApiController@notificationStatus'
 ]);
