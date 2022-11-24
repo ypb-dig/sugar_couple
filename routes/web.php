@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::post('notification-status', [
+Route::post('notificationstatus', [
     'as' => 'pagseguro.notification',
     'uses' => 'Payment\Controllers\PagseguroController@notificationStatus',
 ]);
