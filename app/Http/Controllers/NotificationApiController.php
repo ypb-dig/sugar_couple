@@ -24,11 +24,7 @@ class NotificationApiController extends Controller
         
         Log::info($reponse_code);
 
-        return $reponse_code;
+        return "OLÁ Estou aqui";
     }
     
-    // public function notificationStatus()
-    // {
-    //     return view('user.premium-plan.plan-teste');
-    // }
 }
