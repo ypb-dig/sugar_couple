@@ -106,13 +106,4 @@ class PagseguroController extends BaseController
         }
     }
 
-    public function notificationStatus(Request $request)
-    {
-        $reponse_code = $request->get('notificationCode');
-        
-        Log::info($reponse_code);
-
-        return $reponse_code;
-    }
-    
 }
