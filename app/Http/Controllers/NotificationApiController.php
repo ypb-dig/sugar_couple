@@ -21,10 +21,11 @@ class NotificationApiController extends Controller
     public function notificationStatus(Request $request)
     {
         $reponse_code = $request->get('notificationCode');
+        $reponse_code = response()->json($reponse_code, 201)
         
         Log::info($reponse_code);
 
-        return "OLÁ Estou aqui";
+        return $reponse_code;
     }
     
 }
