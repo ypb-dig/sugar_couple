@@ -19,6 +19,6 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'notifiation-status*'
+        "https://sandbox.pagseguro.uol.com.br/"
     ];
 }
