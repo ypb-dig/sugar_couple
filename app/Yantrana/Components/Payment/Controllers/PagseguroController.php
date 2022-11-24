@@ -91,6 +91,7 @@ class PagseguroController extends BaseController
             $payment->setSender()->setEmail($user['profile']['email']);
         }
 
+        Log::info($payment);
 
 
         try {
@@ -100,6 +101,7 @@ class PagseguroController extends BaseController
                 $onlyCheckoutCode
             );
             $code = $result->getCode();
+
             return response()->json($code, 201);
         } catch (Exception $e) {
             die($e->getMessage());
