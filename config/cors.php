@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'notificationstatus'],
+    'paths' => ['api/*', 'notificationstatus/'],
 
     'allowed_methods' => ['*'],
 
