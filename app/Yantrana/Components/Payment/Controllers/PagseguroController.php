@@ -91,8 +91,6 @@ class PagseguroController extends BaseController
             $payment->setSender()->setEmail($user['profile']['email']);
         }
 
-        Log::info($payment);
-
 
         try {
             $onlyCheckoutCode = true;
