@@ -72,7 +72,7 @@ class PagseguroController extends BaseController
             $request->get('itemId1'),
             $request->get('itemDescription1'),
             $request->get('itemAmount1'),
-            $request->get('itemPrice1'),
+            $request->get('itemPrice1')
         );
 
         // $payment->setReference(strval($preOrderId));
