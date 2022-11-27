@@ -203,6 +203,11 @@ Route::group([
             'uses' => 'Payment\Controllers\PagseguroController@checkout',
         ]);
 
+        Route::get('pre_order', [
+            'as' => 'pagseguro.pre_order',
+            'uses' => 'Payment\Controllers\PagseguroController@pre_order',
+        ]);
+
         // Home page for logged in user
         Route::get('/home', [
             'as' => 'home_page',

@@ -5,6 +5,7 @@ namespace App\Yantrana\Components\Payment\Controllers;
 use Illuminate\Http\Request;
 use App\Yantrana\Base\BaseController;
 use Illuminate\Support\Facades\Log;
+use App\Yantrana\Components\Payment\Controllers\PreOrder;
 
 \PagSeguro\Library::initialize();
 \PagSeguro\Library::cmsVersion()->setName("Nome")->setRelease("1.0.0");
@@ -63,13 +64,19 @@ class PagseguroController extends BaseController
     public function checkout(Request $request)
     {
         $user = getUserAuthInfo();
+
+        $preOrderId = $this->pre_order($user);
+
         $payment = new \PagSeguro\Domains\Requests\Payment();
         $payment->addItems()->withParameters(
             $request->get('itemId1'),
             $request->get('itemDescription1'),
             $request->get('itemAmount1'),
-            $request->get('itemPrice1')
+            $request->get('itemPrice1'),
         );
+
+        $payment->setReference(strval($preOrderId));
+
         $payment->setCurrency("BRL");
 
         $payment->setReference("SUGAR_" . $user['profile']['_uid']);
@@ -104,6 +111,18 @@ class PagseguroController extends BaseController
         } catch (Exception $e) {
             die($e->getMessage());
         }
+    }
+
+    public function pre_order($user)
+    {
+        $pre_order = new PreOrder();
+        $pre_order->oder_description = "Oder-". $user['profile']['_uid'];
+        $pre_order->status_order_code_id = 1;
+        $pre_order->save();
+
+        $pre_order_array = $pre_order->getAttributes();
+        
+        return $pre_order_array["id"];
     }
 
 }
