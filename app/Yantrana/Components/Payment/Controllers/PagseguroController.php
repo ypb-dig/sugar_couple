@@ -64,6 +64,8 @@ class PagseguroController extends BaseController
     public function checkout(Request $request)
     {
         $preOrderId = $this->pre_order();
+
+        $queryOrder = PreOrder::where(id , )
         $user = getUserAuthInfo();
         $payment = new \PagSeguro\Domains\Requests\Payment();
         $payment->addItems()->withParameters(
@@ -77,7 +79,7 @@ class PagseguroController extends BaseController
 
         $payment->setCurrency("BRL");
 
-        $payment->setReference("SUGAR_" . $user['profile']['_uid']);
+        // $payment->setReference("SUGAR_" . $user['profile']['_uid']);
 
         $payment->setShipping()->setAddressRequired()->withParameters('FALSE');
 
