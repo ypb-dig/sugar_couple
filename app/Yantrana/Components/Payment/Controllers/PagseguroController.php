@@ -73,7 +73,7 @@ class PagseguroController extends BaseController
             $request->get('itemPrice1')
         );
 
-        $payment->setReference("reff");
+        $payment->setReference("reff-1");
 
         $payment->setCurrency("BRL");
 
