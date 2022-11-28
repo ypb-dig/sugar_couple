@@ -63,10 +63,8 @@ class PagseguroController extends BaseController
 {
     public function checkout(Request $request)
     {
+        $preOrderId = $this->pre_order();
         $user = getUserAuthInfo();
-
-        $preOrderId = $this->pre_order($user);
-
         $payment = new \PagSeguro\Domains\Requests\Payment();
         $payment->addItems()->withParameters(
             $request->get('itemId1'),
@@ -113,8 +111,9 @@ class PagseguroController extends BaseController
         }
     }
 
-    public function pre_order($user)
+    public function pre_order()
     {
+        $user = getUserAuthInfo();
         $pre_order = new PreOrder();
         $pre_order->oder_description = "Oder-". $user['profile']['_uid'];
         $pre_order->status_order_code_id = 1;
