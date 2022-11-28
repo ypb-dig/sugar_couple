@@ -73,11 +73,9 @@ class PagseguroController extends BaseController
             $request->get('itemPrice1')
         );
 
-        $payment->setReference("" . $preOrderId);
-
         $payment->setCurrency("BRL");
 
-        // $payment->setReference("SUGAR_" . $user['profile']['_uid']);
+        $payment->setReference("Reff" . $preOrderId);
 
         $payment->setShipping()->setAddressRequired()->withParameters('FALSE');
 
@@ -121,7 +119,7 @@ class PagseguroController extends BaseController
 
         $pre_order_array = $pre_order->getAttributes();
         
-        return "reff". strval($pre_order_array["id"]);
+        return $pre_order_array["id"];
     }
 
 }
