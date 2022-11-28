@@ -121,7 +121,7 @@ class PagseguroController extends BaseController
 
         $pre_order_array = $pre_order->getAttributes();
         
-        return strval($pre_order_array["id"]);
+        return "reff-". strval($pre_order_array["id"]);
     }
 
 }
