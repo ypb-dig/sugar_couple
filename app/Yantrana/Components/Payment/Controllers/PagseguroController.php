@@ -64,8 +64,6 @@ class PagseguroController extends BaseController
     public function checkout(Request $request)
     {
         $preOrderId = $this->pre_order();
-
-        $queryOrder = PreOrder::where(id , )
         $user = getUserAuthInfo();
         $payment = new \PagSeguro\Domains\Requests\Payment();
         $payment->addItems()->withParameters(
