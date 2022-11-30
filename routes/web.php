@@ -24,6 +24,11 @@ Route::post('notificationstatus/', [
     'uses' => 'NotificationApiController@notificationStatus'
 ]);
 
+Route::get('teste/', [
+    'as' => 'pagseguro.notification.teste',
+    'uses' => 'NotificationApiController@teste'
+]);
+
 Route::group([
     'namespace' => '\App\Yantrana\Components',
 ], function () {
