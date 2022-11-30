@@ -14,9 +14,13 @@ class CreatePreOrdersTable extends Migration
     public function up()
     {
         Schema::create('pre_orders', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->id();
-            $table->string("oder_description");
+            $table->string("user_uid");
+            $table->string("packge_plans");
             $table->unsignedBigInteger('status_order_code_id');
+            $table->boolean('payed');
+            $table->integer('payment_type')->nullable();
             $table->timestamps();
 
             // Contrains
