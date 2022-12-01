@@ -7,8 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-
-    {{$aqui}}
-    
+    @foreach ($pre_orders as $order)
+        <section>
+            <h2>Refrência: {{ $order->id }}</h2>
+            <p>Status Code: {{ $order->status_order_code_id }}</p>
+        </section>
+        
+    @endforeach
 </body>
 </html>
