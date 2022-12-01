@@ -87,9 +87,10 @@ class NotificationApiController extends Controller
 
         $notifiCationApi = "$baseUrl/v3/transactions/notifications/$notificationCode?email=$emailCode&token=$envCode";
 
-        dd($notifiCationApi);
-
+        
         $simpleGet = file_get_contents($notifiCationApi);
+
+        dd($simpleGet);
 
         if($simpleGet){
             $simpleXml = simplexml_load_string($simpleGet);
