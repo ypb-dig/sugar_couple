@@ -95,17 +95,18 @@ class NotificationApiController extends Controller
             $simpleXml = simplexml_load_string($simpleGet);
             $json = json_encode($simpleXml);
             $array = json_decode($json,TRUE);
-            dd($array);
- 
+            
             // Get the type of payment to pass to DB and get after to know if is "Boleto"
             $typeOfPayment = $array['paymentMethod']["type"];
-
+            
             // Geting the status and reference code
             $reference = $array['reference'];
             $newStatus = $array['status'];
 
             // It's slicing the string and getting off the Reff part from the reference code
             $referenceCode = str_replace("Reff", "", $reference);
+
+            dd($referenceCode);
             
             //Gets the order in the DB and reattribute the current status code
             $OrderFromDb = PreOrder::where('id', "4")->get();
