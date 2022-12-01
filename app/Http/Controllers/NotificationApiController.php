@@ -90,12 +90,12 @@ class NotificationApiController extends Controller
         
         $simpleGet = file_get_contents($notifiCationApi);
 
-        dd($simpleGet);
-
+        
         if($simpleGet){
             $simpleXml = simplexml_load_string($simpleGet);
             $json = json_encode($simpleXml);
             $array = json_decode($json,TRUE);
+            dd($array);
  
             // Get the type of payment to pass to DB and get after to know if is "Boleto"
             $typeOfPayment = $array['paymentMethod']["type"];
