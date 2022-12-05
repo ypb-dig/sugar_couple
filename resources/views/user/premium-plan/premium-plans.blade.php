@@ -44,13 +44,13 @@
 				<div class="highlight">
 					<div class="white-line"></div>
 					<p> Valores a partir de :</p>
-					<div class="price" onclick="selectPlan('plantium_1')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_1") ?> / mês</div>
+					<div class="_col col-md-12 col-sm-12"> <div class="price" onclick="selectPlan('plantium_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_12") ?> / 12 meses</div> </div>
 				</div>
-				<div class="row m-0 p-0">
+				<!-- <div class="row m-0 p-0">
 					<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('plantium_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_3") ?>/ 3 meses</div> </div>
-					<!-- <div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('plantium_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_6") ?> / 6 meses</div> </div> -->
+					<div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('plantium_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_6") ?> / 6 meses</div> </div>
 					<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('plantium_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_12") ?> / 12 meses</div> </div>
-				</div>
+				</div> -->
 				<div class="content">
 					 <ul>
 			              <li> <i class="fa fa-check-circle"></i> Direito a 20 fotos no seu perfil, inclusão de 1 foto por dia e 1 foto privada por dia ao limite de 100 fotos privadas totais;</li>
@@ -75,13 +75,13 @@
 				<div class="highlight">
 					<div class="white-line"></div>
 					<p> Valores a partir de :</p>
-					<div class="price" onclick="selectPlan('gold_1')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_1") ?> / mês</div>
+					<div class="_col col-md-12 col-sm-12"> <div class="price" onclick="selectPlan('gold_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_12") ?> / 12 meses</div> </div>
 				</div>
-				<div class="row m-0 p-0">
+				<!-- <div class="row m-0 p-0">
 					<div class="_col col-md-6 col-sm-12"> <div class="price"  onclick="selectPlan('gold_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_3") ?> / 3 meses</div> </div>
-					<!-- <div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('gold_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_6") ?> / 6 meses</div> </div> -->
+					<div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('gold_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_6") ?> / 6 meses</div> </div>
 					<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_12") ?> / 12 meses</div> </div>
-				</div>
+				</div>  -->
 				<div class="content">
 					<ul>
 		              <li> <i class="fa fa-check-circle"></i> Direito a 5 fotos, moldura gold no seu perfil e a inclusão de 1 foto por dia, até o limite de 100 fotos;</li>
@@ -114,13 +114,13 @@
 					<div class="highlight">
 						<div class="white-line"></div>
 						<p> Valores a partir de :</p>
-						<div class="price" onclick="selectPlan('plantium_baby_1')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_baby_1") ?> / mês</div>
+						<div class="_col col-md-12 col-sm-12"> <div class="price" onclick="selectPlan('plantium_baby_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_baby_12") ?> / 12 meses</div> </div>
 					</div>
-					<div class="row m-0 p-0">
+					<!-- <div class="row m-0 p-0">
 						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('plantium_baby_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_baby_3") ?> / 3 meses</div> </div>
-						<!-- <div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('plantium_baby_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_baby_6") ?> / 6 meses</div> </div> -->
+						<div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('plantium_baby_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_baby_6") ?> / 6 meses</div> </div>
 						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('plantium_baby_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "plantium_baby_12") ?> / 12 meses</div> </div>
-					</div>
+					</div> -->
 					<div class="content">
 						<ul>
 						  <li> <i class="fa fa-check-circle"></i> Direito a 20 fotos no seu perfil, inclusão de 1 foto por dia e 1 foto privada por dia ao limite de 100 fotos privadas totais;</li>
@@ -143,13 +143,13 @@
 					<div class="highlight">
 						<div class="white-line"></div>
 						<p> Valores a partir de :</p>
-						<div class="price" onclick="selectPlan('gold_baby_1')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_1") ?> / mês</div>
-					</div>
-					<div class="row m-0 p-0">
-						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_3") ?> / 3 meses</div> </div>
-						<!-- <div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_6") ?> / 6 meses</div> </div> -->
 						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_12") ?> / 12 meses</div> </div>
 					</div>
+					<!-- <div class="row m-0 p-0">
+						{{-- <div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_3") ?> / 3 meses</div> </div> --}}
+						<div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_6") ?> / 6 meses</div> </div>
+						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_12") ?> / 12 meses</div> </div>
+					</div> -->
 					<div class="content">
 						<ul>
 						<li> <i class="fa fa-check-circle"></i> Direito a 5 fotos, moldura gold no seu perfil e a inclusão de 1 foto por dia, até o limite de 100 fotos;</li>
