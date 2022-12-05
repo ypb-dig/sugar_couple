@@ -65,7 +65,7 @@ class NotificationApiController extends Controller
                 // Passing the news status code to DB
                 $OrderFromDb[0]->status_order_code_id = $newStatus;
             }
-
+            // saving all data in db with the new status code
             $OrderFromDb[0]->save();
         }
         
@@ -74,9 +74,31 @@ class NotificationApiController extends Controller
     }
 
     public function teste()
-    {        
-        $pre_orders = DB::table('pre_orders')->get();
-        return view('test.test', ["pre_orders" => $pre_orders]);
+    
+    {   
+
+
+        $baseUrl = "https://ws.pagseguro.uol.com.br";
+        $envCode = env('PAGSEGURO_TOKEN');
+        $emailCode = env('PAGSEGURO_EMAIL');
+        $notificationCode = "DB60752727B827B88DA884993FA0CDBEE215";
+
+        if(env('PAGSEGURO_AMBIENTE') == 'sandbox'){
+            $baseUrl = "https://ws.sandbox.pagseguro.uol.com.br";
+        }
+
+        $notifiCationApi = "$baseUrl/v3/transactions/notifications/$notificationCode?email=$emailCode&token=$envCode";
+
+        $simpleGet = file_get_contents($notifiCationApi);
+
+        $simpleXml = simplexml_load_string($simpleGet);
+        $json = json_encode($simpleXml);
+        $array = json_decode($json,TRUE);
+
+        dd($array);
+
+
+        return view('test.test', ["x" => $array]);
     }
     
 }

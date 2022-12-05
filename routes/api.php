@@ -91,6 +91,11 @@ Route::group([
                 'as' => 'api.user.verify_otp',
                 'uses' => 'ApiUserController@verifyOtp',
             ]);
+
+            Route::post('/buy-plans/free', [
+                'as' => 'api.user.premium_plan.write.buy_premium_plan_free',
+                'uses' => 'ApiPremiumPlanController@buyPremiumPlans',
+            ]);
         
         });
     });

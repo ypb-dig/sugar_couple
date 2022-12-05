@@ -24,6 +24,11 @@ Route::post('notificationstatus/', [
     'uses' => 'NotificationApiController@notificationStatus'
 ]);
 
+Route::post('/{planId}/pagseguro-plan-transaction-complete', [
+    'as' => 'user.credit_wallet.write.pagseguro_plan_transaction_complete_dois',
+    'uses' => 'CreditWalletController@pagseguroPlanTransactionComplete',
+]);
+
 Route::get('teste/', [
     'as' => 'pagseguro.notification.teste',
     'uses' => 'NotificationApiController@teste'

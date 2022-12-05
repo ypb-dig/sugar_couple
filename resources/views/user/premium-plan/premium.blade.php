@@ -462,13 +462,14 @@
 
 				  	PagSeguroLightbox(response, {
 				        success: function(result){
-				        	console.log("Sucess", result);
-					        var details = {id: result};
+				        	console.log("Sucess:", result);
+							var details = {id: result};				        	
 				        	var requestUrl = __Utils.apiURL("<?= route('user.credit_wallet.write.pagseguro_plan_transaction_complete', ['planId' => 'planId']) ?>", {'planId': packageUid});
 
 							//post ajax request
 							__DataRequest.post(requestUrl, details, function(response) {
 								//handle callback event data
+								console.log("Aqui bobão:", response);
 								handlePaymentCallbackEvent(response);
 							});
 				        },

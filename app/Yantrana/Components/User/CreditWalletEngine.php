@@ -381,7 +381,9 @@ class CreditWalletEngine extends BaseEngine
         //store transaction data
         if ($this->storePlanPaymentData($inputData, $planId, 'pagseguroPayment')) {
           // Store selected plan
+
             $this->premiumPlanEngine->processBuyPremiumPlanPaypal($planId);
+            
             if ($this->storePlanPaymentData($inputData, $planId, 'pagseguroPayment')) {
                return $this->engineReaction(1, null, __tr('Payment Complete'));
             }
