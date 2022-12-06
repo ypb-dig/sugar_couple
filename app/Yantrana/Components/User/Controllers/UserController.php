@@ -378,23 +378,18 @@ class UserController extends BaseController
                         'planId' => $planId,
                         'reaction_code' =>  1
                     ]
-                ];
-            
+                ];          
 
                 if($isBoleto and $isBoletoPayed){
 
-                    $httpClient = new \GuzzleHttp\Client([
-                        'verify' => false,
-                        'timeout'  => 6.0,
-                    ]);
-
-                    dd( $url_api);
-                    $httpClient->post($url_api ,$data);
+                    // $httpClient = new \GuzzleHttp\Client([
+                    //     'verify' => false,
+                    //     'timeout'  => 6.0,
+                    // ]);
 
                     
-                    echo "<pre>";
-                    print_r($url);
-                    echo "</pre>";
+                    // $httpClient->post($url_api ,$data);
+
                 }
  
             }

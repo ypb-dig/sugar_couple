@@ -29,6 +29,11 @@ Route::group([
     'namespace' => '\App\Yantrana\Components',
 ], function () {
 
+    Route::post('/buy-plans/free', [
+        'as' => 'api.user.premium_plan.write.buy_premium_plan_free',
+        'uses' => 'ApiPremiumPlanController@buyPremiumPlans',
+    ]);
+
     /*
     User Components Public Section Related Routes
     ----------------------------------------------------------------------- */
@@ -90,13 +95,7 @@ Route::group([
             Route::post('/{type}/verify-otp', [
                 'as' => 'api.user.verify_otp',
                 'uses' => 'ApiUserController@verifyOtp',
-            ]);
-
-            Route::post('/buy-plans/free', [
-                'as' => 'api.user.premium_plan.write.buy_premium_plan_free',
-                'uses' => 'ApiPremiumPlanController@buyPremiumPlans',
-            ]);
-        
+            ]);        
         });
     });
 

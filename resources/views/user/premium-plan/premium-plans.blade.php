@@ -68,7 +68,7 @@
 			            <p>Lembrando que ao optar por este plano você terá 100% (cem porcento) do valor pago em reais convertido em Sugar Coins.</p>
 				</div>
 			</div>
-			<div class="plan plan-gold">
+			{{-- <div class="plan plan-gold">
 				<div class="title">
 					<i class="fa fa-users"></i> GOLD
 				</div>
@@ -99,7 +99,7 @@
 		            </ul>
 		            <p>Lembrando que ao optar por este plano você terá 50%(cinquenta porcento) do valor pago em reais convertido em Sugar Coins.</p>
 				</div>
-			</div>			
+			</div>			 --}}
 		</div>
 		@endif
 
@@ -136,7 +136,7 @@
 			            <p>Lembrando que ao optar por este plano você terá 100% (cem porcento) do valor pago em reais convertido em Sugar Coins.</p>
 					</div>
 				</div>
-				<div class="plan plan-gold">
+				{{-- <div class="plan plan-gold">
 					<div class="title">
 						<i class="fa fa-users"></i> GOLD
 					</div>
@@ -146,7 +146,7 @@
 						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_12") ?> / 12 meses</div> </div>
 					</div>
 					<!-- <div class="row m-0 p-0">
-						{{-- <div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_3") ?> / 3 meses</div> </div> --}}
+						{{-- <div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_3')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_3") ?> / 3 meses</div> </div> 
 						<div class="_col col-md-4 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_6')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_6") ?> / 6 meses</div> </div>
 						<div class="_col col-md-6 col-sm-12"> <div class="price" onclick="selectPlan('gold_baby_12')"> <?= getPlanPrice($premiumPlanData['premiumPlans'], "gold_baby_12") ?> / 12 meses</div> </div>
 					</div> -->
@@ -167,7 +167,7 @@
 			            </ul>
 			            <p>Lembrando que ao optar por esse plano, você terá 50%(cinquenta porcento) em reais convertido em Sugar Coins</p>												
 					</div>
-				</div>
+				</div> --}}
 			</div>
 			@endif
 		</section>

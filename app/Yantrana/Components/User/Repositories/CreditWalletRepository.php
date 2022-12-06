@@ -146,12 +146,24 @@ class CreditWalletRepository extends BaseRepository
 
         if($inputData['amount'] && env('SUGAR_COIN_REAL', 0) != null){
 
-            if(strpos($inputData['plan_uid'], 'gold') !== false){
-                $credits += ($inputData['amount'] / 2) * env('SUGAR_COIN_REAL');
+            $gender = getUserGender();
 
-            } else {
-                $credits += $inputData['amount'] * env('SUGAR_COIN_REAL');
+            if($gender == 1 or $gender == 2){
+                $credits += ($inputData['amount'] / 10) * env('SUGAR_COIN_REAL');
+            }else{
+                $credits += ($inputData['amount'] + 10) * env('SUGAR_COIN_REAL');
             }
+
+
+            // if(($inputData['plan_uid'], 'gold') !== false){
+
+            //     // Receive 10x from payed value with a plus of 100
+            //     $credits += ($inputData['amount'] + 10) * env('SUGAR_COIN_REAL');
+
+            // } else {
+            //     // Receive 100% from payed value
+            //     $credits += ($inputData['amount'] / 10) * env('SUGAR_COIN_REAL');
+            // }
         }
 
         if($this->request->session()->has('cupom')){
