@@ -146,18 +146,24 @@ class CreditWalletRepository extends BaseRepository
 
         if($inputData['amount'] && env('SUGAR_COIN_REAL', 0) != null){
 
+            // get the user gender
             $gender = getUserGender();
 
+            // Verfy if they are mammy or daddy
             if($gender == 1 or $gender == 2){
+                
+                // Receive 100% from payed value
                 $credits += ($inputData['amount'] / 10) * env('SUGAR_COIN_REAL');
             }else{
+                
+                // Receive 10x from payed value with a plus of 100
                 $credits += ($inputData['amount'] + 10) * env('SUGAR_COIN_REAL');
             }
 
 
             // if(($inputData['plan_uid'], 'gold') !== false){
 
-            //     // Receive 10x from payed value with a plus of 100
+                // Receive 10x from payed value with a plus of 100
             //     $credits += ($inputData['amount'] + 10) * env('SUGAR_COIN_REAL');
 
             // } else {
