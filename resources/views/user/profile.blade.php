@@ -775,7 +775,7 @@
 	    </div>
 	    <!-- /user report Modal-->
 
-
+		
 	<!-- send gift Modal-->
 	<div class="modal fade" id="lwSendGiftDialog" tabindex="-1" role="dialog" aria-labelledby="sendGiftModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-md" role="document">
@@ -1226,6 +1226,7 @@
 	$(document).ready(function(){
 		$('.phone_with_ddd').mask('(00) 00000-0000');
 		$('.date').mask('00/00/0000');
+		getBoleto();
 	});
 
     // Get user profile data
@@ -1250,6 +1251,101 @@
             });
         }
     }
+
+	function getBoleto() {
+		urlStatus = __Utils.apiURL("<?= route('get.user.status.boleto', ['userUid' => $userData['userUId']]) ?>");
+
+		console.log(urlStatus);
+		$.ajax({
+			url: urlStatus,
+			type: "GET",
+			error: function(jqXHR, textStatus, errorThrown) {
+				// Aqui você pode acessar os detalhes do erro
+				console.log('Ocorreu um erro: ' + errorThrown);
+  			},
+			success: function(resp){
+
+				var planId = resp["packge_plans"],
+				orderCode = resp["code"];
+
+				console.log(orderCode);
+
+				var requestUrl = __Utils.apiURL("<?= route('user.credit_wallet.write.pagseguro_plan_transaction_complete_boleto', ['planId' => 'planId']) ?>", {'planId': planId});
+
+				$.ajax({
+					url: requestUrl,
+					type: "GET",
+					data: {id: orderCode },
+					error: function(jqXHR, textStatus, errorThrown) {
+						// Aqui você pode acessar os detalhes do erro
+						console.log('Ocorreu um erro: ' + errorThrown);
+  					},
+					success: function(resp){
+				
+						var payed = true,
+						payedUrl = __Utils.apiURL("<?= route('set.user.status.boleto.payed', ['payed' => 'payed']) ?>", {'payed': payed});
+
+						console.log(payedUrl);
+
+						$.ajax({
+							url: payedUrl,
+							type: 'GET',
+							error: function(jqXHR, textStatus, errorThrown) {
+								// Aqui você pode acessar os detalhes do erro
+								console.log('Ocorreu um erro: ' + errorThrown);
+  							},success: function(resp){
+								console.log(resp);
+							}
+						})
+					}
+				});
+			}
+			
+		});
+	}
+
+	function handlePaymentCallbackEvent(response) {
+		//hide payment options
+		$("#lwPaymentOption").hide();
+		//hide loader after ajax request complete
+		$(".lw-show-till-loading").hide();
+		//after process on server enable payment button block
+		$("#lwPaymentOption").removeClass('lw-disabled-block-content');
+		//check reaction code is 1
+		if (response.reaction == 1) {
+			//show confirmation 
+			showConfirmation('Pagamento realizado com sucesso', null, {
+				buttons: [
+					Noty.button('<?= __tr('Reload to Update') ?>', 'btn btn-secondary btn-sm', function () {
+						__Utils.viewReload();
+						return;
+					})
+				]
+			});
+			//load transaction list data function
+			_.defer(function() {
+				reloadTransactionTable();
+			});
+			//bind error message on div
+			$("#lwSuccessMessage").text(response.data.message);
+			//show div
+			$("#lwSuccessMessage").toggle();
+			_.delay(function() {
+				//hide div
+				$("#lwSuccessMessage").toggle();
+			}, 10000);
+		} else {
+			//bind error message on div
+			$("#lwErrorMessage").text(response.data.errorMessage);
+			//show hide div
+			$("#lwErrorMessage").toggle();
+			_.delay(function() {
+				//hide div
+				$("#lwErrorMessage").toggle();
+			}, 10000);
+		}
+	}
+
 
 	/**************** User Like Dislike Fetch and Callback Block Start ******************/
 	//add disabled anchor tag class on click

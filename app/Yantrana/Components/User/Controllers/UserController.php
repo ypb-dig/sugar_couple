@@ -11,7 +11,6 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request as req;
 use App\Yantrana\Base\BaseController;
 use Illuminate\Support\Facades\Http;
-use App\Yantrana\Components\Payment\Controllers\PreOrder;
 use Illuminate\Http\Request;
 use App\Yantrana\Components\User\Requests\{
     UserSignUpRequest, 
@@ -359,41 +358,6 @@ class UserController extends BaseController
     public function getUserProfile($userName)
     {
         $processReaction = $this->userEngine->prepareUserProfile($userName);
-
-        $userUidPreOder = $processReaction["data"]["userData"]["userUId"];
-        $userPreOrder = PreOrder::where('user_uid', $userUidPreOder)->get()->toArray();
-        // usar depois na verificação para pegar os pagamentos do tipo boleto
-        $boletoCode = 2;
-        
-        if($userPreOrder){
-            foreach ($userPreOrder as $key => $value) {
-                
-                
-                $isBoleto = $value["payment_type"] == $boletoCode;
-                $isBoletoPayed =  $value["status_order_code_id"] == 3;
-                $planId =  $value["packge_plans"];
-                $url_api = route('api.user.premium_plan.write.buy_premium_plan_free');
-                $data = [
-                    'form_params' => [
-                        'planId' => $planId,
-                        'reaction_code' =>  1
-                    ]
-                ];          
-
-                if($isBoleto and $isBoletoPayed){
-
-                    // $httpClient = new \GuzzleHttp\Client([
-                    //     'verify' => false,
-                    //     'timeout'  => 6.0,
-                    // ]);
-
-                    
-                    // $httpClient->post($url_api ,$data);
-
-                }
- 
-            }
-        }
         
         // check if record does not exists
         if ($processReaction['reaction_code'] == 18) {

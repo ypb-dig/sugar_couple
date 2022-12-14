@@ -46,6 +46,7 @@ class NotificationApiController extends Controller
             // Geting the status and reference code
             $reference = $array['reference'];
             $newStatus = $array['status'];
+            $code = $array['code'];
 
             // It's slicing the string and getting off the Reff part from the reference code
             $referenceCode = str_replace("Reff ", "", $reference);
@@ -55,10 +56,9 @@ class NotificationApiController extends Controller
 
             // It's passing the type of payment to DB
             $OrderFromDb[0]->payment_type = $typeOfPayment;
+            $OrderFromDb[0]->code = $code;
 
             $isBigger = $newStatus <= 3;
-
-            // dd($isBigger);
             
             // Checking if has Order with the passed status code and if the status code is approved
             if($OrderFromDb && $newStatus <= 3){
@@ -73,32 +73,32 @@ class NotificationApiController extends Controller
         return $notifiCationApi;
     }
 
-    public function teste()
-    
-    {   
+    public function getUserBoleto(Request $request, $userUid){
 
+        $userPreOrder = PreOrder::where('user_uid', $userUid)->get()->toArray();
+        // usar depois na verificação para pegar os pagamentos do tipo boleto
+        $boletoCode = 2;
 
-        $baseUrl = "https://ws.pagseguro.uol.com.br";
-        $envCode = env('PAGSEGURO_TOKEN');
-        $emailCode = env('PAGSEGURO_EMAIL');
-        $notificationCode = "DB60752727B827B88DA884993FA0CDBEE215";
+		if($userPreOrder){
 
-        if(env('PAGSEGURO_AMBIENTE') == 'sandbox'){
-            $baseUrl = "https://ws.sandbox.pagseguro.uol.com.br";
+            foreach ($userPreOrder as $key => $value) {
+				
+                $isBoleto = $value["payment_type"] == $boletoCode;
+
+                $isBoletoPayed =  $value["status_order_code_id"] == 3;
+                                
+                if($isBoleto && $isBoletoPayed){
+                    $data = $value;
+                    return response()->json($data);
+                }
+            }
         }
-
-        $notifiCationApi = "$baseUrl/v3/transactions/notifications/$notificationCode?email=$emailCode&token=$envCode";
-
-        $simpleGet = file_get_contents($notifiCationApi);
-
-        $simpleXml = simplexml_load_string($simpleGet);
-        $json = json_encode($simpleXml);
-        $array = json_decode($json,TRUE);
-
-        dd($array);
-
-
-        return view('test.test', ["x" => $array]);
+        return response()->json("Nothing found");
     }
-    
+
+    public function setPaymentStatus(Request $request, bool $payed)
+    {
+
+        return response()->json(['message' => $payed], 200);
+    }
 }

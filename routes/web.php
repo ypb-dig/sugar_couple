@@ -24,14 +24,14 @@ Route::post('notificationstatus/', [
     'uses' => 'NotificationApiController@notificationStatus'
 ]);
 
-Route::post('teste/teste', [
-    'as' => 'teste.teste',
-    'uses' => 'TesteController@reqPostTeste'
+Route::get ('/getuserstatusboleto/{userUid}', [
+    'as' => 'get.user.status.boleto',
+    'uses' => 'NotificationApiController@getUserBoleto'
 ]);
 
-Route::post('/{planId}/pagseguro-plan-transaction-complete', [
-    'as' => 'user.credit_wallet.write.pagseguro_plan_transaction_complete_dois',
-    'uses' => 'CreditWalletController@pagseguroPlanTransactionComplete',
+Route::get ('/setuserstatusboleto/{payed}', [
+    'as' => 'set.user.status.boleto.payed',
+    'uses' => 'NotificationApiController@setPaymentStatus'
 ]);
 
 Route::get('teste/', [
@@ -708,7 +708,10 @@ Route::group([
                     'uses' => 'CreditWalletController@pagseguroPlanTransactionComplete',
                 ]);
 
-                
+                Route::get('/{planId}/pagseguro-plan-transaction-complete-dois', [
+                    'as' => 'user.credit_wallet.write.pagseguro_plan_transaction_complete_boleto',
+                    'uses' => 'CreditWalletController@pagseguroPlanTransactionCompleteBoleto',
+                ]);               
 				
 				// stripe checkout routes
 				Route::post('/payment-process', [

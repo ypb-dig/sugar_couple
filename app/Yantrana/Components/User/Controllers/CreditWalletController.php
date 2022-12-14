@@ -12,6 +12,7 @@ use App\Yantrana\Components\User\CreditWalletEngine;
 use App\Yantrana\Components\User\Requests\{PaypalTransactionRequest, PaymentProcessRequest, PaymentCupomRequest};
 // form Requests
 use App\Yantrana\Support\CommonPostRequest;
+use Illuminate\Http\Request;
 
 class CreditWalletController extends BaseController 
 {    
@@ -97,6 +98,18 @@ class CreditWalletController extends BaseController
      *---------------------------------------------------------------- */
     public function pagseguroPlanTransactionComplete(PaypalTransactionRequest $request, $planId)
     {   
+        $processReaction = $this->creditWalletEngine->processPagseguroPlanTransaction($request->all(), $planId);
+                                
+        //check reaction code equal to 1
+        return $this->responseAction(
+            $this->processResponse($processReaction, [], [], true)
+        );
+    }
+
+    public function pagseguroPlanTransactionCompleteBoleto(Request $request, $planId)
+    {   
+
+        // return $request->all();
         $processReaction = $this->creditWalletEngine->processPagseguroPlanTransaction($request->all(), $planId);
                                 
         //check reaction code equal to 1

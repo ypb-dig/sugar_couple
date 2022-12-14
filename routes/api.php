@@ -24,15 +24,9 @@ use Illuminate\Support\Facades\Route;
 | Lw-Dating (Mobile App) Api Routes 
 |--------------------------------------------------------------------------
 */
-
 Route::group([
     'namespace' => '\App\Yantrana\Components',
 ], function () {
-
-    Route::post('/buy-plans/free', [
-        'as' => 'api.user.premium_plan.write.buy_premium_plan_free',
-        'uses' => 'ApiPremiumPlanController@buyPremiumPlans',
-    ]);
 
     /*
     User Components Public Section Related Routes
