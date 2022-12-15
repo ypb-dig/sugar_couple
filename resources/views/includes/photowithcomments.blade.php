@@ -16,9 +16,9 @@
             <div class="next" onclick="navigationNext(<?= $key ?>)"><i class="fa fa-arrow-circle-right"></i></div>
           </div>
         </div>
-        @if(isPremiumUser() && $isPremiumUser)
+        {{-- @if(isPremiumUser() && $isPremiumUser) --}}
           <div class="comments-panel">
-             @if(!$isOwnProfile)
+             {{-- @if(!$isOwnProfile) --}}
                 <div class="new-comment">
                   <form class="newsletter-form lw-ajax-form lw-form" method="post" action="<?= route('api.photo.write.comment', $photo['image_uid']) ?>" data-show-processing="true" data-callback="onCreateComment" id="lwComment">
                       <div class="form-group text-left">
@@ -32,10 +32,10 @@
                     </div>
                   </form>
                 </div>
-            @endif
+            {{-- @endif --}}
             <div class="comment-list"></div>    
           </div>
-        @endif
+        {{-- @endif --}}
       </div>
     </div>
   </div>

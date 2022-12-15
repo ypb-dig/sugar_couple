@@ -1253,52 +1253,60 @@
     }
 
 	function getBoleto() {
+		
+		// aqui eu pego boletos que foram pagos e não forma creditados ao usuário
 		urlStatus = __Utils.apiURL("<?= route('get.user.status.boleto', ['userUid' => $userData['userUId']]) ?>");
 
-		console.log(urlStatus);
+		// faço uma chamada ajax
 		$.ajax({
 			url: urlStatus,
 			type: "GET",
 			error: function(jqXHR, textStatus, errorThrown) {
 				// Aqui você pode acessar os detalhes do erro
-				console.log('Ocorreu um erro: ' + errorThrown);
+				console.log('Ocorreu um erro 1: ' + errorThrown);
   			},
 			success: function(resp){
+				// se foi encontrado algum valor na tabela pre_orders ele restorna o resultado
+				if(resp){
+					var planId = resp["packge_plans"],
+					orderCode = resp["code"],
+					reffId = resp["id"];
 
-				var planId = resp["packge_plans"],
-				orderCode = resp["code"];
+					var requestUrl = __Utils.apiURL("<?= route('user.credit_wallet.write.pagseguro_plan_transaction_complete_boleto', ['planId' => 'planId']) ?>", {'planId': planId});
 
-				console.log(orderCode);
+					$.ajax({
+						url: requestUrl,
+						type: "GET",
+						data: {id: orderCode },
+						error: function(jqXHR, textStatus, errorThrown) {
+							// Aqui você pode acessar os detalhes do erro
+							console.log('Ocorreu um erro: ' + errorThrown);
+						},
+						success: function(resp){
+					
+							var payed = true,
+							payedUrl = __Utils.apiURL("<?= route('set.user.status.boleto.payed')?>");
 
-				var requestUrl = __Utils.apiURL("<?= route('user.credit_wallet.write.pagseguro_plan_transaction_complete_boleto', ['planId' => 'planId']) ?>", {'planId': planId});
+							$.ajax({
+								url: payedUrl,
+								type: 'POST',
+								data:{
+									status: payed,
+									reffId: reffId,
+								},
+								error: function(jqXHR, textStatus, errorThrown) {
+									// Aqui você pode acessar os detalhes do erro
+									console.log('Ocorreu um erro: ' + errorThrown);
+								},success: function(resp){
+									location.reload();
+								}
+							})
+						}
+					});
+				}else{
+					console.log("Não foi encontrado nenhuma pre_order")
+				}
 
-				$.ajax({
-					url: requestUrl,
-					type: "GET",
-					data: {id: orderCode },
-					error: function(jqXHR, textStatus, errorThrown) {
-						// Aqui você pode acessar os detalhes do erro
-						console.log('Ocorreu um erro: ' + errorThrown);
-  					},
-					success: function(resp){
-				
-						var payed = true,
-						payedUrl = __Utils.apiURL("<?= route('set.user.status.boleto.payed', ['payed' => 'payed']) ?>", {'payed': payed});
-
-						console.log(payedUrl);
-
-						$.ajax({
-							url: payedUrl,
-							type: 'GET',
-							error: function(jqXHR, textStatus, errorThrown) {
-								// Aqui você pode acessar os detalhes do erro
-								console.log('Ocorreu um erro: ' + errorThrown);
-  							},success: function(resp){
-								console.log(resp);
-							}
-						})
-					}
-				});
 			}
 			
 		});

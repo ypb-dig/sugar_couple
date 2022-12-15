@@ -86,19 +86,39 @@ class NotificationApiController extends Controller
                 $isBoleto = $value["payment_type"] == $boletoCode;
 
                 $isBoletoPayed =  $value["status_order_code_id"] == 3;
+
+                $isPayed = $value["payed"];
                                 
-                if($isBoleto && $isBoletoPayed){
+                if($isBoleto && $isBoletoPayed && !$isPayed){
                     $data = $value;
                     return response()->json($data);
                 }
             }
         }
-        return response()->json("Nothing found");
+        return response()->json(false);
     }
 
-    public function setPaymentStatus(Request $request, bool $payed)
+    public function setPaymentStatus(Request $request)
     {
-
-        return response()->json(['message' => $payed], 200);
+        // Recupere o ID de referência da solicitação
+        $reffId = $request['reffId'];
+    
+        // Use a sintaxe do operador ternário para definir o status de pagamento
+        $statusPayed = $request['status'] == "true" ? true : false;
+    
+        // Recupere o pedido prévio do usuário pelo ID de referência
+        $userPreOrder = PreOrder::where('id', $reffId)->first();
+    
+        // Defina o status de pagamento do pedido como o valor armazenado em $statusPayed
+        $userPreOrder->payed = $statusPayed;
+    
+        // Salve o pedido
+        if ($userPreOrder->save()) {
+            // Retorne uma resposta JSON com uma mensagem de sucesso
+            return response()->json(['message' => 'Salvo com sucesso!'], 200);
+        }
+    
+        // Se o pedido não puder ser salvo, retorne uma resposta JSON com o status de pagamento
+        return response()->json(['message' => $statusPayed], 200);
     }
 }

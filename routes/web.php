@@ -29,7 +29,7 @@ Route::get ('/getuserstatusboleto/{userUid}', [
     'uses' => 'NotificationApiController@getUserBoleto'
 ]);
 
-Route::get ('/setuserstatusboleto/{payed}', [
+Route::post('setuserstatusboleto/', [
     'as' => 'set.user.status.boleto.payed',
     'uses' => 'NotificationApiController@setPaymentStatus'
 ]);
