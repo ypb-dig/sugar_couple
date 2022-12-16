@@ -1288,6 +1288,9 @@
 							payedUrl = __Utils.apiURL("<?= route('set.user.status.boleto.payed')?>");
 
 							$.ajax({
+								headers: {
+       								'X-CSRF-TOKEN': "<?= csrf_token() ?>"
+   								},
 								url: payedUrl,
 								type: 'POST',
 								data:{

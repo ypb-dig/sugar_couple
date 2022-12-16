@@ -20,6 +20,9 @@ try {
 
 class NotificationApiController extends Controller
 {
+    const BoletoCode = 2;
+    const OrderPayedCode = 3;
+
     public function notificationStatus(Request $request)
     {
         $baseUrl = "https://ws.pagseguro.uol.com.br";
@@ -83,9 +86,9 @@ class NotificationApiController extends Controller
 
             foreach ($userPreOrder as $key => $value) {
 				
-                $isBoleto = $value["payment_type"] == $boletoCode;
+                $isBoleto = $value["payment_type"] == self::BoletoCode;
 
-                $isBoletoPayed =  $value["status_order_code_id"] == 3;
+                $isBoletoPayed =  $value["status_order_code_id"] == self::OrderPayedCode;
 
                 $isPayed = $value["payed"];
                                 
